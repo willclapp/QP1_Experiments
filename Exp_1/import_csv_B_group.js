@@ -5,9 +5,9 @@ let testResults = []
 let assetPaths = []
 
 const buildOutput = (word, nonword, assets) => `
-var exposure = ${JSON.stringify(word, null, 2)}
+var exposure_stimuli = ${JSON.stringify(word, null, 2)}
 
-var test = ${JSON.stringify(nonword, null, 2)}
+var test_stimuli = ${JSON.stringify(nonword, null, 2)}
 
 var assetPaths = ${JSON.stringify(assets.flat(), null, 2)}`
 
@@ -35,18 +35,18 @@ fs.createReadStream('B_group/trial_csv/exposure_B_group.csv')
 		])
 	})
 	.on('end', () => {
-		console.log('done reading exposure_word.csv')
+		console.log('done reading exposure_B_group.csv')
 		fs.createReadStream('B_group/trial_csv/test_B_group.csv')
 			.pipe(csv())
 			.on('data', data => {
-				experimentalResults.push(data)
+				testResults.push(data)
 				assetPaths.push([
 					'audio/experimental/' + data.path, 
 				])
 			})
 			.on('end', () => {
-				console.log('done reading exposure_nonword.csv')
-				writeResults(wordResults, nonwordResults, assetPaths)
+				console.log('done reading test_B_group.csv')
+				writeResults(exposureResults, testResults, assetPaths)
 			})
 	})
 
