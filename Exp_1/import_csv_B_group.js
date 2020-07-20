@@ -16,7 +16,7 @@ var assetPaths = ${JSON.stringify(assets.flat(), null, 2)}`
 
 // This is which stims.js file is getting written
 const writeResults = (word, nonword, assets) => {
-	fs.writeFile('B_group/js/stims2.js', buildOutput(word, nonword, assets), err => {
+	fs.writeFile('B_group_left/js/stims.js', buildOutput(word, nonword, assets), err => {
 		if (err) {
 			console.error(err)
 		}
@@ -25,7 +25,7 @@ const writeResults = (word, nonword, assets) => {
 }
 
 // Getting read for trial
-fs.createReadStream('B_group/trial_csv/exposure_B_group.csv')
+fs.createReadStream('B_group_left/trial_csv/exposure_B_group.csv')
 	.pipe(csv())
 	.on('data', data => {
 		exposureResults.push(data)
@@ -36,7 +36,7 @@ fs.createReadStream('B_group/trial_csv/exposure_B_group.csv')
 	})
 	.on('end', () => {
 		console.log('done reading exposure_B_group.csv')
-		fs.createReadStream('B_group/trial_csv/test_B_group.csv')
+		fs.createReadStream('B_group_left/trial_csv/test_B_group.csv')
 			.pipe(csv())
 			.on('data', data => {
 				testResults.push(data)
