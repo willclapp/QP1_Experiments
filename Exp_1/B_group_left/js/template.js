@@ -36,7 +36,7 @@ function make_slides(f) {
 
       var word_option = build_trial_option(stim.word_sel, "yes")
       var nonword_option = build_trial_option(stim.nonword_sel, "no")
-      var options = _.shuffle([word_option, nonword_option])
+      var options = [word_option, nonword_option]
 
       $(".display_condition_word")
       .append(audio)
@@ -51,7 +51,6 @@ function make_slides(f) {
       if (this.response == undefined) {
         $(".err").show();
       } else {
-        // play continuation audio
         // cleanup
         $(".exposure_options_container").children().remove()
         this.log_responses();
@@ -61,7 +60,7 @@ function make_slides(f) {
     log_responses : function() {
       exp.data_trials.push(Object.assign({
         "slide_order": exp.phase-3,
-        "participant_id" : exp.uuid,
+        // "participant_id" : exp.uuid,
         "response" : this.response
       }, this.stim));
     }
@@ -91,9 +90,9 @@ function make_slides(f) {
         .attr("disabled", false)
       })
 
-      var voiced_option = build_trial_option(stim.voiced_sel, "voiced")
-      var voiceless_option = build_trial_option(stim.voiceless_sel, "voiceless")
-      var options = _.shuffle([voiced_option, voiceless_option])
+      var voiced_option = build_trial_option(stim.voiced_sel, "yes")
+      var voiceless_option = build_trial_option(stim.voiceless_sel, "no")
+      var options = [voiced_option, voiceless_option]
 
       $(".display_condition_nonword")
       .append(audio)
@@ -118,7 +117,7 @@ function make_slides(f) {
     log_responses : function() {
       exp.data_trials.push(Object.assign({
         "slide_order": exp.phase-3,
-        "participant_id" : exp.uuid,
+        // "participant_id" : exp.uuid,
         "response" : this.response
       }, this.stim));
     }
@@ -170,7 +169,7 @@ function init() {
   exp.catch_trials = [];
 
 
-  exp.uuid = uuidv4()
+  // exp.uuid = uuidv4()
   // variables imported from stims.js
   exp.exposure_stimuli = _.shuffle(exposure_stimuli)
   exp.test_stimuli = _.shuffle(test_stimuli)
