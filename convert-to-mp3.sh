@@ -1,8 +1,6 @@
 #!/bin/sh
 
-arr=("./Exp_1/audio/experimental/*" "./Exp_1/audio/exposure_B_group/*" "./Exp_1/audio/exposure_P_group/*" "./Exp_1/audio/exposure_control/*")
-
-# arr=("experiment_no_shift/audio/context/*")
+arr=("./Exp_1/updateaudio/*")
 
 for d in "${arr[@]}"; do
 	echo "converting audio in ${d}"
