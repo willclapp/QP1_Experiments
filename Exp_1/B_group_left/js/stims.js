@@ -3,6 +3,7 @@ var exposure_stimuli = [
   {
     "index": "1",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]allerina",
     "type": "crit_amb",
@@ -16,6 +17,7 @@ var exposure_stimuli = [
   {
     "index": "2",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]alloon",
     "type": "crit_amb",
@@ -29,6 +31,7 @@ var exposure_stimuli = [
   {
     "index": "3",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]aloney",
     "type": "crit_amb",
@@ -42,6 +45,7 @@ var exposure_stimuli = [
   {
     "index": "4",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]anana",
     "type": "crit_amb",
@@ -55,6 +59,7 @@ var exposure_stimuli = [
   {
     "index": "5",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]arely",
     "type": "crit_amb",
@@ -68,6 +73,7 @@ var exposure_stimuli = [
   {
     "index": "6",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]arn",
     "type": "crit_amb",
@@ -81,6 +87,7 @@ var exposure_stimuli = [
   {
     "index": "7",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]arren",
     "type": "crit_amb",
@@ -94,6 +101,7 @@ var exposure_stimuli = [
   {
     "index": "8",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]elly",
     "type": "crit_amb",
@@ -107,6 +115,7 @@ var exposure_stimuli = [
   {
     "index": "9",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]enign",
     "type": "crit_amb",
@@ -120,6 +129,7 @@ var exposure_stimuli = [
   {
     "index": "10",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]iannual",
     "type": "crit_amb",
@@ -133,6 +143,7 @@ var exposure_stimuli = [
   {
     "index": "11",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]illion",
     "type": "crit_amb",
@@ -146,6 +157,7 @@ var exposure_stimuli = [
   {
     "index": "12",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]illionaire",
     "type": "crit_amb",
@@ -159,6 +171,7 @@ var exposure_stimuli = [
   {
     "index": "13",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]lue",
     "type": "crit_amb",
@@ -172,6 +185,7 @@ var exposure_stimuli = [
   {
     "index": "14",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]oil",
     "type": "crit_amb",
@@ -185,6 +199,7 @@ var exposure_stimuli = [
   {
     "index": "15",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]oom",
     "type": "crit_amb",
@@ -198,6 +213,7 @@ var exposure_stimuli = [
   {
     "index": "16",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]rain",
     "type": "crit_amb",
@@ -211,6 +227,7 @@ var exposure_stimuli = [
   {
     "index": "17",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]rewery",
     "type": "crit_amb",
@@ -224,6 +241,7 @@ var exposure_stimuli = [
   {
     "index": "18",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]rown",
     "type": "crit_amb",
@@ -237,6 +255,7 @@ var exposure_stimuli = [
   {
     "index": "19",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]urial",
     "type": "crit_amb",
@@ -250,6 +269,7 @@ var exposure_stimuli = [
   {
     "index": "20",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "[B?]urrow",
     "type": "crit_amb",
@@ -263,266 +283,287 @@ var exposure_stimuli = [
   {
     "index": "21",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Parallel",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Barallel_Parallel_3",
-    "step": "0",
-    "recording": "3",
-    "path": "Barallel_Parallel_3_0.mp3"
+    "set": "Barallel_Parallel",
+    "step": "NA",
+    "recording": "4",
+    "path": "Barallel_Parallel_4.mp3"
   },
   {
     "index": "22",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Parlor",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Barlor_Parlor_3",
-    "step": "0",
-    "recording": "3",
-    "path": "Barlor_Parlor_3_0.mp3"
+    "set": "Barlor_Parlor",
+    "step": "NA",
+    "recording": "4",
+    "path": "Barlor_Parlor_4.mp3"
   },
   {
     "index": "23",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Pawn",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Bawn_Pawn_3",
-    "step": "0",
-    "recording": "3",
-    "path": "Bawn_Pawn_3_0.mp3"
+    "set": "Bawn_Pawn",
+    "step": "NA",
+    "recording": "2",
+    "path": "Bawn_Pawn_2.mp3"
   },
   {
     "index": "24",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Peninsula",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Beninsula_Peninsula_3",
-    "step": "0",
-    "recording": "3",
-    "path": "Beninsula_Peninsula_3_0.mp3"
+    "set": "Beninsula_Peninsula",
+    "step": "NA",
+    "recording": "2",
+    "path": "Beninsula_Peninsula_2.mp3"
   },
   {
     "index": "25",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Perform",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Berform_Perform_3",
-    "step": "0",
-    "recording": "3",
-    "path": "Berform_Perform_3_0.mp3"
+    "set": "Berform_Perform",
+    "step": "NA",
+    "recording": "2",
+    "path": "Berform_Perform_2.mp3"
   },
   {
     "index": "26",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Pioneer",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Bioneer_Pioneer_3",
-    "step": "0",
-    "recording": "3",
-    "path": "Bioneer_Pioneer_3_0.mp3"
+    "set": "Bioneer_Pioneer",
+    "step": "NA",
+    "recording": "4",
+    "path": "Bioneer_Pioneer_4.mp3"
   },
   {
     "index": "27",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Planner",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Blanner_Planner_3",
-    "step": "0",
-    "recording": "3",
-    "path": "Blanner_Planner_3_0.mp3"
+    "set": "Blanner_Planner",
+    "step": "NA",
+    "recording": "2",
+    "path": "Blanner_Planner_2.mp3"
   },
   {
     "index": "28",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Plea",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Blea_Plea_3",
-    "step": "0",
-    "recording": "3",
-    "path": "Blea_Plea_3_0.mp3"
+    "set": "Blea_Plea",
+    "step": "NA",
+    "recording": "2",
+    "path": "Blea_Plea_2.mp3"
   },
   {
     "index": "29",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Plyer",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Blyer_Plyer_1",
-    "step": "0",
-    "recording": "3",
-    "path": "Blyer_Plyer_1_0.mp3"
+    "set": "Blyer_Plyer",
+    "step": "NA",
+    "recording": "2",
+    "path": "Blyer_Plyer_2.mp3"
   },
   {
     "index": "30",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Pollen",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Bollen_Pollen_3",
-    "step": "0",
-    "recording": "1",
-    "path": "Bollen_Pollen_3_0.mp3"
+    "set": "Bollen_Pollen",
+    "step": "NA",
+    "recording": "2",
+    "path": "Bollen_Pollen_2.mp3"
   },
   {
     "index": "31",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Polymer",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Bolymer_Polymer_3",
-    "step": "0",
-    "recording": "3",
-    "path": "Bolymer_Polymer_3_0.mp3"
+    "set": "Bolymer_Polymer",
+    "step": "NA",
+    "recording": "2",
+    "path": "Bolymer_Polymer_2.mp3"
   },
   {
     "index": "32",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Prayer",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Brayer_Prayer_1",
-    "step": "0",
-    "recording": "3",
-    "path": "Brayer_Prayer_1_0.mp3"
+    "set": "Brayer_Prayer",
+    "step": "NA",
+    "recording": "2",
+    "path": "Brayer_Prayer_2.mp3"
   },
   {
     "index": "33",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Preliminary",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Breliminary_Preliminary_3",
-    "step": "0",
-    "recording": "1",
-    "path": "Breliminary_Preliminary_3_0.mp3"
+    "set": "Breliminary_Preliminary",
+    "step": "NA",
+    "recording": "2",
+    "path": "Breliminary_Preliminary_2.mp3"
   },
   {
     "index": "34",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Premier",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Bremier_Premier_3",
-    "step": "0",
-    "recording": "3",
-    "path": "Bremier_Premier_3_0.mp3"
+    "set": "Bremier_Premier",
+    "step": "NA",
+    "recording": "2",
+    "path": "Bremier_Premier_2.mp3"
   },
   {
     "index": "35",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Primal",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Brimal_Primal_3",
-    "step": "0",
-    "recording": "3",
-    "path": "Brimal_Primal_3_0.mp3"
+    "set": "Brimal_Primal",
+    "step": "NA",
+    "recording": "2",
+    "path": "Brimal_Primal_2.mp3"
   },
   {
     "index": "36",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Prime",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Brime_Prime_1",
-    "step": "0",
-    "recording": "3",
-    "path": "Brime_Prime_1_0.mp3"
+    "set": "Brime_Prime",
+    "step": "NA",
+    "recording": "2",
+    "path": "Brime_Prime_2.mp3"
   },
   {
     "index": "37",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Prior",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Brior_Prior_3",
-    "step": "0",
-    "recording": "1",
-    "path": "Brior_Prior_3_0.mp3"
+    "set": "Brior_Prior",
+    "step": "NA",
+    "recording": "2",
+    "path": "Brior_Prior_2.mp3"
   },
   {
     "index": "38",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Prowl",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Browl_Prowl_1",
-    "step": "0",
-    "recording": "3",
-    "path": "Browl_Prowl_1_0.mp3"
+    "set": "Browl_Prowl",
+    "step": "NA",
+    "recording": "2",
+    "path": "Browl_Prowl_2.mp3"
   },
   {
     "index": "39",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Pry",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Bry_Pry_1",
-    "step": "0",
-    "recording": "1",
-    "path": "Bry_Pry_1_0.mp3"
+    "set": "Bry_Pry",
+    "step": "NA",
+    "recording": "2",
+    "path": "Bry_Pry_2.mp3"
   },
   {
     "index": "40",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Pylon",
     "type": "crit_unamb",
     "word_sel": "Yes",
     "nonword_sel": "No",
-    "set": "Bylon_Pylon_3",
-    "step": "0",
-    "recording": "1",
-    "path": "Bylon_Pylon_3_0.mp3"
+    "set": "Bylon_Pylon",
+    "step": "NA",
+    "recording": "2",
+    "path": "Bylon_Pylon_2.mp3"
   },
   {
     "index": "41",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Aisle",
     "type": "fill_word",
@@ -536,6 +577,7 @@ var exposure_stimuli = [
   {
     "index": "42",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Ally",
     "type": "fill_word",
@@ -549,6 +591,7 @@ var exposure_stimuli = [
   {
     "index": "43",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Area",
     "type": "fill_word",
@@ -562,6 +605,7 @@ var exposure_stimuli = [
   {
     "index": "44",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Arena",
     "type": "fill_word",
@@ -575,6 +619,7 @@ var exposure_stimuli = [
   {
     "index": "45",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Arrow",
     "type": "fill_word",
@@ -588,6 +633,7 @@ var exposure_stimuli = [
   {
     "index": "46",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Assume",
     "type": "fill_word",
@@ -601,6 +647,7 @@ var exposure_stimuli = [
   {
     "index": "47",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Aware",
     "type": "fill_word",
@@ -614,6 +661,7 @@ var exposure_stimuli = [
   {
     "index": "48",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Enemy",
     "type": "fill_word",
@@ -627,6 +675,7 @@ var exposure_stimuli = [
   {
     "index": "49",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Ensure",
     "type": "fill_word",
@@ -640,6 +689,7 @@ var exposure_stimuli = [
   {
     "index": "50",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Error",
     "type": "fill_word",
@@ -653,6 +703,7 @@ var exposure_stimuli = [
   {
     "index": "51",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Eye",
     "type": "fill_word",
@@ -666,6 +717,7 @@ var exposure_stimuli = [
   {
     "index": "52",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Failure",
     "type": "fill_word",
@@ -679,6 +731,7 @@ var exposure_stimuli = [
   {
     "index": "53",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Famous",
     "type": "fill_word",
@@ -692,6 +745,7 @@ var exposure_stimuli = [
   {
     "index": "54",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Flower",
     "type": "fill_word",
@@ -705,6 +759,7 @@ var exposure_stimuli = [
   {
     "index": "55",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Frame",
     "type": "fill_word",
@@ -718,6 +773,7 @@ var exposure_stimuli = [
   {
     "index": "56",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Funnel",
     "type": "fill_word",
@@ -731,6 +787,7 @@ var exposure_stimuli = [
   {
     "index": "57",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hallway",
     "type": "fill_word",
@@ -744,6 +801,7 @@ var exposure_stimuli = [
   {
     "index": "58",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hang",
     "type": "fill_word",
@@ -757,6 +815,7 @@ var exposure_stimuli = [
   {
     "index": "59",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Harmony",
     "type": "fill_word",
@@ -770,6 +829,7 @@ var exposure_stimuli = [
   {
     "index": "60",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hill",
     "type": "fill_word",
@@ -783,6 +843,7 @@ var exposure_stimuli = [
   {
     "index": "61",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hole",
     "type": "fill_word",
@@ -796,6 +857,7 @@ var exposure_stimuli = [
   {
     "index": "62",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Horn",
     "type": "fill_word",
@@ -809,6 +871,7 @@ var exposure_stimuli = [
   {
     "index": "63",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Jelly",
     "type": "fill_word",
@@ -822,6 +885,7 @@ var exposure_stimuli = [
   {
     "index": "64",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Jewel",
     "type": "fill_word",
@@ -835,6 +899,7 @@ var exposure_stimuli = [
   {
     "index": "65",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Lawyer",
     "type": "fill_word",
@@ -848,6 +913,7 @@ var exposure_stimuli = [
   {
     "index": "66",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Layer",
     "type": "fill_word",
@@ -861,6 +927,7 @@ var exposure_stimuli = [
   {
     "index": "67",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Learning",
     "type": "fill_word",
@@ -874,6 +941,7 @@ var exposure_stimuli = [
   {
     "index": "68",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Low",
     "type": "fill_word",
@@ -887,6 +955,7 @@ var exposure_stimuli = [
   {
     "index": "69",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Main",
     "type": "fill_word",
@@ -900,6 +969,7 @@ var exposure_stimuli = [
   {
     "index": "70",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Marine",
     "type": "fill_word",
@@ -913,6 +983,7 @@ var exposure_stimuli = [
   {
     "index": "71",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Memory",
     "type": "fill_word",
@@ -926,6 +997,7 @@ var exposure_stimuli = [
   {
     "index": "72",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Money",
     "type": "fill_word",
@@ -939,6 +1011,7 @@ var exposure_stimuli = [
   {
     "index": "73",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Name",
     "type": "fill_word",
@@ -952,6 +1025,7 @@ var exposure_stimuli = [
   {
     "index": "74",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Narrow",
     "type": "fill_word",
@@ -965,6 +1039,7 @@ var exposure_stimuli = [
   {
     "index": "75",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Normal",
     "type": "fill_word",
@@ -978,6 +1053,7 @@ var exposure_stimuli = [
   {
     "index": "76",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Nun",
     "type": "fill_word",
@@ -991,6 +1067,7 @@ var exposure_stimuli = [
   {
     "index": "77",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Phenomenon",
     "type": "fill_word",
@@ -1004,6 +1081,7 @@ var exposure_stimuli = [
   {
     "index": "78",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Rally",
     "type": "fill_word",
@@ -1017,6 +1095,7 @@ var exposure_stimuli = [
   {
     "index": "79",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Range",
     "type": "fill_word",
@@ -1030,6 +1109,7 @@ var exposure_stimuli = [
   {
     "index": "80",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Real",
     "type": "fill_word",
@@ -1043,6 +1123,7 @@ var exposure_stimuli = [
   {
     "index": "81",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Reign",
     "type": "fill_word",
@@ -1056,6 +1137,7 @@ var exposure_stimuli = [
   {
     "index": "82",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Ring",
     "type": "fill_word",
@@ -1069,6 +1151,7 @@ var exposure_stimuli = [
   {
     "index": "83",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Roar",
     "type": "fill_word",
@@ -1082,6 +1165,7 @@ var exposure_stimuli = [
   {
     "index": "84",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Royal",
     "type": "fill_word",
@@ -1095,6 +1179,7 @@ var exposure_stimuli = [
   {
     "index": "85",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Ruin",
     "type": "fill_word",
@@ -1108,6 +1193,7 @@ var exposure_stimuli = [
   {
     "index": "86",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Rumor",
     "type": "fill_word",
@@ -1121,6 +1207,7 @@ var exposure_stimuli = [
   {
     "index": "87",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Runner",
     "type": "fill_word",
@@ -1134,6 +1221,7 @@ var exposure_stimuli = [
   {
     "index": "88",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Sailor",
     "type": "fill_word",
@@ -1147,6 +1235,7 @@ var exposure_stimuli = [
   {
     "index": "89",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Seal",
     "type": "fill_word",
@@ -1160,6 +1249,7 @@ var exposure_stimuli = [
   {
     "index": "90",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Shell",
     "type": "fill_word",
@@ -1173,6 +1263,7 @@ var exposure_stimuli = [
   {
     "index": "91",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Similar",
     "type": "fill_word",
@@ -1186,6 +1277,7 @@ var exposure_stimuli = [
   {
     "index": "92",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Soil",
     "type": "fill_word",
@@ -1199,6 +1291,7 @@ var exposure_stimuli = [
   {
     "index": "93",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Valley",
     "type": "fill_word",
@@ -1212,6 +1305,7 @@ var exposure_stimuli = [
   {
     "index": "94",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Vary",
     "type": "fill_word",
@@ -1225,6 +1319,7 @@ var exposure_stimuli = [
   {
     "index": "95",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Venue",
     "type": "fill_word",
@@ -1238,6 +1333,7 @@ var exposure_stimuli = [
   {
     "index": "96",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Violin",
     "type": "fill_word",
@@ -1251,6 +1347,7 @@ var exposure_stimuli = [
   {
     "index": "97",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Volume",
     "type": "fill_word",
@@ -1264,6 +1361,7 @@ var exposure_stimuli = [
   {
     "index": "98",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Sewer",
     "type": "fill_word",
@@ -1277,6 +1375,7 @@ var exposure_stimuli = [
   {
     "index": "99",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Swear",
     "type": "fill_word",
@@ -1290,6 +1389,7 @@ var exposure_stimuli = [
   {
     "index": "100",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Throne",
     "type": "fill_word",
@@ -1303,6 +1403,7 @@ var exposure_stimuli = [
   {
     "index": "101",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Alinomy",
     "type": "fill_nonword",
@@ -1316,6 +1417,7 @@ var exposure_stimuli = [
   {
     "index": "102",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Aller",
     "type": "fill_nonword",
@@ -1329,6 +1431,7 @@ var exposure_stimuli = [
   {
     "index": "103",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Arema",
     "type": "fill_nonword",
@@ -1342,6 +1445,7 @@ var exposure_stimuli = [
   {
     "index": "104",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Chame",
     "type": "fill_nonword",
@@ -1355,6 +1459,7 @@ var exposure_stimuli = [
   {
     "index": "105",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Charle",
     "type": "fill_nonword",
@@ -1368,6 +1473,7 @@ var exposure_stimuli = [
   {
     "index": "106",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Cheel",
     "type": "fill_nonword",
@@ -1381,6 +1487,7 @@ var exposure_stimuli = [
   {
     "index": "107",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Churr",
     "type": "fill_nonword",
@@ -1394,6 +1501,7 @@ var exposure_stimuli = [
   {
     "index": "108",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Eamer",
     "type": "fill_nonword",
@@ -1407,6 +1515,7 @@ var exposure_stimuli = [
   {
     "index": "109",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Eelam",
     "type": "fill_nonword",
@@ -1420,6 +1529,7 @@ var exposure_stimuli = [
   {
     "index": "110",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Elammer",
     "type": "fill_nonword",
@@ -1433,6 +1543,7 @@ var exposure_stimuli = [
   {
     "index": "111",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Enlow",
     "type": "fill_nonword",
@@ -1446,6 +1557,7 @@ var exposure_stimuli = [
   {
     "index": "112",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Eynam",
     "type": "fill_nonword",
@@ -1459,6 +1571,7 @@ var exposure_stimuli = [
   {
     "index": "113",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Fairdon",
     "type": "fill_nonword",
@@ -1472,6 +1585,7 @@ var exposure_stimuli = [
   {
     "index": "114",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Feen",
     "type": "fill_nonword",
@@ -1485,6 +1599,7 @@ var exposure_stimuli = [
   {
     "index": "115",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Felmy",
     "type": "fill_nonword",
@@ -1498,6 +1613,7 @@ var exposure_stimuli = [
   {
     "index": "116",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Fime",
     "type": "fill_nonword",
@@ -1511,6 +1627,7 @@ var exposure_stimuli = [
   {
     "index": "117",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Finneran",
     "type": "fill_nonword",
@@ -1524,6 +1641,7 @@ var exposure_stimuli = [
   {
     "index": "118",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Flangle",
     "type": "fill_nonword",
@@ -1537,6 +1655,7 @@ var exposure_stimuli = [
   {
     "index": "119",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Fonnow",
     "type": "fill_nonword",
@@ -1550,6 +1669,7 @@ var exposure_stimuli = [
   {
     "index": "120",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Foon",
     "type": "fill_nonword",
@@ -1563,6 +1683,7 @@ var exposure_stimuli = [
   {
     "index": "121",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hallen",
     "type": "fill_nonword",
@@ -1576,6 +1697,7 @@ var exposure_stimuli = [
   {
     "index": "122",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hame",
     "type": "fill_nonword",
@@ -1589,6 +1711,7 @@ var exposure_stimuli = [
   {
     "index": "123",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Harl",
     "type": "fill_nonword",
@@ -1602,6 +1725,7 @@ var exposure_stimuli = [
   {
     "index": "124",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Harn",
     "type": "fill_nonword",
@@ -1615,6 +1739,7 @@ var exposure_stimuli = [
   {
     "index": "125",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Harnomy",
     "type": "fill_nonword",
@@ -1628,6 +1753,7 @@ var exposure_stimuli = [
   {
     "index": "126",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Heln",
     "type": "fill_nonword",
@@ -1641,6 +1767,7 @@ var exposure_stimuli = [
   {
     "index": "127",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hemmerle",
     "type": "fill_nonword",
@@ -1654,6 +1781,7 @@ var exposure_stimuli = [
   {
     "index": "128",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hemmery",
     "type": "fill_nonword",
@@ -1667,6 +1795,7 @@ var exposure_stimuli = [
   {
     "index": "129",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Heon",
     "type": "fill_nonword",
@@ -1680,6 +1809,7 @@ var exposure_stimuli = [
   {
     "index": "130",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Heyn",
     "type": "fill_nonword",
@@ -1693,6 +1823,7 @@ var exposure_stimuli = [
   {
     "index": "131",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hing",
     "type": "fill_nonword",
@@ -1706,6 +1837,7 @@ var exposure_stimuli = [
   {
     "index": "132",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hino",
     "type": "fill_nonword",
@@ -1719,6 +1851,7 @@ var exposure_stimuli = [
   {
     "index": "133",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hollin",
     "type": "fill_nonword",
@@ -1732,6 +1865,7 @@ var exposure_stimuli = [
   {
     "index": "134",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hoy",
     "type": "fill_nonword",
@@ -1745,6 +1879,7 @@ var exposure_stimuli = [
   {
     "index": "135",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Hurn",
     "type": "fill_nonword",
@@ -1758,6 +1893,7 @@ var exposure_stimuli = [
   {
     "index": "136",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Immel",
     "type": "fill_nonword",
@@ -1771,6 +1907,7 @@ var exposure_stimuli = [
   {
     "index": "137",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Jare",
     "type": "fill_nonword",
@@ -1784,6 +1921,7 @@ var exposure_stimuli = [
   {
     "index": "138",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Jeel",
     "type": "fill_nonword",
@@ -1797,6 +1935,7 @@ var exposure_stimuli = [
   {
     "index": "139",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Jum",
     "type": "fill_nonword",
@@ -1810,6 +1949,7 @@ var exposure_stimuli = [
   {
     "index": "140",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Jurio",
     "type": "fill_nonword",
@@ -1823,6 +1963,7 @@ var exposure_stimuli = [
   {
     "index": "141",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Lahm",
     "type": "fill_nonword",
@@ -1836,6 +1977,7 @@ var exposure_stimuli = [
   {
     "index": "142",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Lail",
     "type": "fill_nonword",
@@ -1849,6 +1991,7 @@ var exposure_stimuli = [
   {
     "index": "143",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Lamurre",
     "type": "fill_nonword",
@@ -1862,6 +2005,7 @@ var exposure_stimuli = [
   {
     "index": "144",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Lar",
     "type": "fill_nonword",
@@ -1875,6 +2019,7 @@ var exposure_stimuli = [
   {
     "index": "145",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Larrow",
     "type": "fill_nonword",
@@ -1888,6 +2033,7 @@ var exposure_stimuli = [
   {
     "index": "146",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Lemmela",
     "type": "fill_nonword",
@@ -1901,6 +2047,7 @@ var exposure_stimuli = [
   {
     "index": "147",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Lennim",
     "type": "fill_nonword",
@@ -1914,6 +2061,7 @@ var exposure_stimuli = [
   {
     "index": "148",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Leonie",
     "type": "fill_nonword",
@@ -1927,6 +2075,7 @@ var exposure_stimuli = [
   {
     "index": "149",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Lermie",
     "type": "fill_nonword",
@@ -1940,6 +2089,7 @@ var exposure_stimuli = [
   {
     "index": "150",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Loanler",
     "type": "fill_nonword",
@@ -1953,6 +2103,7 @@ var exposure_stimuli = [
   {
     "index": "151",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Loff",
     "type": "fill_nonword",
@@ -1966,6 +2117,7 @@ var exposure_stimuli = [
   {
     "index": "152",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Lum",
     "type": "fill_nonword",
@@ -1979,6 +2131,7 @@ var exposure_stimuli = [
   {
     "index": "153",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Mallon",
     "type": "fill_nonword",
@@ -1992,6 +2145,7 @@ var exposure_stimuli = [
   {
     "index": "154",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Mang",
     "type": "fill_nonword",
@@ -2005,6 +2159,7 @@ var exposure_stimuli = [
   {
     "index": "155",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Mannow",
     "type": "fill_nonword",
@@ -2018,6 +2173,7 @@ var exposure_stimuli = [
   {
     "index": "156",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Marn",
     "type": "fill_nonword",
@@ -2031,6 +2187,7 @@ var exposure_stimuli = [
   {
     "index": "157",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Mawen",
     "type": "fill_nonword",
@@ -2044,6 +2201,7 @@ var exposure_stimuli = [
   {
     "index": "158",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Mawn",
     "type": "fill_nonword",
@@ -2057,6 +2215,7 @@ var exposure_stimuli = [
   {
     "index": "159",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Mayin",
     "type": "fill_nonword",
@@ -2070,6 +2229,7 @@ var exposure_stimuli = [
   {
     "index": "160",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Memmel",
     "type": "fill_nonword",
@@ -2083,6 +2243,7 @@ var exposure_stimuli = [
   {
     "index": "161",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Mewry",
     "type": "fill_nonword",
@@ -2096,6 +2257,7 @@ var exposure_stimuli = [
   {
     "index": "162",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Minnin",
     "type": "fill_nonword",
@@ -2109,6 +2271,7 @@ var exposure_stimuli = [
   {
     "index": "163",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Morial",
     "type": "fill_nonword",
@@ -2122,6 +2285,7 @@ var exposure_stimuli = [
   {
     "index": "164",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Moyer",
     "type": "fill_nonword",
@@ -2135,6 +2299,7 @@ var exposure_stimuli = [
   {
     "index": "165",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Mun",
     "type": "fill_nonword",
@@ -2148,6 +2313,7 @@ var exposure_stimuli = [
   {
     "index": "166",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Munnel",
     "type": "fill_nonword",
@@ -2161,6 +2327,7 @@ var exposure_stimuli = [
   {
     "index": "167",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Nallow",
     "type": "fill_nonword",
@@ -2174,6 +2341,7 @@ var exposure_stimuli = [
   {
     "index": "168",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Nellon",
     "type": "fill_nonword",
@@ -2187,6 +2355,7 @@ var exposure_stimuli = [
   {
     "index": "169",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Neoma",
     "type": "fill_nonword",
@@ -2200,6 +2369,7 @@ var exposure_stimuli = [
   {
     "index": "170",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Ner",
     "type": "fill_nonword",
@@ -2213,6 +2383,7 @@ var exposure_stimuli = [
   {
     "index": "171",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Norlin",
     "type": "fill_nonword",
@@ -2226,6 +2397,7 @@ var exposure_stimuli = [
   {
     "index": "172",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Noron",
     "type": "fill_nonword",
@@ -2239,6 +2411,7 @@ var exposure_stimuli = [
   {
     "index": "173",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Noy",
     "type": "fill_nonword",
@@ -2252,6 +2425,7 @@ var exposure_stimuli = [
   {
     "index": "174",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Orn",
     "type": "fill_nonword",
@@ -2265,6 +2439,7 @@ var exposure_stimuli = [
   {
     "index": "175",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Rame",
     "type": "fill_nonword",
@@ -2278,6 +2453,7 @@ var exposure_stimuli = [
   {
     "index": "176",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Rannel",
     "type": "fill_nonword",
@@ -2291,6 +2467,7 @@ var exposure_stimuli = [
   {
     "index": "177",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Rawl",
     "type": "fill_nonword",
@@ -2304,6 +2481,7 @@ var exposure_stimuli = [
   {
     "index": "178",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Reen",
     "type": "fill_nonword",
@@ -2317,6 +2495,7 @@ var exposure_stimuli = [
   {
     "index": "179",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Rhinen",
     "type": "fill_nonword",
@@ -2330,6 +2509,7 @@ var exposure_stimuli = [
   {
     "index": "180",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Ria",
     "type": "fill_nonword",
@@ -2343,6 +2523,7 @@ var exposure_stimuli = [
   {
     "index": "181",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Saln",
     "type": "fill_nonword",
@@ -2356,6 +2537,7 @@ var exposure_stimuli = [
   {
     "index": "182",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Sare",
     "type": "fill_nonword",
@@ -2369,6 +2551,7 @@ var exposure_stimuli = [
   {
     "index": "183",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Selmer",
     "type": "fill_nonword",
@@ -2382,6 +2565,7 @@ var exposure_stimuli = [
   {
     "index": "184",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Siller",
     "type": "fill_nonword",
@@ -2395,6 +2579,7 @@ var exposure_stimuli = [
   {
     "index": "185",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Slomb",
     "type": "fill_nonword",
@@ -2408,6 +2593,7 @@ var exposure_stimuli = [
   {
     "index": "186",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Smong",
     "type": "fill_nonword",
@@ -2421,6 +2607,7 @@ var exposure_stimuli = [
   {
     "index": "187",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Snoll",
     "type": "fill_nonword",
@@ -2434,6 +2621,7 @@ var exposure_stimuli = [
   {
     "index": "188",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Snyre",
     "type": "fill_nonword",
@@ -2447,6 +2635,7 @@ var exposure_stimuli = [
   {
     "index": "189",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Somb",
     "type": "fill_nonword",
@@ -2460,6 +2649,7 @@ var exposure_stimuli = [
   {
     "index": "190",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Thim",
     "type": "fill_nonword",
@@ -2473,6 +2663,7 @@ var exposure_stimuli = [
   {
     "index": "191",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Threen",
     "type": "fill_nonword",
@@ -2486,6 +2677,7 @@ var exposure_stimuli = [
   {
     "index": "192",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Vainyl",
     "type": "fill_nonword",
@@ -2499,6 +2691,7 @@ var exposure_stimuli = [
   {
     "index": "193",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Vallon",
     "type": "fill_nonword",
@@ -2512,6 +2705,7 @@ var exposure_stimuli = [
   {
     "index": "194",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Vunn",
     "type": "fill_nonword",
@@ -2525,6 +2719,7 @@ var exposure_stimuli = [
   {
     "index": "195",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Werro",
     "type": "fill_nonword",
@@ -2538,6 +2733,7 @@ var exposure_stimuli = [
   {
     "index": "196",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Winal",
     "type": "fill_nonword",
@@ -2551,6 +2747,7 @@ var exposure_stimuli = [
   {
     "index": "197",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Woony",
     "type": "fill_nonword",
@@ -2564,6 +2761,7 @@ var exposure_stimuli = [
   {
     "index": "198",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Wyan",
     "type": "fill_nonword",
@@ -2577,6 +2775,7 @@ var exposure_stimuli = [
   {
     "index": "199",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Yorn",
     "type": "fill_nonword",
@@ -2590,6 +2789,7 @@ var exposure_stimuli = [
   {
     "index": "200",
     "group": "B_group",
+    "side": "left",
     "phase": "exposure",
     "target": "Ven",
     "type": "fill_nonword",
@@ -2606,6 +2806,7 @@ var test_stimuli = [
   {
     "index": "1",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "1",
@@ -2619,6 +2820,7 @@ var test_stimuli = [
   {
     "index": "2",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "1",
@@ -2632,6 +2834,7 @@ var test_stimuli = [
   {
     "index": "3",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "1",
@@ -2645,6 +2848,7 @@ var test_stimuli = [
   {
     "index": "4",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "1",
@@ -2658,6 +2862,7 @@ var test_stimuli = [
   {
     "index": "5",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "1",
@@ -2671,6 +2876,7 @@ var test_stimuli = [
   {
     "index": "6",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "1",
@@ -2684,6 +2890,7 @@ var test_stimuli = [
   {
     "index": "7",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "1",
@@ -2697,6 +2904,7 @@ var test_stimuli = [
   {
     "index": "8",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "1",
@@ -2710,6 +2918,7 @@ var test_stimuli = [
   {
     "index": "9",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "1",
@@ -2723,6 +2932,7 @@ var test_stimuli = [
   {
     "index": "10",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "1",
@@ -2736,6 +2946,7 @@ var test_stimuli = [
   {
     "index": "11",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "1",
@@ -2749,6 +2960,7 @@ var test_stimuli = [
   {
     "index": "12",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "1",
@@ -2762,6 +2974,7 @@ var test_stimuli = [
   {
     "index": "13",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "2",
@@ -2775,6 +2988,7 @@ var test_stimuli = [
   {
     "index": "14",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "2",
@@ -2788,6 +3002,7 @@ var test_stimuli = [
   {
     "index": "15",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "2",
@@ -2801,6 +3016,7 @@ var test_stimuli = [
   {
     "index": "16",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "2",
@@ -2814,6 +3030,7 @@ var test_stimuli = [
   {
     "index": "17",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "2",
@@ -2827,6 +3044,7 @@ var test_stimuli = [
   {
     "index": "18",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "2",
@@ -2840,6 +3058,7 @@ var test_stimuli = [
   {
     "index": "19",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "2",
@@ -2853,6 +3072,7 @@ var test_stimuli = [
   {
     "index": "20",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "2",
@@ -2866,6 +3086,7 @@ var test_stimuli = [
   {
     "index": "21",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "2",
@@ -2879,6 +3100,7 @@ var test_stimuli = [
   {
     "index": "22",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "2",
@@ -2892,6 +3114,7 @@ var test_stimuli = [
   {
     "index": "23",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "2",
@@ -2905,6 +3128,7 @@ var test_stimuli = [
   {
     "index": "24",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "2",
@@ -2918,6 +3142,7 @@ var test_stimuli = [
   {
     "index": "25",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "3",
@@ -2931,6 +3156,7 @@ var test_stimuli = [
   {
     "index": "26",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "3",
@@ -2944,6 +3170,7 @@ var test_stimuli = [
   {
     "index": "27",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "3",
@@ -2957,6 +3184,7 @@ var test_stimuli = [
   {
     "index": "28",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "3",
@@ -2970,6 +3198,7 @@ var test_stimuli = [
   {
     "index": "29",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "3",
@@ -2983,6 +3212,7 @@ var test_stimuli = [
   {
     "index": "30",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "3",
@@ -2996,6 +3226,7 @@ var test_stimuli = [
   {
     "index": "31",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "3",
@@ -3009,6 +3240,7 @@ var test_stimuli = [
   {
     "index": "32",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "3",
@@ -3022,6 +3254,7 @@ var test_stimuli = [
   {
     "index": "33",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "3",
@@ -3035,6 +3268,7 @@ var test_stimuli = [
   {
     "index": "34",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "3",
@@ -3048,6 +3282,7 @@ var test_stimuli = [
   {
     "index": "35",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "3",
@@ -3061,6 +3296,7 @@ var test_stimuli = [
   {
     "index": "36",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "3",
@@ -3074,6 +3310,7 @@ var test_stimuli = [
   {
     "index": "37",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "1",
@@ -3087,6 +3324,7 @@ var test_stimuli = [
   {
     "index": "38",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "1",
@@ -3100,6 +3338,7 @@ var test_stimuli = [
   {
     "index": "39",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "1",
@@ -3113,6 +3352,7 @@ var test_stimuli = [
   {
     "index": "40",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "1",
@@ -3126,6 +3366,7 @@ var test_stimuli = [
   {
     "index": "41",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "1",
@@ -3139,6 +3380,7 @@ var test_stimuli = [
   {
     "index": "42",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "1",
@@ -3152,6 +3394,7 @@ var test_stimuli = [
   {
     "index": "43",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "1",
@@ -3165,6 +3408,7 @@ var test_stimuli = [
   {
     "index": "44",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "1",
@@ -3178,6 +3422,7 @@ var test_stimuli = [
   {
     "index": "45",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "1",
@@ -3191,6 +3436,7 @@ var test_stimuli = [
   {
     "index": "46",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "1",
@@ -3204,6 +3450,7 @@ var test_stimuli = [
   {
     "index": "47",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "1",
@@ -3217,6 +3464,7 @@ var test_stimuli = [
   {
     "index": "48",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "1",
@@ -3230,6 +3478,7 @@ var test_stimuli = [
   {
     "index": "49",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "2",
@@ -3243,6 +3492,7 @@ var test_stimuli = [
   {
     "index": "50",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "2",
@@ -3256,6 +3506,7 @@ var test_stimuli = [
   {
     "index": "51",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "2",
@@ -3269,6 +3520,7 @@ var test_stimuli = [
   {
     "index": "52",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "2",
@@ -3282,6 +3534,7 @@ var test_stimuli = [
   {
     "index": "53",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "2",
@@ -3295,6 +3548,7 @@ var test_stimuli = [
   {
     "index": "54",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "2",
@@ -3308,6 +3562,7 @@ var test_stimuli = [
   {
     "index": "55",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "2",
@@ -3321,6 +3576,7 @@ var test_stimuli = [
   {
     "index": "56",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "2",
@@ -3334,6 +3590,7 @@ var test_stimuli = [
   {
     "index": "57",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "2",
@@ -3347,6 +3604,7 @@ var test_stimuli = [
   {
     "index": "58",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "2",
@@ -3360,6 +3618,7 @@ var test_stimuli = [
   {
     "index": "59",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "2",
@@ -3373,6 +3632,7 @@ var test_stimuli = [
   {
     "index": "60",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "2",
@@ -3386,6 +3646,7 @@ var test_stimuli = [
   {
     "index": "61",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "3",
@@ -3399,6 +3660,7 @@ var test_stimuli = [
   {
     "index": "62",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "3",
@@ -3412,6 +3674,7 @@ var test_stimuli = [
   {
     "index": "63",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "3",
@@ -3425,6 +3688,7 @@ var test_stimuli = [
   {
     "index": "64",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "3",
@@ -3438,6 +3702,7 @@ var test_stimuli = [
   {
     "index": "65",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "3",
@@ -3451,6 +3716,7 @@ var test_stimuli = [
   {
     "index": "66",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "3",
@@ -3464,6 +3730,7 @@ var test_stimuli = [
   {
     "index": "67",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "3",
@@ -3477,6 +3744,7 @@ var test_stimuli = [
   {
     "index": "68",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "3",
@@ -3490,6 +3758,7 @@ var test_stimuli = [
   {
     "index": "69",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "3",
@@ -3503,6 +3772,7 @@ var test_stimuli = [
   {
     "index": "70",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "3",
@@ -3516,6 +3786,7 @@ var test_stimuli = [
   {
     "index": "71",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "3",
@@ -3529,6 +3800,7 @@ var test_stimuli = [
   {
     "index": "72",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "3",
@@ -3542,6 +3814,7 @@ var test_stimuli = [
   {
     "index": "73",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "1",
@@ -3555,6 +3828,7 @@ var test_stimuli = [
   {
     "index": "74",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "1",
@@ -3568,6 +3842,7 @@ var test_stimuli = [
   {
     "index": "75",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "1",
@@ -3581,6 +3856,7 @@ var test_stimuli = [
   {
     "index": "76",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "1",
@@ -3594,6 +3870,7 @@ var test_stimuli = [
   {
     "index": "77",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "1",
@@ -3607,6 +3884,7 @@ var test_stimuli = [
   {
     "index": "78",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "1",
@@ -3620,6 +3898,7 @@ var test_stimuli = [
   {
     "index": "79",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "1",
@@ -3633,6 +3912,7 @@ var test_stimuli = [
   {
     "index": "80",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "1",
@@ -3646,6 +3926,7 @@ var test_stimuli = [
   {
     "index": "81",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "1",
@@ -3659,6 +3940,7 @@ var test_stimuli = [
   {
     "index": "82",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "1",
@@ -3672,6 +3954,7 @@ var test_stimuli = [
   {
     "index": "83",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "1",
@@ -3685,6 +3968,7 @@ var test_stimuli = [
   {
     "index": "84",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "1",
@@ -3698,6 +3982,7 @@ var test_stimuli = [
   {
     "index": "85",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "2",
@@ -3711,6 +3996,7 @@ var test_stimuli = [
   {
     "index": "86",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "2",
@@ -3724,6 +4010,7 @@ var test_stimuli = [
   {
     "index": "87",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "2",
@@ -3737,6 +4024,7 @@ var test_stimuli = [
   {
     "index": "88",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "2",
@@ -3750,6 +4038,7 @@ var test_stimuli = [
   {
     "index": "89",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "2",
@@ -3763,6 +4052,7 @@ var test_stimuli = [
   {
     "index": "90",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "2",
@@ -3776,6 +4066,7 @@ var test_stimuli = [
   {
     "index": "91",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "2",
@@ -3789,6 +4080,7 @@ var test_stimuli = [
   {
     "index": "92",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "2",
@@ -3802,6 +4094,7 @@ var test_stimuli = [
   {
     "index": "93",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "2",
@@ -3815,6 +4108,7 @@ var test_stimuli = [
   {
     "index": "94",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "2",
@@ -3828,6 +4122,7 @@ var test_stimuli = [
   {
     "index": "95",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "2",
@@ -3841,6 +4136,7 @@ var test_stimuli = [
   {
     "index": "96",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "2",
@@ -3854,6 +4150,7 @@ var test_stimuli = [
   {
     "index": "97",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "3",
@@ -3867,6 +4164,7 @@ var test_stimuli = [
   {
     "index": "98",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "3",
@@ -3880,6 +4178,7 @@ var test_stimuli = [
   {
     "index": "99",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "3",
@@ -3893,6 +4192,7 @@ var test_stimuli = [
   {
     "index": "100",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "3",
@@ -3906,6 +4206,7 @@ var test_stimuli = [
   {
     "index": "101",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "3",
@@ -3919,6 +4220,7 @@ var test_stimuli = [
   {
     "index": "102",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "3",
@@ -3932,6 +4234,7 @@ var test_stimuli = [
   {
     "index": "103",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "3",
@@ -3945,6 +4248,7 @@ var test_stimuli = [
   {
     "index": "104",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "3",
@@ -3958,6 +4262,7 @@ var test_stimuli = [
   {
     "index": "105",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "3",
@@ -3971,6 +4276,7 @@ var test_stimuli = [
   {
     "index": "106",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "3",
@@ -3984,6 +4290,7 @@ var test_stimuli = [
   {
     "index": "107",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "3",
@@ -3997,6 +4304,7 @@ var test_stimuli = [
   {
     "index": "108",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "3",
@@ -4010,6 +4318,7 @@ var test_stimuli = [
   {
     "index": "109",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "1",
@@ -4023,6 +4332,7 @@ var test_stimuli = [
   {
     "index": "110",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "1",
@@ -4036,6 +4346,7 @@ var test_stimuli = [
   {
     "index": "111",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "1",
@@ -4049,6 +4360,7 @@ var test_stimuli = [
   {
     "index": "112",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "1",
@@ -4062,6 +4374,7 @@ var test_stimuli = [
   {
     "index": "113",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "1",
@@ -4075,6 +4388,7 @@ var test_stimuli = [
   {
     "index": "114",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "1",
@@ -4088,6 +4402,7 @@ var test_stimuli = [
   {
     "index": "115",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "1",
@@ -4101,6 +4416,7 @@ var test_stimuli = [
   {
     "index": "116",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "1",
@@ -4114,6 +4430,7 @@ var test_stimuli = [
   {
     "index": "117",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "1",
@@ -4127,6 +4444,7 @@ var test_stimuli = [
   {
     "index": "118",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "1",
@@ -4140,6 +4458,7 @@ var test_stimuli = [
   {
     "index": "119",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "1",
@@ -4153,6 +4472,7 @@ var test_stimuli = [
   {
     "index": "120",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "1",
@@ -4166,6 +4486,7 @@ var test_stimuli = [
   {
     "index": "121",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "2",
@@ -4179,6 +4500,7 @@ var test_stimuli = [
   {
     "index": "122",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "2",
@@ -4192,6 +4514,7 @@ var test_stimuli = [
   {
     "index": "123",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "2",
@@ -4205,6 +4528,7 @@ var test_stimuli = [
   {
     "index": "124",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "2",
@@ -4218,6 +4542,7 @@ var test_stimuli = [
   {
     "index": "125",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "2",
@@ -4231,6 +4556,7 @@ var test_stimuli = [
   {
     "index": "126",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "2",
@@ -4244,6 +4570,7 @@ var test_stimuli = [
   {
     "index": "127",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "2",
@@ -4257,6 +4584,7 @@ var test_stimuli = [
   {
     "index": "128",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "2",
@@ -4270,6 +4598,7 @@ var test_stimuli = [
   {
     "index": "129",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "2",
@@ -4283,6 +4612,7 @@ var test_stimuli = [
   {
     "index": "130",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "2",
@@ -4296,6 +4626,7 @@ var test_stimuli = [
   {
     "index": "131",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "2",
@@ -4309,6 +4640,7 @@ var test_stimuli = [
   {
     "index": "132",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "2",
@@ -4322,6 +4654,7 @@ var test_stimuli = [
   {
     "index": "133",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "3",
@@ -4335,6 +4668,7 @@ var test_stimuli = [
   {
     "index": "134",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "3",
@@ -4348,6 +4682,7 @@ var test_stimuli = [
   {
     "index": "135",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "3",
@@ -4361,6 +4696,7 @@ var test_stimuli = [
   {
     "index": "136",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "3",
@@ -4374,6 +4710,7 @@ var test_stimuli = [
   {
     "index": "137",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "3",
@@ -4387,6 +4724,7 @@ var test_stimuli = [
   {
     "index": "138",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "3",
@@ -4400,6 +4738,7 @@ var test_stimuli = [
   {
     "index": "139",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "3",
@@ -4413,6 +4752,7 @@ var test_stimuli = [
   {
     "index": "140",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "3",
@@ -4426,6 +4766,7 @@ var test_stimuli = [
   {
     "index": "141",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "3",
@@ -4439,6 +4780,7 @@ var test_stimuli = [
   {
     "index": "142",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "3",
@@ -4452,6 +4794,7 @@ var test_stimuli = [
   {
     "index": "143",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "3",
@@ -4465,6 +4808,7 @@ var test_stimuli = [
   {
     "index": "144",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "3",
@@ -4478,6 +4822,7 @@ var test_stimuli = [
   {
     "index": "145",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "1",
@@ -4491,6 +4836,7 @@ var test_stimuli = [
   {
     "index": "146",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "1",
@@ -4504,6 +4850,7 @@ var test_stimuli = [
   {
     "index": "147",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "1",
@@ -4517,6 +4864,7 @@ var test_stimuli = [
   {
     "index": "148",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "1",
@@ -4530,6 +4878,7 @@ var test_stimuli = [
   {
     "index": "149",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "1",
@@ -4543,6 +4892,7 @@ var test_stimuli = [
   {
     "index": "150",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "1",
@@ -4556,6 +4906,7 @@ var test_stimuli = [
   {
     "index": "151",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "1",
@@ -4569,6 +4920,7 @@ var test_stimuli = [
   {
     "index": "152",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "1",
@@ -4582,6 +4934,7 @@ var test_stimuli = [
   {
     "index": "153",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "1",
@@ -4595,6 +4948,7 @@ var test_stimuli = [
   {
     "index": "154",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "1",
@@ -4608,6 +4962,7 @@ var test_stimuli = [
   {
     "index": "155",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "1",
@@ -4621,6 +4976,7 @@ var test_stimuli = [
   {
     "index": "156",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "1",
@@ -4634,6 +4990,7 @@ var test_stimuli = [
   {
     "index": "157",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "2",
@@ -4647,6 +5004,7 @@ var test_stimuli = [
   {
     "index": "158",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "2",
@@ -4660,6 +5018,7 @@ var test_stimuli = [
   {
     "index": "159",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "2",
@@ -4673,6 +5032,7 @@ var test_stimuli = [
   {
     "index": "160",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "2",
@@ -4686,6 +5046,7 @@ var test_stimuli = [
   {
     "index": "161",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "2",
@@ -4699,6 +5060,7 @@ var test_stimuli = [
   {
     "index": "162",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "2",
@@ -4712,6 +5074,7 @@ var test_stimuli = [
   {
     "index": "163",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "2",
@@ -4725,6 +5088,7 @@ var test_stimuli = [
   {
     "index": "164",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "2",
@@ -4738,6 +5102,7 @@ var test_stimuli = [
   {
     "index": "165",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "2",
@@ -4751,6 +5116,7 @@ var test_stimuli = [
   {
     "index": "166",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "2",
@@ -4764,6 +5130,7 @@ var test_stimuli = [
   {
     "index": "167",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "2",
@@ -4777,6 +5144,7 @@ var test_stimuli = [
   {
     "index": "168",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "2",
@@ -4790,6 +5158,7 @@ var test_stimuli = [
   {
     "index": "169",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "3",
@@ -4803,6 +5172,7 @@ var test_stimuli = [
   {
     "index": "170",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "3",
@@ -4816,6 +5186,7 @@ var test_stimuli = [
   {
     "index": "171",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "3",
@@ -4829,6 +5200,7 @@ var test_stimuli = [
   {
     "index": "172",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "3",
@@ -4842,6 +5214,7 @@ var test_stimuli = [
   {
     "index": "173",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "3",
@@ -4855,6 +5228,7 @@ var test_stimuli = [
   {
     "index": "174",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "3",
@@ -4868,6 +5242,7 @@ var test_stimuli = [
   {
     "index": "175",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "3",
@@ -4881,6 +5256,7 @@ var test_stimuli = [
   {
     "index": "176",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "3",
@@ -4894,6 +5270,7 @@ var test_stimuli = [
   {
     "index": "177",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "3",
@@ -4907,6 +5284,7 @@ var test_stimuli = [
   {
     "index": "178",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "3",
@@ -4920,6 +5298,7 @@ var test_stimuli = [
   {
     "index": "179",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "3",
@@ -4933,6 +5312,7 @@ var test_stimuli = [
   {
     "index": "180",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "3",
@@ -4946,6 +5326,7 @@ var test_stimuli = [
   {
     "index": "181",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "1",
@@ -4959,6 +5340,7 @@ var test_stimuli = [
   {
     "index": "182",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "1",
@@ -4972,6 +5354,7 @@ var test_stimuli = [
   {
     "index": "183",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "1",
@@ -4985,6 +5368,7 @@ var test_stimuli = [
   {
     "index": "184",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "1",
@@ -4998,6 +5382,7 @@ var test_stimuli = [
   {
     "index": "185",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "1",
@@ -5011,6 +5396,7 @@ var test_stimuli = [
   {
     "index": "186",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "1",
@@ -5024,6 +5410,7 @@ var test_stimuli = [
   {
     "index": "187",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "1",
@@ -5037,6 +5424,7 @@ var test_stimuli = [
   {
     "index": "188",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "1",
@@ -5050,6 +5438,7 @@ var test_stimuli = [
   {
     "index": "189",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "1",
@@ -5063,6 +5452,7 @@ var test_stimuli = [
   {
     "index": "190",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "1",
@@ -5076,6 +5466,7 @@ var test_stimuli = [
   {
     "index": "191",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "1",
@@ -5089,6 +5480,7 @@ var test_stimuli = [
   {
     "index": "192",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "1",
@@ -5102,6 +5494,7 @@ var test_stimuli = [
   {
     "index": "193",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "2",
@@ -5115,6 +5508,7 @@ var test_stimuli = [
   {
     "index": "194",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "2",
@@ -5128,6 +5522,7 @@ var test_stimuli = [
   {
     "index": "195",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "2",
@@ -5141,6 +5536,7 @@ var test_stimuli = [
   {
     "index": "196",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "2",
@@ -5154,6 +5550,7 @@ var test_stimuli = [
   {
     "index": "197",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "2",
@@ -5167,6 +5564,7 @@ var test_stimuli = [
   {
     "index": "198",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "2",
@@ -5180,6 +5578,7 @@ var test_stimuli = [
   {
     "index": "199",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "2",
@@ -5193,6 +5592,7 @@ var test_stimuli = [
   {
     "index": "200",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "2",
@@ -5206,6 +5606,7 @@ var test_stimuli = [
   {
     "index": "201",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "2",
@@ -5219,6 +5620,7 @@ var test_stimuli = [
   {
     "index": "202",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "2",
@@ -5232,6 +5634,7 @@ var test_stimuli = [
   {
     "index": "203",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "2",
@@ -5245,6 +5648,7 @@ var test_stimuli = [
   {
     "index": "204",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "2",
@@ -5258,6 +5662,7 @@ var test_stimuli = [
   {
     "index": "205",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "3",
@@ -5271,6 +5676,7 @@ var test_stimuli = [
   {
     "index": "206",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "3",
@@ -5284,6 +5690,7 @@ var test_stimuli = [
   {
     "index": "207",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "3",
@@ -5297,6 +5704,7 @@ var test_stimuli = [
   {
     "index": "208",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "3",
@@ -5310,6 +5718,7 @@ var test_stimuli = [
   {
     "index": "209",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "3",
@@ -5323,6 +5732,7 @@ var test_stimuli = [
   {
     "index": "210",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "3",
@@ -5336,6 +5746,7 @@ var test_stimuli = [
   {
     "index": "211",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "3",
@@ -5349,6 +5760,7 @@ var test_stimuli = [
   {
     "index": "212",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "3",
@@ -5362,6 +5774,7 @@ var test_stimuli = [
   {
     "index": "213",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "3",
@@ -5375,6 +5788,7 @@ var test_stimuli = [
   {
     "index": "214",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "3",
@@ -5388,6 +5802,7 @@ var test_stimuli = [
   {
     "index": "215",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "3",
@@ -5401,6 +5816,7 @@ var test_stimuli = [
   {
     "index": "216",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "3",
@@ -5414,6 +5830,7 @@ var test_stimuli = [
   {
     "index": "217",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "1",
@@ -5427,6 +5844,7 @@ var test_stimuli = [
   {
     "index": "218",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "1",
@@ -5440,6 +5858,7 @@ var test_stimuli = [
   {
     "index": "219",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "1",
@@ -5453,6 +5872,7 @@ var test_stimuli = [
   {
     "index": "220",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "1",
@@ -5466,6 +5886,7 @@ var test_stimuli = [
   {
     "index": "221",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "1",
@@ -5479,6 +5900,7 @@ var test_stimuli = [
   {
     "index": "222",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "1",
@@ -5492,6 +5914,7 @@ var test_stimuli = [
   {
     "index": "223",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "1",
@@ -5505,6 +5928,7 @@ var test_stimuli = [
   {
     "index": "224",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "1",
@@ -5518,6 +5942,7 @@ var test_stimuli = [
   {
     "index": "225",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "1",
@@ -5531,6 +5956,7 @@ var test_stimuli = [
   {
     "index": "226",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "1",
@@ -5544,6 +5970,7 @@ var test_stimuli = [
   {
     "index": "227",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "1",
@@ -5557,6 +5984,7 @@ var test_stimuli = [
   {
     "index": "228",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "1",
@@ -5570,6 +5998,7 @@ var test_stimuli = [
   {
     "index": "229",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "2",
@@ -5583,6 +6012,7 @@ var test_stimuli = [
   {
     "index": "230",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "2",
@@ -5596,6 +6026,7 @@ var test_stimuli = [
   {
     "index": "231",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "2",
@@ -5609,6 +6040,7 @@ var test_stimuli = [
   {
     "index": "232",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "2",
@@ -5622,6 +6054,7 @@ var test_stimuli = [
   {
     "index": "233",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "2",
@@ -5635,6 +6068,7 @@ var test_stimuli = [
   {
     "index": "234",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "2",
@@ -5648,6 +6082,7 @@ var test_stimuli = [
   {
     "index": "235",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "2",
@@ -5661,6 +6096,7 @@ var test_stimuli = [
   {
     "index": "236",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "2",
@@ -5674,6 +6110,7 @@ var test_stimuli = [
   {
     "index": "237",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "2",
@@ -5687,6 +6124,7 @@ var test_stimuli = [
   {
     "index": "238",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "2",
@@ -5700,6 +6138,7 @@ var test_stimuli = [
   {
     "index": "239",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "2",
@@ -5713,6 +6152,7 @@ var test_stimuli = [
   {
     "index": "240",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "2",
@@ -5726,6 +6166,7 @@ var test_stimuli = [
   {
     "index": "241",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "3",
@@ -5739,6 +6180,7 @@ var test_stimuli = [
   {
     "index": "242",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "3",
@@ -5752,6 +6194,7 @@ var test_stimuli = [
   {
     "index": "243",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "3",
@@ -5765,6 +6208,7 @@ var test_stimuli = [
   {
     "index": "244",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "3",
@@ -5778,6 +6222,7 @@ var test_stimuli = [
   {
     "index": "245",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "3",
@@ -5791,6 +6236,7 @@ var test_stimuli = [
   {
     "index": "246",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "3",
@@ -5804,6 +6250,7 @@ var test_stimuli = [
   {
     "index": "247",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "3",
@@ -5817,6 +6264,7 @@ var test_stimuli = [
   {
     "index": "248",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "3",
@@ -5830,6 +6278,7 @@ var test_stimuli = [
   {
     "index": "249",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "3",
@@ -5843,6 +6292,7 @@ var test_stimuli = [
   {
     "index": "250",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "3",
@@ -5856,6 +6306,7 @@ var test_stimuli = [
   {
     "index": "251",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "3",
@@ -5869,6 +6320,7 @@ var test_stimuli = [
   {
     "index": "252",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "3",
@@ -5882,6 +6334,7 @@ var test_stimuli = [
   {
     "index": "253",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "1",
@@ -5895,6 +6348,7 @@ var test_stimuli = [
   {
     "index": "254",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "1",
@@ -5908,6 +6362,7 @@ var test_stimuli = [
   {
     "index": "255",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "1",
@@ -5921,6 +6376,7 @@ var test_stimuli = [
   {
     "index": "256",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "1",
@@ -5934,6 +6390,7 @@ var test_stimuli = [
   {
     "index": "257",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "1",
@@ -5947,6 +6404,7 @@ var test_stimuli = [
   {
     "index": "258",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "1",
@@ -5960,6 +6418,7 @@ var test_stimuli = [
   {
     "index": "259",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "1",
@@ -5973,6 +6432,7 @@ var test_stimuli = [
   {
     "index": "260",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "1",
@@ -5986,6 +6446,7 @@ var test_stimuli = [
   {
     "index": "261",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "1",
@@ -5999,6 +6460,7 @@ var test_stimuli = [
   {
     "index": "262",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "1",
@@ -6012,6 +6474,7 @@ var test_stimuli = [
   {
     "index": "263",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "1",
@@ -6025,6 +6488,7 @@ var test_stimuli = [
   {
     "index": "264",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "1",
@@ -6038,6 +6502,7 @@ var test_stimuli = [
   {
     "index": "265",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "2",
@@ -6051,6 +6516,7 @@ var test_stimuli = [
   {
     "index": "266",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "2",
@@ -6064,6 +6530,7 @@ var test_stimuli = [
   {
     "index": "267",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "2",
@@ -6077,6 +6544,7 @@ var test_stimuli = [
   {
     "index": "268",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "2",
@@ -6090,6 +6558,7 @@ var test_stimuli = [
   {
     "index": "269",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "2",
@@ -6103,6 +6572,7 @@ var test_stimuli = [
   {
     "index": "270",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "2",
@@ -6116,6 +6586,7 @@ var test_stimuli = [
   {
     "index": "271",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "2",
@@ -6129,6 +6600,7 @@ var test_stimuli = [
   {
     "index": "272",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "2",
@@ -6142,6 +6614,7 @@ var test_stimuli = [
   {
     "index": "273",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "2",
@@ -6155,6 +6628,7 @@ var test_stimuli = [
   {
     "index": "274",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "2",
@@ -6168,6 +6642,7 @@ var test_stimuli = [
   {
     "index": "275",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "2",
@@ -6181,6 +6656,7 @@ var test_stimuli = [
   {
     "index": "276",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "2",
@@ -6194,6 +6670,7 @@ var test_stimuli = [
   {
     "index": "277",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "3",
@@ -6207,6 +6684,7 @@ var test_stimuli = [
   {
     "index": "278",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "3",
@@ -6220,6 +6698,7 @@ var test_stimuli = [
   {
     "index": "279",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "3",
@@ -6233,6 +6712,7 @@ var test_stimuli = [
   {
     "index": "280",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "3",
@@ -6246,6 +6726,7 @@ var test_stimuli = [
   {
     "index": "281",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "3",
@@ -6259,6 +6740,7 @@ var test_stimuli = [
   {
     "index": "282",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "3",
@@ -6272,6 +6754,7 @@ var test_stimuli = [
   {
     "index": "283",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "3",
@@ -6285,6 +6768,7 @@ var test_stimuli = [
   {
     "index": "284",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "3",
@@ -6298,6 +6782,7 @@ var test_stimuli = [
   {
     "index": "285",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "3",
@@ -6311,6 +6796,7 @@ var test_stimuli = [
   {
     "index": "286",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "3",
@@ -6324,6 +6810,7 @@ var test_stimuli = [
   {
     "index": "287",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "3",
@@ -6337,6 +6824,7 @@ var test_stimuli = [
   {
     "index": "288",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "3",
@@ -6350,6 +6838,7 @@ var test_stimuli = [
   {
     "index": "289",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "1",
@@ -6363,6 +6852,7 @@ var test_stimuli = [
   {
     "index": "290",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "1",
@@ -6376,6 +6866,7 @@ var test_stimuli = [
   {
     "index": "291",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "1",
@@ -6389,6 +6880,7 @@ var test_stimuli = [
   {
     "index": "292",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "1",
@@ -6402,6 +6894,7 @@ var test_stimuli = [
   {
     "index": "293",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "1",
@@ -6415,6 +6908,7 @@ var test_stimuli = [
   {
     "index": "294",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "1",
@@ -6428,6 +6922,7 @@ var test_stimuli = [
   {
     "index": "295",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "1",
@@ -6441,6 +6936,7 @@ var test_stimuli = [
   {
     "index": "296",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "1",
@@ -6454,6 +6950,7 @@ var test_stimuli = [
   {
     "index": "297",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "1",
@@ -6467,6 +6964,7 @@ var test_stimuli = [
   {
     "index": "298",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "1",
@@ -6480,6 +6978,7 @@ var test_stimuli = [
   {
     "index": "299",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "1",
@@ -6493,6 +6992,7 @@ var test_stimuli = [
   {
     "index": "300",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "1",
@@ -6506,6 +7006,7 @@ var test_stimuli = [
   {
     "index": "301",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "2",
@@ -6519,6 +7020,7 @@ var test_stimuli = [
   {
     "index": "302",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "2",
@@ -6532,6 +7034,7 @@ var test_stimuli = [
   {
     "index": "303",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "2",
@@ -6545,6 +7048,7 @@ var test_stimuli = [
   {
     "index": "304",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "2",
@@ -6558,6 +7062,7 @@ var test_stimuli = [
   {
     "index": "305",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "2",
@@ -6571,6 +7076,7 @@ var test_stimuli = [
   {
     "index": "306",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "2",
@@ -6584,6 +7090,7 @@ var test_stimuli = [
   {
     "index": "307",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "2",
@@ -6597,6 +7104,7 @@ var test_stimuli = [
   {
     "index": "308",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "2",
@@ -6610,6 +7118,7 @@ var test_stimuli = [
   {
     "index": "309",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "2",
@@ -6623,6 +7132,7 @@ var test_stimuli = [
   {
     "index": "310",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "2",
@@ -6636,6 +7146,7 @@ var test_stimuli = [
   {
     "index": "311",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "2",
@@ -6649,6 +7160,7 @@ var test_stimuli = [
   {
     "index": "312",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "2",
@@ -6662,6 +7174,7 @@ var test_stimuli = [
   {
     "index": "313",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "3",
@@ -6675,6 +7188,7 @@ var test_stimuli = [
   {
     "index": "314",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "3",
@@ -6688,6 +7202,7 @@ var test_stimuli = [
   {
     "index": "315",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "3",
@@ -6701,6 +7216,7 @@ var test_stimuli = [
   {
     "index": "316",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "3",
@@ -6714,6 +7230,7 @@ var test_stimuli = [
   {
     "index": "317",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "3",
@@ -6727,6 +7244,7 @@ var test_stimuli = [
   {
     "index": "318",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "3",
@@ -6740,6 +7258,7 @@ var test_stimuli = [
   {
     "index": "319",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "3",
@@ -6753,6 +7272,7 @@ var test_stimuli = [
   {
     "index": "320",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "3",
@@ -6766,6 +7286,7 @@ var test_stimuli = [
   {
     "index": "321",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "3",
@@ -6779,6 +7300,7 @@ var test_stimuli = [
   {
     "index": "322",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "3",
@@ -6792,6 +7314,7 @@ var test_stimuli = [
   {
     "index": "323",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "3",
@@ -6805,6 +7328,7 @@ var test_stimuli = [
   {
     "index": "324",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "3",
@@ -6818,6 +7342,7 @@ var test_stimuli = [
   {
     "index": "325",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "1",
@@ -6831,6 +7356,7 @@ var test_stimuli = [
   {
     "index": "326",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "1",
@@ -6844,6 +7370,7 @@ var test_stimuli = [
   {
     "index": "327",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "1",
@@ -6857,6 +7384,7 @@ var test_stimuli = [
   {
     "index": "328",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "1",
@@ -6870,6 +7398,7 @@ var test_stimuli = [
   {
     "index": "329",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "1",
@@ -6883,6 +7412,7 @@ var test_stimuli = [
   {
     "index": "330",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "1",
@@ -6896,6 +7426,7 @@ var test_stimuli = [
   {
     "index": "331",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "1",
@@ -6909,6 +7440,7 @@ var test_stimuli = [
   {
     "index": "332",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "1",
@@ -6922,6 +7454,7 @@ var test_stimuli = [
   {
     "index": "333",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "1",
@@ -6935,6 +7468,7 @@ var test_stimuli = [
   {
     "index": "334",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "1",
@@ -6948,6 +7482,7 @@ var test_stimuli = [
   {
     "index": "335",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "1",
@@ -6961,6 +7496,7 @@ var test_stimuli = [
   {
     "index": "336",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "1",
@@ -6974,6 +7510,7 @@ var test_stimuli = [
   {
     "index": "337",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "2",
@@ -6987,6 +7524,7 @@ var test_stimuli = [
   {
     "index": "338",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "2",
@@ -7000,6 +7538,7 @@ var test_stimuli = [
   {
     "index": "339",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "2",
@@ -7013,6 +7552,7 @@ var test_stimuli = [
   {
     "index": "340",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "2",
@@ -7026,6 +7566,7 @@ var test_stimuli = [
   {
     "index": "341",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "2",
@@ -7039,6 +7580,7 @@ var test_stimuli = [
   {
     "index": "342",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "2",
@@ -7052,6 +7594,7 @@ var test_stimuli = [
   {
     "index": "343",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "2",
@@ -7065,6 +7608,7 @@ var test_stimuli = [
   {
     "index": "344",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "2",
@@ -7078,6 +7622,7 @@ var test_stimuli = [
   {
     "index": "345",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "2",
@@ -7091,6 +7636,7 @@ var test_stimuli = [
   {
     "index": "346",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "2",
@@ -7104,6 +7650,7 @@ var test_stimuli = [
   {
     "index": "347",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "2",
@@ -7117,6 +7664,7 @@ var test_stimuli = [
   {
     "index": "348",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "2",
@@ -7130,6 +7678,7 @@ var test_stimuli = [
   {
     "index": "349",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAA_PAA_3",
     "repetition": "3",
@@ -7143,6 +7692,7 @@ var test_stimuli = [
   {
     "index": "350",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BAH_PAH_3",
     "repetition": "3",
@@ -7156,6 +7706,7 @@ var test_stimuli = [
   {
     "index": "351",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BIH_PIH_1",
     "repetition": "3",
@@ -7169,6 +7720,7 @@ var test_stimuli = [
   {
     "index": "352",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "BUH_PUH_3",
     "repetition": "3",
@@ -7182,6 +7734,7 @@ var test_stimuli = [
   {
     "index": "353",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAA_TAA_3",
     "repetition": "3",
@@ -7195,6 +7748,7 @@ var test_stimuli = [
   {
     "index": "354",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DAH_TAH_3",
     "repetition": "3",
@@ -7208,6 +7762,7 @@ var test_stimuli = [
   {
     "index": "355",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DIH_TIH_3",
     "repetition": "3",
@@ -7221,6 +7776,7 @@ var test_stimuli = [
   {
     "index": "356",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "DUH_TUH_3",
     "repetition": "3",
@@ -7234,6 +7790,7 @@ var test_stimuli = [
   {
     "index": "357",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAA_KAA_5",
     "repetition": "3",
@@ -7247,6 +7804,7 @@ var test_stimuli = [
   {
     "index": "358",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GAH_KAH_3",
     "repetition": "3",
@@ -7260,6 +7818,7 @@ var test_stimuli = [
   {
     "index": "359",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GIH_KIH_5",
     "repetition": "3",
@@ -7273,6 +7832,7 @@ var test_stimuli = [
   {
     "index": "360",
     "group": "B_group",
+    "side": "left",
     "phase": "test",
     "set": "GUH_KUH_3",
     "repetition": "3",
@@ -7306,26 +7866,26 @@ var assetPaths = [
   "audio/exposure_B_group/Brown_Prown_3_11.mp3",
   "audio/exposure_B_group/Burial_Purial_1_17.mp3",
   "audio/exposure_B_group/Burrow_Purrow_3_9.mp3",
-  "audio/exposure_B_group/Barallel_Parallel_3_0.mp3",
-  "audio/exposure_B_group/Barlor_Parlor_3_0.mp3",
-  "audio/exposure_B_group/Bawn_Pawn_3_0.mp3",
-  "audio/exposure_B_group/Beninsula_Peninsula_3_0.mp3",
-  "audio/exposure_B_group/Berform_Perform_3_0.mp3",
-  "audio/exposure_B_group/Bioneer_Pioneer_3_0.mp3",
-  "audio/exposure_B_group/Blanner_Planner_3_0.mp3",
-  "audio/exposure_B_group/Blea_Plea_3_0.mp3",
-  "audio/exposure_B_group/Blyer_Plyer_1_0.mp3",
-  "audio/exposure_B_group/Bollen_Pollen_3_0.mp3",
-  "audio/exposure_B_group/Bolymer_Polymer_3_0.mp3",
-  "audio/exposure_B_group/Brayer_Prayer_1_0.mp3",
-  "audio/exposure_B_group/Breliminary_Preliminary_3_0.mp3",
-  "audio/exposure_B_group/Bremier_Premier_3_0.mp3",
-  "audio/exposure_B_group/Brimal_Primal_3_0.mp3",
-  "audio/exposure_B_group/Brime_Prime_1_0.mp3",
-  "audio/exposure_B_group/Brior_Prior_3_0.mp3",
-  "audio/exposure_B_group/Browl_Prowl_1_0.mp3",
-  "audio/exposure_B_group/Bry_Pry_1_0.mp3",
-  "audio/exposure_B_group/Bylon_Pylon_3_0.mp3",
+  "audio/exposure_B_group/Barallel_Parallel_4.mp3",
+  "audio/exposure_B_group/Barlor_Parlor_4.mp3",
+  "audio/exposure_B_group/Bawn_Pawn_2.mp3",
+  "audio/exposure_B_group/Beninsula_Peninsula_2.mp3",
+  "audio/exposure_B_group/Berform_Perform_2.mp3",
+  "audio/exposure_B_group/Bioneer_Pioneer_4.mp3",
+  "audio/exposure_B_group/Blanner_Planner_2.mp3",
+  "audio/exposure_B_group/Blea_Plea_2.mp3",
+  "audio/exposure_B_group/Blyer_Plyer_2.mp3",
+  "audio/exposure_B_group/Bollen_Pollen_2.mp3",
+  "audio/exposure_B_group/Bolymer_Polymer_2.mp3",
+  "audio/exposure_B_group/Brayer_Prayer_2.mp3",
+  "audio/exposure_B_group/Breliminary_Preliminary_2.mp3",
+  "audio/exposure_B_group/Bremier_Premier_2.mp3",
+  "audio/exposure_B_group/Brimal_Primal_2.mp3",
+  "audio/exposure_B_group/Brime_Prime_2.mp3",
+  "audio/exposure_B_group/Brior_Prior_2.mp3",
+  "audio/exposure_B_group/Browl_Prowl_2.mp3",
+  "audio/exposure_B_group/Bry_Pry_2.mp3",
+  "audio/exposure_B_group/Bylon_Pylon_2.mp3",
   "audio/exposure_B_group/Aisle_1.mp3",
   "audio/exposure_B_group/Ally_1.mp3",
   "audio/exposure_B_group/Area_1.mp3",
@@ -7486,364 +8046,364 @@ var assetPaths = [
   "audio/exposure_B_group/Wyan_1.mp3",
   "audio/exposure_B_group/Yorn_1.mp3",
   "audio/exposure_B_group/Ven_1.mp3",
-  "audio/experimental/BAA_PAA_3_0.mp3",
-  "audio/experimental/BAH_PAH_3_0.mp3",
-  "audio/experimental/BIH_PIH_1_0.mp3",
-  "audio/experimental/BUH_PUH_3_0.mp3",
-  "audio/experimental/DAA_TAA_3_0.mp3",
-  "audio/experimental/DAH_TAH_3_0.mp3",
-  "audio/experimental/DIH_TIH_3_0.mp3",
-  "audio/experimental/DUH_TUH_3_0.mp3",
-  "audio/experimental/GAA_KAA_5_0.mp3",
-  "audio/experimental/GAH_KAH_3_0.mp3",
-  "audio/experimental/GIH_KIH_5_0.mp3",
-  "audio/experimental/GUH_KUH_3_0.mp3",
-  "audio/experimental/BAA_PAA_3_0.mp3",
-  "audio/experimental/BAH_PAH_3_0.mp3",
-  "audio/experimental/BIH_PIH_1_0.mp3",
-  "audio/experimental/BUH_PUH_3_0.mp3",
-  "audio/experimental/DAA_TAA_3_0.mp3",
-  "audio/experimental/DAH_TAH_3_0.mp3",
-  "audio/experimental/DIH_TIH_3_0.mp3",
-  "audio/experimental/DUH_TUH_3_0.mp3",
-  "audio/experimental/GAA_KAA_5_0.mp3",
-  "audio/experimental/GAH_KAH_3_0.mp3",
-  "audio/experimental/GIH_KIH_5_0.mp3",
-  "audio/experimental/GUH_KUH_3_0.mp3",
-  "audio/experimental/BAA_PAA_3_0.mp3",
-  "audio/experimental/BAH_PAH_3_0.mp3",
-  "audio/experimental/BIH_PIH_1_0.mp3",
-  "audio/experimental/BUH_PUH_3_0.mp3",
-  "audio/experimental/DAA_TAA_3_0.mp3",
-  "audio/experimental/DAH_TAH_3_0.mp3",
-  "audio/experimental/DIH_TIH_3_0.mp3",
-  "audio/experimental/DUH_TUH_3_0.mp3",
-  "audio/experimental/GAA_KAA_5_0.mp3",
-  "audio/experimental/GAH_KAH_3_0.mp3",
-  "audio/experimental/GIH_KIH_5_0.mp3",
-  "audio/experimental/GUH_KUH_3_0.mp3",
-  "audio/experimental/BAA_PAA_3_5.mp3",
-  "audio/experimental/BAH_PAH_3_5.mp3",
-  "audio/experimental/BIH_PIH_1_5.mp3",
-  "audio/experimental/BUH_PUH_3_5.mp3",
-  "audio/experimental/DAA_TAA_3_5.mp3",
-  "audio/experimental/DAH_TAH_3_5.mp3",
-  "audio/experimental/DIH_TIH_3_5.mp3",
-  "audio/experimental/DUH_TUH_3_5.mp3",
-  "audio/experimental/GAA_KAA_5_5.mp3",
-  "audio/experimental/GAH_KAH_3_5.mp3",
-  "audio/experimental/GIH_KIH_5_5.mp3",
-  "audio/experimental/GUH_KUH_3_5.mp3",
-  "audio/experimental/BAA_PAA_3_5.mp3",
-  "audio/experimental/BAH_PAH_3_5.mp3",
-  "audio/experimental/BIH_PIH_1_5.mp3",
-  "audio/experimental/BUH_PUH_3_5.mp3",
-  "audio/experimental/DAA_TAA_3_5.mp3",
-  "audio/experimental/DAH_TAH_3_5.mp3",
-  "audio/experimental/DIH_TIH_3_5.mp3",
-  "audio/experimental/DUH_TUH_3_5.mp3",
-  "audio/experimental/GAA_KAA_5_5.mp3",
-  "audio/experimental/GAH_KAH_3_5.mp3",
-  "audio/experimental/GIH_KIH_5_5.mp3",
-  "audio/experimental/GUH_KUH_3_5.mp3",
-  "audio/experimental/BAA_PAA_3_5.mp3",
-  "audio/experimental/BAH_PAH_3_5.mp3",
-  "audio/experimental/BIH_PIH_1_5.mp3",
-  "audio/experimental/BUH_PUH_3_5.mp3",
-  "audio/experimental/DAA_TAA_3_5.mp3",
-  "audio/experimental/DAH_TAH_3_5.mp3",
-  "audio/experimental/DIH_TIH_3_5.mp3",
-  "audio/experimental/DUH_TUH_3_5.mp3",
-  "audio/experimental/GAA_KAA_5_5.mp3",
-  "audio/experimental/GAH_KAH_3_5.mp3",
-  "audio/experimental/GIH_KIH_5_5.mp3",
-  "audio/experimental/GUH_KUH_3_5.mp3",
-  "audio/experimental/BAA_PAA_3_10.mp3",
-  "audio/experimental/BAH_PAH_3_10.mp3",
-  "audio/experimental/BIH_PIH_1_10.mp3",
-  "audio/experimental/BUH_PUH_3_10.mp3",
-  "audio/experimental/DAA_TAA_3_10.mp3",
-  "audio/experimental/DAH_TAH_3_10.mp3",
-  "audio/experimental/DIH_TIH_3_10.mp3",
-  "audio/experimental/DUH_TUH_3_10.mp3",
-  "audio/experimental/GAA_KAA_5_10.mp3",
-  "audio/experimental/GAH_KAH_3_10.mp3",
-  "audio/experimental/GIH_KIH_5_10.mp3",
-  "audio/experimental/GUH_KUH_3_10.mp3",
-  "audio/experimental/BAA_PAA_3_10.mp3",
-  "audio/experimental/BAH_PAH_3_10.mp3",
-  "audio/experimental/BIH_PIH_1_10.mp3",
-  "audio/experimental/BUH_PUH_3_10.mp3",
-  "audio/experimental/DAA_TAA_3_10.mp3",
-  "audio/experimental/DAH_TAH_3_10.mp3",
-  "audio/experimental/DIH_TIH_3_10.mp3",
-  "audio/experimental/DUH_TUH_3_10.mp3",
-  "audio/experimental/GAA_KAA_5_10.mp3",
-  "audio/experimental/GAH_KAH_3_10.mp3",
-  "audio/experimental/GIH_KIH_5_10.mp3",
-  "audio/experimental/GUH_KUH_3_10.mp3",
-  "audio/experimental/BAA_PAA_3_10.mp3",
-  "audio/experimental/BAH_PAH_3_10.mp3",
-  "audio/experimental/BIH_PIH_1_10.mp3",
-  "audio/experimental/BUH_PUH_3_10.mp3",
-  "audio/experimental/DAA_TAA_3_10.mp3",
-  "audio/experimental/DAH_TAH_3_10.mp3",
-  "audio/experimental/DIH_TIH_3_10.mp3",
-  "audio/experimental/DUH_TUH_3_10.mp3",
-  "audio/experimental/GAA_KAA_5_10.mp3",
-  "audio/experimental/GAH_KAH_3_10.mp3",
-  "audio/experimental/GIH_KIH_5_10.mp3",
-  "audio/experimental/GUH_KUH_3_10.mp3",
-  "audio/experimental/BAA_PAA_3_15.mp3",
-  "audio/experimental/BAH_PAH_3_15.mp3",
-  "audio/experimental/BIH_PIH_1_15.mp3",
-  "audio/experimental/BUH_PUH_3_15.mp3",
-  "audio/experimental/DAA_TAA_3_15.mp3",
-  "audio/experimental/DAH_TAH_3_15.mp3",
-  "audio/experimental/DIH_TIH_3_15.mp3",
-  "audio/experimental/DUH_TUH_3_15.mp3",
-  "audio/experimental/GAA_KAA_5_15.mp3",
-  "audio/experimental/GAH_KAH_3_15.mp3",
-  "audio/experimental/GIH_KIH_5_15.mp3",
-  "audio/experimental/GUH_KUH_3_15.mp3",
-  "audio/experimental/BAA_PAA_3_15.mp3",
-  "audio/experimental/BAH_PAH_3_15.mp3",
-  "audio/experimental/BIH_PIH_1_15.mp3",
-  "audio/experimental/BUH_PUH_3_15.mp3",
-  "audio/experimental/DAA_TAA_3_15.mp3",
-  "audio/experimental/DAH_TAH_3_15.mp3",
-  "audio/experimental/DIH_TIH_3_15.mp3",
-  "audio/experimental/DUH_TUH_3_15.mp3",
-  "audio/experimental/GAA_KAA_5_15.mp3",
-  "audio/experimental/GAH_KAH_3_15.mp3",
-  "audio/experimental/GIH_KIH_5_15.mp3",
-  "audio/experimental/GUH_KUH_3_15.mp3",
-  "audio/experimental/BAA_PAA_3_15.mp3",
-  "audio/experimental/BAH_PAH_3_15.mp3",
-  "audio/experimental/BIH_PIH_1_15.mp3",
-  "audio/experimental/BUH_PUH_3_15.mp3",
-  "audio/experimental/DAA_TAA_3_15.mp3",
-  "audio/experimental/DAH_TAH_3_15.mp3",
-  "audio/experimental/DIH_TIH_3_15.mp3",
-  "audio/experimental/DUH_TUH_3_15.mp3",
-  "audio/experimental/GAA_KAA_5_15.mp3",
-  "audio/experimental/GAH_KAH_3_15.mp3",
-  "audio/experimental/GIH_KIH_5_15.mp3",
-  "audio/experimental/GUH_KUH_3_15.mp3",
-  "audio/experimental/BAA_PAA_3_18.mp3",
-  "audio/experimental/BAH_PAH_3_18.mp3",
-  "audio/experimental/BIH_PIH_1_18.mp3",
-  "audio/experimental/BUH_PUH_3_18.mp3",
-  "audio/experimental/DAA_TAA_3_18.mp3",
-  "audio/experimental/DAH_TAH_3_18.mp3",
-  "audio/experimental/DIH_TIH_3_18.mp3",
-  "audio/experimental/DUH_TUH_3_18.mp3",
-  "audio/experimental/GAA_KAA_5_18.mp3",
-  "audio/experimental/GAH_KAH_3_18.mp3",
-  "audio/experimental/GIH_KIH_5_18.mp3",
-  "audio/experimental/GUH_KUH_3_18.mp3",
-  "audio/experimental/BAA_PAA_3_18.mp3",
-  "audio/experimental/BAH_PAH_3_18.mp3",
-  "audio/experimental/BIH_PIH_1_18.mp3",
-  "audio/experimental/BUH_PUH_3_18.mp3",
-  "audio/experimental/DAA_TAA_3_18.mp3",
-  "audio/experimental/DAH_TAH_3_18.mp3",
-  "audio/experimental/DIH_TIH_3_18.mp3",
-  "audio/experimental/DUH_TUH_3_18.mp3",
-  "audio/experimental/GAA_KAA_5_18.mp3",
-  "audio/experimental/GAH_KAH_3_18.mp3",
-  "audio/experimental/GIH_KIH_5_18.mp3",
-  "audio/experimental/GUH_KUH_3_18.mp3",
-  "audio/experimental/BAA_PAA_3_18.mp3",
-  "audio/experimental/BAH_PAH_3_18.mp3",
-  "audio/experimental/BIH_PIH_1_18.mp3",
-  "audio/experimental/BUH_PUH_3_18.mp3",
-  "audio/experimental/DAA_TAA_3_18.mp3",
-  "audio/experimental/DAH_TAH_3_18.mp3",
-  "audio/experimental/DIH_TIH_3_18.mp3",
-  "audio/experimental/DUH_TUH_3_18.mp3",
-  "audio/experimental/GAA_KAA_5_18.mp3",
-  "audio/experimental/GAH_KAH_3_18.mp3",
-  "audio/experimental/GIH_KIH_5_18.mp3",
-  "audio/experimental/GUH_KUH_3_18.mp3",
-  "audio/experimental/BAA_PAA_3_20.mp3",
-  "audio/experimental/BAH_PAH_3_20.mp3",
-  "audio/experimental/BIH_PIH_1_20.mp3",
-  "audio/experimental/BUH_PUH_3_20.mp3",
-  "audio/experimental/DAA_TAA_3_20.mp3",
-  "audio/experimental/DAH_TAH_3_20.mp3",
-  "audio/experimental/DIH_TIH_3_20.mp3",
-  "audio/experimental/DUH_TUH_3_20.mp3",
-  "audio/experimental/GAA_KAA_5_20.mp3",
-  "audio/experimental/GAH_KAH_3_20.mp3",
-  "audio/experimental/GIH_KIH_5_20.mp3",
-  "audio/experimental/GUH_KUH_3_20.mp3",
-  "audio/experimental/BAA_PAA_3_20.mp3",
-  "audio/experimental/BAH_PAH_3_20.mp3",
-  "audio/experimental/BIH_PIH_1_20.mp3",
-  "audio/experimental/BUH_PUH_3_20.mp3",
-  "audio/experimental/DAA_TAA_3_20.mp3",
-  "audio/experimental/DAH_TAH_3_20.mp3",
-  "audio/experimental/DIH_TIH_3_20.mp3",
-  "audio/experimental/DUH_TUH_3_20.mp3",
-  "audio/experimental/GAA_KAA_5_20.mp3",
-  "audio/experimental/GAH_KAH_3_20.mp3",
-  "audio/experimental/GIH_KIH_5_20.mp3",
-  "audio/experimental/GUH_KUH_3_20.mp3",
-  "audio/experimental/BAA_PAA_3_20.mp3",
-  "audio/experimental/BAH_PAH_3_20.mp3",
-  "audio/experimental/BIH_PIH_1_20.mp3",
-  "audio/experimental/BUH_PUH_3_20.mp3",
-  "audio/experimental/DAA_TAA_3_20.mp3",
-  "audio/experimental/DAH_TAH_3_20.mp3",
-  "audio/experimental/DIH_TIH_3_20.mp3",
-  "audio/experimental/DUH_TUH_3_20.mp3",
-  "audio/experimental/GAA_KAA_5_20.mp3",
-  "audio/experimental/GAH_KAH_3_20.mp3",
-  "audio/experimental/GIH_KIH_5_20.mp3",
-  "audio/experimental/GUH_KUH_3_20.mp3",
-  "audio/experimental/BAA_PAA_3_22.mp3",
-  "audio/experimental/BAH_PAH_3_22.mp3",
-  "audio/experimental/BIH_PIH_1_22.mp3",
-  "audio/experimental/BUH_PUH_3_22.mp3",
-  "audio/experimental/DAA_TAA_3_22.mp3",
-  "audio/experimental/DAH_TAH_3_22.mp3",
-  "audio/experimental/DIH_TIH_3_22.mp3",
-  "audio/experimental/DUH_TUH_3_22.mp3",
-  "audio/experimental/GAA_KAA_5_22.mp3",
-  "audio/experimental/GAH_KAH_3_22.mp3",
-  "audio/experimental/GIH_KIH_5_22.mp3",
-  "audio/experimental/GUH_KUH_3_22.mp3",
-  "audio/experimental/BAA_PAA_3_22.mp3",
-  "audio/experimental/BAH_PAH_3_22.mp3",
-  "audio/experimental/BIH_PIH_1_22.mp3",
-  "audio/experimental/BUH_PUH_3_22.mp3",
-  "audio/experimental/DAA_TAA_3_22.mp3",
-  "audio/experimental/DAH_TAH_3_22.mp3",
-  "audio/experimental/DIH_TIH_3_22.mp3",
-  "audio/experimental/DUH_TUH_3_22.mp3",
-  "audio/experimental/GAA_KAA_5_22.mp3",
-  "audio/experimental/GAH_KAH_3_22.mp3",
-  "audio/experimental/GIH_KIH_5_22.mp3",
-  "audio/experimental/GUH_KUH_3_22.mp3",
-  "audio/experimental/BAA_PAA_3_22.mp3",
-  "audio/experimental/BAH_PAH_3_22.mp3",
-  "audio/experimental/BIH_PIH_1_22.mp3",
-  "audio/experimental/BUH_PUH_3_22.mp3",
-  "audio/experimental/DAA_TAA_3_22.mp3",
-  "audio/experimental/DAH_TAH_3_22.mp3",
-  "audio/experimental/DIH_TIH_3_22.mp3",
-  "audio/experimental/DUH_TUH_3_22.mp3",
-  "audio/experimental/GAA_KAA_5_22.mp3",
-  "audio/experimental/GAH_KAH_3_22.mp3",
-  "audio/experimental/GIH_KIH_5_22.mp3",
-  "audio/experimental/GUH_KUH_3_22.mp3",
-  "audio/experimental/BAA_PAA_3_24.mp3",
-  "audio/experimental/BAH_PAH_3_24.mp3",
-  "audio/experimental/BIH_PIH_1_24.mp3",
-  "audio/experimental/BUH_PUH_3_24.mp3",
-  "audio/experimental/DAA_TAA_3_24.mp3",
-  "audio/experimental/DAH_TAH_3_24.mp3",
-  "audio/experimental/DIH_TIH_3_24.mp3",
-  "audio/experimental/DUH_TUH_3_24.mp3",
-  "audio/experimental/GAA_KAA_5_24.mp3",
-  "audio/experimental/GAH_KAH_3_24.mp3",
-  "audio/experimental/GIH_KIH_5_24.mp3",
-  "audio/experimental/GUH_KUH_3_24.mp3",
-  "audio/experimental/BAA_PAA_3_24.mp3",
-  "audio/experimental/BAH_PAH_3_24.mp3",
-  "audio/experimental/BIH_PIH_1_24.mp3",
-  "audio/experimental/BUH_PUH_3_24.mp3",
-  "audio/experimental/DAA_TAA_3_24.mp3",
-  "audio/experimental/DAH_TAH_3_24.mp3",
-  "audio/experimental/DIH_TIH_3_24.mp3",
-  "audio/experimental/DUH_TUH_3_24.mp3",
-  "audio/experimental/GAA_KAA_5_24.mp3",
-  "audio/experimental/GAH_KAH_3_24.mp3",
-  "audio/experimental/GIH_KIH_5_24.mp3",
-  "audio/experimental/GUH_KUH_3_24.mp3",
-  "audio/experimental/BAA_PAA_3_24.mp3",
-  "audio/experimental/BAH_PAH_3_24.mp3",
-  "audio/experimental/BIH_PIH_1_24.mp3",
-  "audio/experimental/BUH_PUH_3_24.mp3",
-  "audio/experimental/DAA_TAA_3_24.mp3",
-  "audio/experimental/DAH_TAH_3_24.mp3",
-  "audio/experimental/DIH_TIH_3_24.mp3",
-  "audio/experimental/DUH_TUH_3_24.mp3",
-  "audio/experimental/GAA_KAA_5_24.mp3",
-  "audio/experimental/GAH_KAH_3_24.mp3",
-  "audio/experimental/GIH_KIH_5_24.mp3",
-  "audio/experimental/GUH_KUH_3_24.mp3",
-  "audio/experimental/BAA_PAA_3_27.mp3",
-  "audio/experimental/BAH_PAH_3_27.mp3",
-  "audio/experimental/BIH_PIH_1_27.mp3",
-  "audio/experimental/BUH_PUH_3_27.mp3",
-  "audio/experimental/DAA_TAA_3_27.mp3",
-  "audio/experimental/DAH_TAH_3_27.mp3",
-  "audio/experimental/DIH_TIH_3_27.mp3",
-  "audio/experimental/DUH_TUH_3_27.mp3",
-  "audio/experimental/GAA_KAA_5_27.mp3",
-  "audio/experimental/GAH_KAH_3_27.mp3",
-  "audio/experimental/GIH_KIH_5_27.mp3",
-  "audio/experimental/GUH_KUH_3_27.mp3",
-  "audio/experimental/BAA_PAA_3_27.mp3",
-  "audio/experimental/BAH_PAH_3_27.mp3",
-  "audio/experimental/BIH_PIH_1_27.mp3",
-  "audio/experimental/BUH_PUH_3_27.mp3",
-  "audio/experimental/DAA_TAA_3_27.mp3",
-  "audio/experimental/DAH_TAH_3_27.mp3",
-  "audio/experimental/DIH_TIH_3_27.mp3",
-  "audio/experimental/DUH_TUH_3_27.mp3",
-  "audio/experimental/GAA_KAA_5_27.mp3",
-  "audio/experimental/GAH_KAH_3_27.mp3",
-  "audio/experimental/GIH_KIH_5_27.mp3",
-  "audio/experimental/GUH_KUH_3_27.mp3",
-  "audio/experimental/BAA_PAA_3_27.mp3",
-  "audio/experimental/BAH_PAH_3_27.mp3",
-  "audio/experimental/BIH_PIH_1_27.mp3",
-  "audio/experimental/BUH_PUH_3_27.mp3",
-  "audio/experimental/DAA_TAA_3_27.mp3",
-  "audio/experimental/DAH_TAH_3_27.mp3",
-  "audio/experimental/DIH_TIH_3_27.mp3",
-  "audio/experimental/DUH_TUH_3_27.mp3",
-  "audio/experimental/GAA_KAA_5_27.mp3",
-  "audio/experimental/GAH_KAH_3_27.mp3",
-  "audio/experimental/GIH_KIH_5_27.mp3",
-  "audio/experimental/GUH_KUH_3_27.mp3",
-  "audio/experimental/BAA_PAA_3_30.mp3",
-  "audio/experimental/BAH_PAH_3_30.mp3",
-  "audio/experimental/BIH_PIH_1_30.mp3",
-  "audio/experimental/BUH_PUH_3_30.mp3",
-  "audio/experimental/DAA_TAA_3_30.mp3",
-  "audio/experimental/DAH_TAH_3_30.mp3",
-  "audio/experimental/DIH_TIH_3_30.mp3",
-  "audio/experimental/DUH_TUH_3_30.mp3",
-  "audio/experimental/GAA_KAA_5_30.mp3",
-  "audio/experimental/GAH_KAH_3_30.mp3",
-  "audio/experimental/GIH_KIH_5_30.mp3",
-  "audio/experimental/GUH_KUH_3_30.mp3",
-  "audio/experimental/BAA_PAA_3_30.mp3",
-  "audio/experimental/BAH_PAH_3_30.mp3",
-  "audio/experimental/BIH_PIH_1_30.mp3",
-  "audio/experimental/BUH_PUH_3_30.mp3",
-  "audio/experimental/DAA_TAA_3_30.mp3",
-  "audio/experimental/DAH_TAH_3_30.mp3",
-  "audio/experimental/DIH_TIH_3_30.mp3",
-  "audio/experimental/DUH_TUH_3_30.mp3",
-  "audio/experimental/GAA_KAA_5_30.mp3",
-  "audio/experimental/GAH_KAH_3_30.mp3",
-  "audio/experimental/GIH_KIH_5_30.mp3",
-  "audio/experimental/GUH_KUH_3_30.mp3",
-  "audio/experimental/BAA_PAA_3_30.mp3",
-  "audio/experimental/BAH_PAH_3_30.mp3",
-  "audio/experimental/BIH_PIH_1_30.mp3",
-  "audio/experimental/BUH_PUH_3_30.mp3",
-  "audio/experimental/DAA_TAA_3_30.mp3",
-  "audio/experimental/DAH_TAH_3_30.mp3",
-  "audio/experimental/DIH_TIH_3_30.mp3",
-  "audio/experimental/DUH_TUH_3_30.mp3",
-  "audio/experimental/GAA_KAA_5_30.mp3",
-  "audio/experimental/GAH_KAH_3_30.mp3",
-  "audio/experimental/GIH_KIH_5_30.mp3",
-  "audio/experimental/GUH_KUH_3_30.mp3"
+  "audio/test/BAA_PAA_3_0.mp3",
+  "audio/test/BAH_PAH_3_0.mp3",
+  "audio/test/BIH_PIH_1_0.mp3",
+  "audio/test/BUH_PUH_3_0.mp3",
+  "audio/test/DAA_TAA_3_0.mp3",
+  "audio/test/DAH_TAH_3_0.mp3",
+  "audio/test/DIH_TIH_3_0.mp3",
+  "audio/test/DUH_TUH_3_0.mp3",
+  "audio/test/GAA_KAA_5_0.mp3",
+  "audio/test/GAH_KAH_3_0.mp3",
+  "audio/test/GIH_KIH_5_0.mp3",
+  "audio/test/GUH_KUH_3_0.mp3",
+  "audio/test/BAA_PAA_3_0.mp3",
+  "audio/test/BAH_PAH_3_0.mp3",
+  "audio/test/BIH_PIH_1_0.mp3",
+  "audio/test/BUH_PUH_3_0.mp3",
+  "audio/test/DAA_TAA_3_0.mp3",
+  "audio/test/DAH_TAH_3_0.mp3",
+  "audio/test/DIH_TIH_3_0.mp3",
+  "audio/test/DUH_TUH_3_0.mp3",
+  "audio/test/GAA_KAA_5_0.mp3",
+  "audio/test/GAH_KAH_3_0.mp3",
+  "audio/test/GIH_KIH_5_0.mp3",
+  "audio/test/GUH_KUH_3_0.mp3",
+  "audio/test/BAA_PAA_3_0.mp3",
+  "audio/test/BAH_PAH_3_0.mp3",
+  "audio/test/BIH_PIH_1_0.mp3",
+  "audio/test/BUH_PUH_3_0.mp3",
+  "audio/test/DAA_TAA_3_0.mp3",
+  "audio/test/DAH_TAH_3_0.mp3",
+  "audio/test/DIH_TIH_3_0.mp3",
+  "audio/test/DUH_TUH_3_0.mp3",
+  "audio/test/GAA_KAA_5_0.mp3",
+  "audio/test/GAH_KAH_3_0.mp3",
+  "audio/test/GIH_KIH_5_0.mp3",
+  "audio/test/GUH_KUH_3_0.mp3",
+  "audio/test/BAA_PAA_3_5.mp3",
+  "audio/test/BAH_PAH_3_5.mp3",
+  "audio/test/BIH_PIH_1_5.mp3",
+  "audio/test/BUH_PUH_3_5.mp3",
+  "audio/test/DAA_TAA_3_5.mp3",
+  "audio/test/DAH_TAH_3_5.mp3",
+  "audio/test/DIH_TIH_3_5.mp3",
+  "audio/test/DUH_TUH_3_5.mp3",
+  "audio/test/GAA_KAA_5_5.mp3",
+  "audio/test/GAH_KAH_3_5.mp3",
+  "audio/test/GIH_KIH_5_5.mp3",
+  "audio/test/GUH_KUH_3_5.mp3",
+  "audio/test/BAA_PAA_3_5.mp3",
+  "audio/test/BAH_PAH_3_5.mp3",
+  "audio/test/BIH_PIH_1_5.mp3",
+  "audio/test/BUH_PUH_3_5.mp3",
+  "audio/test/DAA_TAA_3_5.mp3",
+  "audio/test/DAH_TAH_3_5.mp3",
+  "audio/test/DIH_TIH_3_5.mp3",
+  "audio/test/DUH_TUH_3_5.mp3",
+  "audio/test/GAA_KAA_5_5.mp3",
+  "audio/test/GAH_KAH_3_5.mp3",
+  "audio/test/GIH_KIH_5_5.mp3",
+  "audio/test/GUH_KUH_3_5.mp3",
+  "audio/test/BAA_PAA_3_5.mp3",
+  "audio/test/BAH_PAH_3_5.mp3",
+  "audio/test/BIH_PIH_1_5.mp3",
+  "audio/test/BUH_PUH_3_5.mp3",
+  "audio/test/DAA_TAA_3_5.mp3",
+  "audio/test/DAH_TAH_3_5.mp3",
+  "audio/test/DIH_TIH_3_5.mp3",
+  "audio/test/DUH_TUH_3_5.mp3",
+  "audio/test/GAA_KAA_5_5.mp3",
+  "audio/test/GAH_KAH_3_5.mp3",
+  "audio/test/GIH_KIH_5_5.mp3",
+  "audio/test/GUH_KUH_3_5.mp3",
+  "audio/test/BAA_PAA_3_10.mp3",
+  "audio/test/BAH_PAH_3_10.mp3",
+  "audio/test/BIH_PIH_1_10.mp3",
+  "audio/test/BUH_PUH_3_10.mp3",
+  "audio/test/DAA_TAA_3_10.mp3",
+  "audio/test/DAH_TAH_3_10.mp3",
+  "audio/test/DIH_TIH_3_10.mp3",
+  "audio/test/DUH_TUH_3_10.mp3",
+  "audio/test/GAA_KAA_5_10.mp3",
+  "audio/test/GAH_KAH_3_10.mp3",
+  "audio/test/GIH_KIH_5_10.mp3",
+  "audio/test/GUH_KUH_3_10.mp3",
+  "audio/test/BAA_PAA_3_10.mp3",
+  "audio/test/BAH_PAH_3_10.mp3",
+  "audio/test/BIH_PIH_1_10.mp3",
+  "audio/test/BUH_PUH_3_10.mp3",
+  "audio/test/DAA_TAA_3_10.mp3",
+  "audio/test/DAH_TAH_3_10.mp3",
+  "audio/test/DIH_TIH_3_10.mp3",
+  "audio/test/DUH_TUH_3_10.mp3",
+  "audio/test/GAA_KAA_5_10.mp3",
+  "audio/test/GAH_KAH_3_10.mp3",
+  "audio/test/GIH_KIH_5_10.mp3",
+  "audio/test/GUH_KUH_3_10.mp3",
+  "audio/test/BAA_PAA_3_10.mp3",
+  "audio/test/BAH_PAH_3_10.mp3",
+  "audio/test/BIH_PIH_1_10.mp3",
+  "audio/test/BUH_PUH_3_10.mp3",
+  "audio/test/DAA_TAA_3_10.mp3",
+  "audio/test/DAH_TAH_3_10.mp3",
+  "audio/test/DIH_TIH_3_10.mp3",
+  "audio/test/DUH_TUH_3_10.mp3",
+  "audio/test/GAA_KAA_5_10.mp3",
+  "audio/test/GAH_KAH_3_10.mp3",
+  "audio/test/GIH_KIH_5_10.mp3",
+  "audio/test/GUH_KUH_3_10.mp3",
+  "audio/test/BAA_PAA_3_15.mp3",
+  "audio/test/BAH_PAH_3_15.mp3",
+  "audio/test/BIH_PIH_1_15.mp3",
+  "audio/test/BUH_PUH_3_15.mp3",
+  "audio/test/DAA_TAA_3_15.mp3",
+  "audio/test/DAH_TAH_3_15.mp3",
+  "audio/test/DIH_TIH_3_15.mp3",
+  "audio/test/DUH_TUH_3_15.mp3",
+  "audio/test/GAA_KAA_5_15.mp3",
+  "audio/test/GAH_KAH_3_15.mp3",
+  "audio/test/GIH_KIH_5_15.mp3",
+  "audio/test/GUH_KUH_3_15.mp3",
+  "audio/test/BAA_PAA_3_15.mp3",
+  "audio/test/BAH_PAH_3_15.mp3",
+  "audio/test/BIH_PIH_1_15.mp3",
+  "audio/test/BUH_PUH_3_15.mp3",
+  "audio/test/DAA_TAA_3_15.mp3",
+  "audio/test/DAH_TAH_3_15.mp3",
+  "audio/test/DIH_TIH_3_15.mp3",
+  "audio/test/DUH_TUH_3_15.mp3",
+  "audio/test/GAA_KAA_5_15.mp3",
+  "audio/test/GAH_KAH_3_15.mp3",
+  "audio/test/GIH_KIH_5_15.mp3",
+  "audio/test/GUH_KUH_3_15.mp3",
+  "audio/test/BAA_PAA_3_15.mp3",
+  "audio/test/BAH_PAH_3_15.mp3",
+  "audio/test/BIH_PIH_1_15.mp3",
+  "audio/test/BUH_PUH_3_15.mp3",
+  "audio/test/DAA_TAA_3_15.mp3",
+  "audio/test/DAH_TAH_3_15.mp3",
+  "audio/test/DIH_TIH_3_15.mp3",
+  "audio/test/DUH_TUH_3_15.mp3",
+  "audio/test/GAA_KAA_5_15.mp3",
+  "audio/test/GAH_KAH_3_15.mp3",
+  "audio/test/GIH_KIH_5_15.mp3",
+  "audio/test/GUH_KUH_3_15.mp3",
+  "audio/test/BAA_PAA_3_18.mp3",
+  "audio/test/BAH_PAH_3_18.mp3",
+  "audio/test/BIH_PIH_1_18.mp3",
+  "audio/test/BUH_PUH_3_18.mp3",
+  "audio/test/DAA_TAA_3_18.mp3",
+  "audio/test/DAH_TAH_3_18.mp3",
+  "audio/test/DIH_TIH_3_18.mp3",
+  "audio/test/DUH_TUH_3_18.mp3",
+  "audio/test/GAA_KAA_5_18.mp3",
+  "audio/test/GAH_KAH_3_18.mp3",
+  "audio/test/GIH_KIH_5_18.mp3",
+  "audio/test/GUH_KUH_3_18.mp3",
+  "audio/test/BAA_PAA_3_18.mp3",
+  "audio/test/BAH_PAH_3_18.mp3",
+  "audio/test/BIH_PIH_1_18.mp3",
+  "audio/test/BUH_PUH_3_18.mp3",
+  "audio/test/DAA_TAA_3_18.mp3",
+  "audio/test/DAH_TAH_3_18.mp3",
+  "audio/test/DIH_TIH_3_18.mp3",
+  "audio/test/DUH_TUH_3_18.mp3",
+  "audio/test/GAA_KAA_5_18.mp3",
+  "audio/test/GAH_KAH_3_18.mp3",
+  "audio/test/GIH_KIH_5_18.mp3",
+  "audio/test/GUH_KUH_3_18.mp3",
+  "audio/test/BAA_PAA_3_18.mp3",
+  "audio/test/BAH_PAH_3_18.mp3",
+  "audio/test/BIH_PIH_1_18.mp3",
+  "audio/test/BUH_PUH_3_18.mp3",
+  "audio/test/DAA_TAA_3_18.mp3",
+  "audio/test/DAH_TAH_3_18.mp3",
+  "audio/test/DIH_TIH_3_18.mp3",
+  "audio/test/DUH_TUH_3_18.mp3",
+  "audio/test/GAA_KAA_5_18.mp3",
+  "audio/test/GAH_KAH_3_18.mp3",
+  "audio/test/GIH_KIH_5_18.mp3",
+  "audio/test/GUH_KUH_3_18.mp3",
+  "audio/test/BAA_PAA_3_20.mp3",
+  "audio/test/BAH_PAH_3_20.mp3",
+  "audio/test/BIH_PIH_1_20.mp3",
+  "audio/test/BUH_PUH_3_20.mp3",
+  "audio/test/DAA_TAA_3_20.mp3",
+  "audio/test/DAH_TAH_3_20.mp3",
+  "audio/test/DIH_TIH_3_20.mp3",
+  "audio/test/DUH_TUH_3_20.mp3",
+  "audio/test/GAA_KAA_5_20.mp3",
+  "audio/test/GAH_KAH_3_20.mp3",
+  "audio/test/GIH_KIH_5_20.mp3",
+  "audio/test/GUH_KUH_3_20.mp3",
+  "audio/test/BAA_PAA_3_20.mp3",
+  "audio/test/BAH_PAH_3_20.mp3",
+  "audio/test/BIH_PIH_1_20.mp3",
+  "audio/test/BUH_PUH_3_20.mp3",
+  "audio/test/DAA_TAA_3_20.mp3",
+  "audio/test/DAH_TAH_3_20.mp3",
+  "audio/test/DIH_TIH_3_20.mp3",
+  "audio/test/DUH_TUH_3_20.mp3",
+  "audio/test/GAA_KAA_5_20.mp3",
+  "audio/test/GAH_KAH_3_20.mp3",
+  "audio/test/GIH_KIH_5_20.mp3",
+  "audio/test/GUH_KUH_3_20.mp3",
+  "audio/test/BAA_PAA_3_20.mp3",
+  "audio/test/BAH_PAH_3_20.mp3",
+  "audio/test/BIH_PIH_1_20.mp3",
+  "audio/test/BUH_PUH_3_20.mp3",
+  "audio/test/DAA_TAA_3_20.mp3",
+  "audio/test/DAH_TAH_3_20.mp3",
+  "audio/test/DIH_TIH_3_20.mp3",
+  "audio/test/DUH_TUH_3_20.mp3",
+  "audio/test/GAA_KAA_5_20.mp3",
+  "audio/test/GAH_KAH_3_20.mp3",
+  "audio/test/GIH_KIH_5_20.mp3",
+  "audio/test/GUH_KUH_3_20.mp3",
+  "audio/test/BAA_PAA_3_22.mp3",
+  "audio/test/BAH_PAH_3_22.mp3",
+  "audio/test/BIH_PIH_1_22.mp3",
+  "audio/test/BUH_PUH_3_22.mp3",
+  "audio/test/DAA_TAA_3_22.mp3",
+  "audio/test/DAH_TAH_3_22.mp3",
+  "audio/test/DIH_TIH_3_22.mp3",
+  "audio/test/DUH_TUH_3_22.mp3",
+  "audio/test/GAA_KAA_5_22.mp3",
+  "audio/test/GAH_KAH_3_22.mp3",
+  "audio/test/GIH_KIH_5_22.mp3",
+  "audio/test/GUH_KUH_3_22.mp3",
+  "audio/test/BAA_PAA_3_22.mp3",
+  "audio/test/BAH_PAH_3_22.mp3",
+  "audio/test/BIH_PIH_1_22.mp3",
+  "audio/test/BUH_PUH_3_22.mp3",
+  "audio/test/DAA_TAA_3_22.mp3",
+  "audio/test/DAH_TAH_3_22.mp3",
+  "audio/test/DIH_TIH_3_22.mp3",
+  "audio/test/DUH_TUH_3_22.mp3",
+  "audio/test/GAA_KAA_5_22.mp3",
+  "audio/test/GAH_KAH_3_22.mp3",
+  "audio/test/GIH_KIH_5_22.mp3",
+  "audio/test/GUH_KUH_3_22.mp3",
+  "audio/test/BAA_PAA_3_22.mp3",
+  "audio/test/BAH_PAH_3_22.mp3",
+  "audio/test/BIH_PIH_1_22.mp3",
+  "audio/test/BUH_PUH_3_22.mp3",
+  "audio/test/DAA_TAA_3_22.mp3",
+  "audio/test/DAH_TAH_3_22.mp3",
+  "audio/test/DIH_TIH_3_22.mp3",
+  "audio/test/DUH_TUH_3_22.mp3",
+  "audio/test/GAA_KAA_5_22.mp3",
+  "audio/test/GAH_KAH_3_22.mp3",
+  "audio/test/GIH_KIH_5_22.mp3",
+  "audio/test/GUH_KUH_3_22.mp3",
+  "audio/test/BAA_PAA_3_24.mp3",
+  "audio/test/BAH_PAH_3_24.mp3",
+  "audio/test/BIH_PIH_1_24.mp3",
+  "audio/test/BUH_PUH_3_24.mp3",
+  "audio/test/DAA_TAA_3_24.mp3",
+  "audio/test/DAH_TAH_3_24.mp3",
+  "audio/test/DIH_TIH_3_24.mp3",
+  "audio/test/DUH_TUH_3_24.mp3",
+  "audio/test/GAA_KAA_5_24.mp3",
+  "audio/test/GAH_KAH_3_24.mp3",
+  "audio/test/GIH_KIH_5_24.mp3",
+  "audio/test/GUH_KUH_3_24.mp3",
+  "audio/test/BAA_PAA_3_24.mp3",
+  "audio/test/BAH_PAH_3_24.mp3",
+  "audio/test/BIH_PIH_1_24.mp3",
+  "audio/test/BUH_PUH_3_24.mp3",
+  "audio/test/DAA_TAA_3_24.mp3",
+  "audio/test/DAH_TAH_3_24.mp3",
+  "audio/test/DIH_TIH_3_24.mp3",
+  "audio/test/DUH_TUH_3_24.mp3",
+  "audio/test/GAA_KAA_5_24.mp3",
+  "audio/test/GAH_KAH_3_24.mp3",
+  "audio/test/GIH_KIH_5_24.mp3",
+  "audio/test/GUH_KUH_3_24.mp3",
+  "audio/test/BAA_PAA_3_24.mp3",
+  "audio/test/BAH_PAH_3_24.mp3",
+  "audio/test/BIH_PIH_1_24.mp3",
+  "audio/test/BUH_PUH_3_24.mp3",
+  "audio/test/DAA_TAA_3_24.mp3",
+  "audio/test/DAH_TAH_3_24.mp3",
+  "audio/test/DIH_TIH_3_24.mp3",
+  "audio/test/DUH_TUH_3_24.mp3",
+  "audio/test/GAA_KAA_5_24.mp3",
+  "audio/test/GAH_KAH_3_24.mp3",
+  "audio/test/GIH_KIH_5_24.mp3",
+  "audio/test/GUH_KUH_3_24.mp3",
+  "audio/test/BAA_PAA_3_27.mp3",
+  "audio/test/BAH_PAH_3_27.mp3",
+  "audio/test/BIH_PIH_1_27.mp3",
+  "audio/test/BUH_PUH_3_27.mp3",
+  "audio/test/DAA_TAA_3_27.mp3",
+  "audio/test/DAH_TAH_3_27.mp3",
+  "audio/test/DIH_TIH_3_27.mp3",
+  "audio/test/DUH_TUH_3_27.mp3",
+  "audio/test/GAA_KAA_5_27.mp3",
+  "audio/test/GAH_KAH_3_27.mp3",
+  "audio/test/GIH_KIH_5_27.mp3",
+  "audio/test/GUH_KUH_3_27.mp3",
+  "audio/test/BAA_PAA_3_27.mp3",
+  "audio/test/BAH_PAH_3_27.mp3",
+  "audio/test/BIH_PIH_1_27.mp3",
+  "audio/test/BUH_PUH_3_27.mp3",
+  "audio/test/DAA_TAA_3_27.mp3",
+  "audio/test/DAH_TAH_3_27.mp3",
+  "audio/test/DIH_TIH_3_27.mp3",
+  "audio/test/DUH_TUH_3_27.mp3",
+  "audio/test/GAA_KAA_5_27.mp3",
+  "audio/test/GAH_KAH_3_27.mp3",
+  "audio/test/GIH_KIH_5_27.mp3",
+  "audio/test/GUH_KUH_3_27.mp3",
+  "audio/test/BAA_PAA_3_27.mp3",
+  "audio/test/BAH_PAH_3_27.mp3",
+  "audio/test/BIH_PIH_1_27.mp3",
+  "audio/test/BUH_PUH_3_27.mp3",
+  "audio/test/DAA_TAA_3_27.mp3",
+  "audio/test/DAH_TAH_3_27.mp3",
+  "audio/test/DIH_TIH_3_27.mp3",
+  "audio/test/DUH_TUH_3_27.mp3",
+  "audio/test/GAA_KAA_5_27.mp3",
+  "audio/test/GAH_KAH_3_27.mp3",
+  "audio/test/GIH_KIH_5_27.mp3",
+  "audio/test/GUH_KUH_3_27.mp3",
+  "audio/test/BAA_PAA_3_30.mp3",
+  "audio/test/BAH_PAH_3_30.mp3",
+  "audio/test/BIH_PIH_1_30.mp3",
+  "audio/test/BUH_PUH_3_30.mp3",
+  "audio/test/DAA_TAA_3_30.mp3",
+  "audio/test/DAH_TAH_3_30.mp3",
+  "audio/test/DIH_TIH_3_30.mp3",
+  "audio/test/DUH_TUH_3_30.mp3",
+  "audio/test/GAA_KAA_5_30.mp3",
+  "audio/test/GAH_KAH_3_30.mp3",
+  "audio/test/GIH_KIH_5_30.mp3",
+  "audio/test/GUH_KUH_3_30.mp3",
+  "audio/test/BAA_PAA_3_30.mp3",
+  "audio/test/BAH_PAH_3_30.mp3",
+  "audio/test/BIH_PIH_1_30.mp3",
+  "audio/test/BUH_PUH_3_30.mp3",
+  "audio/test/DAA_TAA_3_30.mp3",
+  "audio/test/DAH_TAH_3_30.mp3",
+  "audio/test/DIH_TIH_3_30.mp3",
+  "audio/test/DUH_TUH_3_30.mp3",
+  "audio/test/GAA_KAA_5_30.mp3",
+  "audio/test/GAH_KAH_3_30.mp3",
+  "audio/test/GIH_KIH_5_30.mp3",
+  "audio/test/GUH_KUH_3_30.mp3",
+  "audio/test/BAA_PAA_3_30.mp3",
+  "audio/test/BAH_PAH_3_30.mp3",
+  "audio/test/BIH_PIH_1_30.mp3",
+  "audio/test/BUH_PUH_3_30.mp3",
+  "audio/test/DAA_TAA_3_30.mp3",
+  "audio/test/DAH_TAH_3_30.mp3",
+  "audio/test/DIH_TIH_3_30.mp3",
+  "audio/test/DUH_TUH_3_30.mp3",
+  "audio/test/GAA_KAA_5_30.mp3",
+  "audio/test/GAH_KAH_3_30.mp3",
+  "audio/test/GIH_KIH_5_30.mp3",
+  "audio/test/GUH_KUH_3_30.mp3"
 ]

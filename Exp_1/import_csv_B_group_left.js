@@ -25,7 +25,7 @@ const writeResults = (word, nonword, assets) => {
 }
 
 // Getting read for trial
-fs.createReadStream('B_group_left/trial_csv/exposure_B_group.csv')
+fs.createReadStream('B_group_left/trial_csv/exposure_B_group_left.csv')
 	.pipe(csv())
 	.on('data', data => {
 		exposureResults.push(data)
@@ -35,8 +35,8 @@ fs.createReadStream('B_group_left/trial_csv/exposure_B_group.csv')
 		])
 	})
 	.on('end', () => {
-		console.log('done reading exposure_B_group.csv')
-		fs.createReadStream('B_group_left/trial_csv/test_B_group.csv')
+		console.log('done reading exposure_B_group_left.csv')
+		fs.createReadStream('B_group_left/trial_csv/test_B_group_left.csv')
 			.pipe(csv())
 			.on('data', data => {
 				testResults.push(data)
@@ -45,7 +45,7 @@ fs.createReadStream('B_group_left/trial_csv/exposure_B_group.csv')
 				])
 			})
 			.on('end', () => {
-				console.log('done reading test_B_group.csv')
+				console.log('done reading test_B_group_left.csv')
 				writeResults(exposureResults, testResults, assetPaths)
 			})
 	})
