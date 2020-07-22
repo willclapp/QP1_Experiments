@@ -12,7 +12,7 @@ var exposure_stimuli = [
     "set": "Ballerina_Pallerina_1",
     "step": "15",
     "recording": "1",
-    "path": "Ballerina_Pallerina_1_15.mp3"
+    "path": "ambiguous/Ballerina_Pallerina_1_15.mp3"
   },
   {
     "index": "2",
@@ -26,7 +26,7 @@ var exposure_stimuli = [
     "set": "Balloon_Palloon_3",
     "step": "12",
     "recording": "3",
-    "path": "Balloon_Palloon_3_12.mp3"
+    "path": "ambiguous/Balloon_Palloon_3_12.mp3"
   },
   {
     "index": "3",
@@ -40,7 +40,7 @@ var exposure_stimuli = [
     "set": "Baloney_Paloney_1",
     "step": "10",
     "recording": "1",
-    "path": "Baloney_Paloney_1_10.mp3"
+    "path": "ambiguous/Baloney_Paloney_1_10.mp3"
   },
   {
     "index": "4",
@@ -54,7 +54,7 @@ var exposure_stimuli = [
     "set": "Banana_Panana_3",
     "step": "17",
     "recording": "3",
-    "path": "Banana_Panana_3_17.mp3"
+    "path": "ambiguous/Banana_Panana_3_17.mp3"
   },
   {
     "index": "5",
@@ -68,7 +68,7 @@ var exposure_stimuli = [
     "set": "Barely_Parely_1",
     "step": "7",
     "recording": "1",
-    "path": "Barely_Parely_1_7.mp3"
+    "path": "ambiguous/Barely_Parely_1_7.mp3"
   },
   {
     "index": "6",
@@ -82,7 +82,7 @@ var exposure_stimuli = [
     "set": "Barn_Parn_1",
     "step": "20",
     "recording": "1",
-    "path": "Barn_Parn_1_20.mp3"
+    "path": "ambiguous/Barn_Parn_1_20.mp3"
   },
   {
     "index": "7",
@@ -96,7 +96,7 @@ var exposure_stimuli = [
     "set": "Barren_Parren_3",
     "step": "17",
     "recording": "3",
-    "path": "Barren_Parren_3_17.mp3"
+    "path": "ambiguous/Barren_Parren_3_17.mp3"
   },
   {
     "index": "8",
@@ -110,7 +110,7 @@ var exposure_stimuli = [
     "set": "Belly_Pelly_3",
     "step": "17",
     "recording": "3",
-    "path": "Belly_Pelly_3_17.mp3"
+    "path": "ambiguous/Belly_Pelly_3_17.mp3"
   },
   {
     "index": "9",
@@ -124,7 +124,7 @@ var exposure_stimuli = [
     "set": "Benign_Penign_3",
     "step": "14",
     "recording": "3",
-    "path": "Benign_Penign_3_14.mp3"
+    "path": "ambiguous/Benign_Penign_3_14.mp3"
   },
   {
     "index": "10",
@@ -138,7 +138,7 @@ var exposure_stimuli = [
     "set": "Biannual_Piannual_3",
     "step": "7",
     "recording": "3",
-    "path": "Biannual_Piannual_3_7.mp3"
+    "path": "ambiguous/Biannual_Piannual_3_7.mp3"
   },
   {
     "index": "11",
@@ -152,7 +152,7 @@ var exposure_stimuli = [
     "set": "Billion_Pillion_3",
     "step": "18",
     "recording": "3",
-    "path": "Billion_Pillion_3_18.mp3"
+    "path": "ambiguous/Billion_Pillion_3_18.mp3"
   },
   {
     "index": "12",
@@ -166,7 +166,7 @@ var exposure_stimuli = [
     "set": "Billionaire_Pillionaire_3",
     "step": "8",
     "recording": "3",
-    "path": "Billionaire_Pillionaire_3_8.mp3"
+    "path": "ambiguous/Billionaire_Pillionaire_3_8.mp3"
   },
   {
     "index": "13",
@@ -180,7 +180,7 @@ var exposure_stimuli = [
     "set": "Blue_Plue_3",
     "step": "17",
     "recording": "3",
-    "path": "Blue_Plue_3_17.mp3"
+    "path": "ambiguous/Blue_Plue_3_17.mp3"
   },
   {
     "index": "14",
@@ -194,7 +194,7 @@ var exposure_stimuli = [
     "set": "Boil_Poil_1",
     "step": "15",
     "recording": "1",
-    "path": "Boil_Poil_1_15.mp3"
+    "path": "ambiguous/Boil_Poil_1_15.mp3"
   },
   {
     "index": "15",
@@ -208,7 +208,7 @@ var exposure_stimuli = [
     "set": "Boom_Poom_1",
     "step": "15",
     "recording": "1",
-    "path": "Boom_Poom_1_15.mp3"
+    "path": "ambiguous/Boom_Poom_1_15.mp3"
   },
   {
     "index": "16",
@@ -222,7 +222,7 @@ var exposure_stimuli = [
     "set": "Brain_Prain_3",
     "step": "19",
     "recording": "3",
-    "path": "Brain_Prain_3_19.mp3"
+    "path": "ambiguous/Brain_Prain_3_19.mp3"
   },
   {
     "index": "17",
@@ -236,7 +236,7 @@ var exposure_stimuli = [
     "set": "Brewery_Prewery_1",
     "step": "13",
     "recording": "1",
-    "path": "Brewery_Prewery_1_13.mp3"
+    "path": "ambiguous/Brewery_Prewery_1_13.mp3"
   },
   {
     "index": "18",
@@ -250,7 +250,7 @@ var exposure_stimuli = [
     "set": "Brown_Prown_3",
     "step": "11",
     "recording": "3",
-    "path": "Brown_Prown_3_11.mp3"
+    "path": "ambiguous/Brown_Prown_3_11.mp3"
   },
   {
     "index": "19",
@@ -264,7 +264,7 @@ var exposure_stimuli = [
     "set": "Burial_Purial_1",
     "step": "17",
     "recording": "1",
-    "path": "Burial_Purial_1_17.mp3"
+    "path": "ambiguous/Burial_Purial_1_17.mp3"
   },
   {
     "index": "20",
@@ -278,7 +278,7 @@ var exposure_stimuli = [
     "set": "Burrow_Purrow_3",
     "step": "9",
     "recording": "3",
-    "path": "Burrow_Purrow_3_9.mp3"
+    "path": "ambiguous/Burrow_Purrow_3_9.mp3"
   },
   {
     "index": "21",
@@ -292,7 +292,7 @@ var exposure_stimuli = [
     "set": "Barallel_Parallel",
     "step": "NA",
     "recording": "4",
-    "path": "Barallel_Parallel_4.mp3"
+    "path": "unambiguous/Barallel_Parallel_4.mp3"
   },
   {
     "index": "22",
@@ -306,7 +306,7 @@ var exposure_stimuli = [
     "set": "Barlor_Parlor",
     "step": "NA",
     "recording": "4",
-    "path": "Barlor_Parlor_4.mp3"
+    "path": "unambiguous/Barlor_Parlor_4.mp3"
   },
   {
     "index": "23",
@@ -320,7 +320,7 @@ var exposure_stimuli = [
     "set": "Bawn_Pawn",
     "step": "NA",
     "recording": "2",
-    "path": "Bawn_Pawn_2.mp3"
+    "path": "unambiguous/Bawn_Pawn_2.mp3"
   },
   {
     "index": "24",
@@ -334,7 +334,7 @@ var exposure_stimuli = [
     "set": "Beninsula_Peninsula",
     "step": "NA",
     "recording": "2",
-    "path": "Beninsula_Peninsula_2.mp3"
+    "path": "unambiguous/Beninsula_Peninsula_2.mp3"
   },
   {
     "index": "25",
@@ -348,7 +348,7 @@ var exposure_stimuli = [
     "set": "Berform_Perform",
     "step": "NA",
     "recording": "2",
-    "path": "Berform_Perform_2.mp3"
+    "path": "unambiguous/Berform_Perform_2.mp3"
   },
   {
     "index": "26",
@@ -362,7 +362,7 @@ var exposure_stimuli = [
     "set": "Bioneer_Pioneer",
     "step": "NA",
     "recording": "4",
-    "path": "Bioneer_Pioneer_4.mp3"
+    "path": "unambiguous/Bioneer_Pioneer_4.mp3"
   },
   {
     "index": "27",
@@ -376,7 +376,7 @@ var exposure_stimuli = [
     "set": "Blanner_Planner",
     "step": "NA",
     "recording": "2",
-    "path": "Blanner_Planner_2.mp3"
+    "path": "unambiguous/Blanner_Planner_2.mp3"
   },
   {
     "index": "28",
@@ -390,7 +390,7 @@ var exposure_stimuli = [
     "set": "Blea_Plea",
     "step": "NA",
     "recording": "2",
-    "path": "Blea_Plea_2.mp3"
+    "path": "unambiguous/Blea_Plea_2.mp3"
   },
   {
     "index": "29",
@@ -404,7 +404,7 @@ var exposure_stimuli = [
     "set": "Blyer_Plyer",
     "step": "NA",
     "recording": "2",
-    "path": "Blyer_Plyer_2.mp3"
+    "path": "unambiguous/Blyer_Plyer_2.mp3"
   },
   {
     "index": "30",
@@ -418,7 +418,7 @@ var exposure_stimuli = [
     "set": "Bollen_Pollen",
     "step": "NA",
     "recording": "2",
-    "path": "Bollen_Pollen_2.mp3"
+    "path": "unambiguous/Bollen_Pollen_2.mp3"
   },
   {
     "index": "31",
@@ -432,7 +432,7 @@ var exposure_stimuli = [
     "set": "Bolymer_Polymer",
     "step": "NA",
     "recording": "2",
-    "path": "Bolymer_Polymer_2.mp3"
+    "path": "unambiguous/Bolymer_Polymer_2.mp3"
   },
   {
     "index": "32",
@@ -446,7 +446,7 @@ var exposure_stimuli = [
     "set": "Brayer_Prayer",
     "step": "NA",
     "recording": "2",
-    "path": "Brayer_Prayer_2.mp3"
+    "path": "unambiguous/Brayer_Prayer_2.mp3"
   },
   {
     "index": "33",
@@ -460,7 +460,7 @@ var exposure_stimuli = [
     "set": "Breliminary_Preliminary",
     "step": "NA",
     "recording": "2",
-    "path": "Breliminary_Preliminary_2.mp3"
+    "path": "unambiguous/Breliminary_Preliminary_2.mp3"
   },
   {
     "index": "34",
@@ -474,7 +474,7 @@ var exposure_stimuli = [
     "set": "Bremier_Premier",
     "step": "NA",
     "recording": "2",
-    "path": "Bremier_Premier_2.mp3"
+    "path": "unambiguous/Bremier_Premier_2.mp3"
   },
   {
     "index": "35",
@@ -488,7 +488,7 @@ var exposure_stimuli = [
     "set": "Brimal_Primal",
     "step": "NA",
     "recording": "2",
-    "path": "Brimal_Primal_2.mp3"
+    "path": "unambiguous/Brimal_Primal_2.mp3"
   },
   {
     "index": "36",
@@ -502,7 +502,7 @@ var exposure_stimuli = [
     "set": "Brime_Prime",
     "step": "NA",
     "recording": "2",
-    "path": "Brime_Prime_2.mp3"
+    "path": "unambiguous/Brime_Prime_2.mp3"
   },
   {
     "index": "37",
@@ -516,7 +516,7 @@ var exposure_stimuli = [
     "set": "Brior_Prior",
     "step": "NA",
     "recording": "2",
-    "path": "Brior_Prior_2.mp3"
+    "path": "unambiguous/Brior_Prior_2.mp3"
   },
   {
     "index": "38",
@@ -530,7 +530,7 @@ var exposure_stimuli = [
     "set": "Browl_Prowl",
     "step": "NA",
     "recording": "2",
-    "path": "Browl_Prowl_2.mp3"
+    "path": "unambiguous/Browl_Prowl_2.mp3"
   },
   {
     "index": "39",
@@ -544,7 +544,7 @@ var exposure_stimuli = [
     "set": "Bry_Pry",
     "step": "NA",
     "recording": "2",
-    "path": "Bry_Pry_2.mp3"
+    "path": "unambiguous/Bry_Pry_2.mp3"
   },
   {
     "index": "40",
@@ -558,7 +558,7 @@ var exposure_stimuli = [
     "set": "Bylon_Pylon",
     "step": "NA",
     "recording": "2",
-    "path": "Bylon_Pylon_2.mp3"
+    "path": "unambiguous/Bylon_Pylon_2.mp3"
   },
   {
     "index": "41",
@@ -572,7 +572,7 @@ var exposure_stimuli = [
     "set": "Aisle",
     "step": "NA",
     "recording": "1",
-    "path": "Aisle_1.mp3"
+    "path": "word/Aisle_1.mp3"
   },
   {
     "index": "42",
@@ -586,7 +586,7 @@ var exposure_stimuli = [
     "set": "Ally",
     "step": "NA",
     "recording": "1",
-    "path": "Ally_1.mp3"
+    "path": "word/Ally_1.mp3"
   },
   {
     "index": "43",
@@ -600,7 +600,7 @@ var exposure_stimuli = [
     "set": "Area",
     "step": "NA",
     "recording": "1",
-    "path": "Area_1.mp3"
+    "path": "word/Area_1.mp3"
   },
   {
     "index": "44",
@@ -614,7 +614,7 @@ var exposure_stimuli = [
     "set": "Arena",
     "step": "NA",
     "recording": "1",
-    "path": "Arena_1.mp3"
+    "path": "word/Arena_1.mp3"
   },
   {
     "index": "45",
@@ -628,7 +628,7 @@ var exposure_stimuli = [
     "set": "Arrow",
     "step": "NA",
     "recording": "1",
-    "path": "Arrow_1.mp3"
+    "path": "word/Arrow_1.mp3"
   },
   {
     "index": "46",
@@ -642,7 +642,7 @@ var exposure_stimuli = [
     "set": "Assume",
     "step": "NA",
     "recording": "1",
-    "path": "Assume_1.mp3"
+    "path": "word/Assume_1.mp3"
   },
   {
     "index": "47",
@@ -656,7 +656,7 @@ var exposure_stimuli = [
     "set": "Aware",
     "step": "NA",
     "recording": "1",
-    "path": "Aware_1.mp3"
+    "path": "word/Aware_1.mp3"
   },
   {
     "index": "48",
@@ -670,7 +670,7 @@ var exposure_stimuli = [
     "set": "Enemy",
     "step": "NA",
     "recording": "1",
-    "path": "Enemy_1.mp3"
+    "path": "word/Enemy_1.mp3"
   },
   {
     "index": "49",
@@ -684,7 +684,7 @@ var exposure_stimuli = [
     "set": "Ensure",
     "step": "NA",
     "recording": "1",
-    "path": "Ensure_1.mp3"
+    "path": "word/Ensure_1.mp3"
   },
   {
     "index": "50",
@@ -698,7 +698,7 @@ var exposure_stimuli = [
     "set": "Error",
     "step": "NA",
     "recording": "1",
-    "path": "Error_1.mp3"
+    "path": "word/Error_1.mp3"
   },
   {
     "index": "51",
@@ -712,7 +712,7 @@ var exposure_stimuli = [
     "set": "Eye",
     "step": "NA",
     "recording": "1",
-    "path": "Eye_1.mp3"
+    "path": "word/Eye_1.mp3"
   },
   {
     "index": "52",
@@ -726,7 +726,7 @@ var exposure_stimuli = [
     "set": "Failure",
     "step": "NA",
     "recording": "1",
-    "path": "Failure_1.mp3"
+    "path": "word/Failure_1.mp3"
   },
   {
     "index": "53",
@@ -740,7 +740,7 @@ var exposure_stimuli = [
     "set": "Famous",
     "step": "NA",
     "recording": "1",
-    "path": "Famous_1.mp3"
+    "path": "word/Famous_1.mp3"
   },
   {
     "index": "54",
@@ -754,7 +754,7 @@ var exposure_stimuli = [
     "set": "Flower",
     "step": "NA",
     "recording": "1",
-    "path": "Flower_1.mp3"
+    "path": "word/Flower_1.mp3"
   },
   {
     "index": "55",
@@ -768,7 +768,7 @@ var exposure_stimuli = [
     "set": "Frame",
     "step": "NA",
     "recording": "1",
-    "path": "Frame_1.mp3"
+    "path": "word/Frame_1.mp3"
   },
   {
     "index": "56",
@@ -782,7 +782,7 @@ var exposure_stimuli = [
     "set": "Funnel",
     "step": "NA",
     "recording": "1",
-    "path": "Funnel_1.mp3"
+    "path": "word/Funnel_1.mp3"
   },
   {
     "index": "57",
@@ -796,7 +796,7 @@ var exposure_stimuli = [
     "set": "Hallway",
     "step": "NA",
     "recording": "1",
-    "path": "Hallway_1.mp3"
+    "path": "word/Hallway_1.mp3"
   },
   {
     "index": "58",
@@ -810,7 +810,7 @@ var exposure_stimuli = [
     "set": "Hang",
     "step": "NA",
     "recording": "1",
-    "path": "Hang_1.mp3"
+    "path": "word/Hang_1.mp3"
   },
   {
     "index": "59",
@@ -824,7 +824,7 @@ var exposure_stimuli = [
     "set": "Harmony",
     "step": "NA",
     "recording": "1",
-    "path": "Harmony_1.mp3"
+    "path": "word/Harmony_1.mp3"
   },
   {
     "index": "60",
@@ -838,7 +838,7 @@ var exposure_stimuli = [
     "set": "Hill",
     "step": "NA",
     "recording": "1",
-    "path": "Hill_1.mp3"
+    "path": "word/Hill_1.mp3"
   },
   {
     "index": "61",
@@ -852,7 +852,7 @@ var exposure_stimuli = [
     "set": "Hole",
     "step": "NA",
     "recording": "1",
-    "path": "Hole_1.mp3"
+    "path": "word/Hole_1.mp3"
   },
   {
     "index": "62",
@@ -866,7 +866,7 @@ var exposure_stimuli = [
     "set": "Horn",
     "step": "NA",
     "recording": "1",
-    "path": "Horn_1.mp3"
+    "path": "word/Horn_1.mp3"
   },
   {
     "index": "63",
@@ -880,7 +880,7 @@ var exposure_stimuli = [
     "set": "Jelly",
     "step": "NA",
     "recording": "1",
-    "path": "Jelly_1.mp3"
+    "path": "word/Jelly_1.mp3"
   },
   {
     "index": "64",
@@ -894,7 +894,7 @@ var exposure_stimuli = [
     "set": "Jewel",
     "step": "NA",
     "recording": "1",
-    "path": "Jewel_1.mp3"
+    "path": "word/Jewel_1.mp3"
   },
   {
     "index": "65",
@@ -908,7 +908,7 @@ var exposure_stimuli = [
     "set": "Lawyer",
     "step": "NA",
     "recording": "1",
-    "path": "Lawyer_1.mp3"
+    "path": "word/Lawyer_1.mp3"
   },
   {
     "index": "66",
@@ -922,7 +922,7 @@ var exposure_stimuli = [
     "set": "Layer",
     "step": "NA",
     "recording": "1",
-    "path": "Layer_1.mp3"
+    "path": "word/Layer_1.mp3"
   },
   {
     "index": "67",
@@ -936,7 +936,7 @@ var exposure_stimuli = [
     "set": "Learning",
     "step": "NA",
     "recording": "1",
-    "path": "Learning_1.mp3"
+    "path": "word/Learning_1.mp3"
   },
   {
     "index": "68",
@@ -950,7 +950,7 @@ var exposure_stimuli = [
     "set": "Low",
     "step": "NA",
     "recording": "1",
-    "path": "Low_1.mp3"
+    "path": "word/Low_1.mp3"
   },
   {
     "index": "69",
@@ -964,7 +964,7 @@ var exposure_stimuli = [
     "set": "Main",
     "step": "NA",
     "recording": "1",
-    "path": "Main_1.mp3"
+    "path": "word/Main_1.mp3"
   },
   {
     "index": "70",
@@ -978,7 +978,7 @@ var exposure_stimuli = [
     "set": "Marine",
     "step": "NA",
     "recording": "1",
-    "path": "Marine_1.mp3"
+    "path": "word/Marine_1.mp3"
   },
   {
     "index": "71",
@@ -992,7 +992,7 @@ var exposure_stimuli = [
     "set": "Memory",
     "step": "NA",
     "recording": "1",
-    "path": "Memory_1.mp3"
+    "path": "word/Memory_1.mp3"
   },
   {
     "index": "72",
@@ -1006,7 +1006,7 @@ var exposure_stimuli = [
     "set": "Money",
     "step": "NA",
     "recording": "1",
-    "path": "Money_1.mp3"
+    "path": "word/Money_1.mp3"
   },
   {
     "index": "73",
@@ -1020,7 +1020,7 @@ var exposure_stimuli = [
     "set": "Name",
     "step": "NA",
     "recording": "1",
-    "path": "Name_1.mp3"
+    "path": "word/Name_1.mp3"
   },
   {
     "index": "74",
@@ -1034,7 +1034,7 @@ var exposure_stimuli = [
     "set": "Narrow",
     "step": "NA",
     "recording": "1",
-    "path": "Narrow_1.mp3"
+    "path": "word/Narrow_1.mp3"
   },
   {
     "index": "75",
@@ -1048,7 +1048,7 @@ var exposure_stimuli = [
     "set": "Normal",
     "step": "NA",
     "recording": "1",
-    "path": "Normal_1.mp3"
+    "path": "word/Normal_1.mp3"
   },
   {
     "index": "76",
@@ -1062,7 +1062,7 @@ var exposure_stimuli = [
     "set": "Nun",
     "step": "NA",
     "recording": "1",
-    "path": "Nun_1.mp3"
+    "path": "word/Nun_1.mp3"
   },
   {
     "index": "77",
@@ -1076,7 +1076,7 @@ var exposure_stimuli = [
     "set": "Phenomenon",
     "step": "NA",
     "recording": "1",
-    "path": "Phenomenon_1.mp3"
+    "path": "word/Phenomenon_1.mp3"
   },
   {
     "index": "78",
@@ -1090,7 +1090,7 @@ var exposure_stimuli = [
     "set": "Rally",
     "step": "NA",
     "recording": "1",
-    "path": "Rally_1.mp3"
+    "path": "word/Rally_1.mp3"
   },
   {
     "index": "79",
@@ -1104,7 +1104,7 @@ var exposure_stimuli = [
     "set": "Range",
     "step": "NA",
     "recording": "1",
-    "path": "Range_1.mp3"
+    "path": "word/Range_1.mp3"
   },
   {
     "index": "80",
@@ -1118,7 +1118,7 @@ var exposure_stimuli = [
     "set": "Real",
     "step": "NA",
     "recording": "1",
-    "path": "Real_1.mp3"
+    "path": "word/Real_1.mp3"
   },
   {
     "index": "81",
@@ -1132,7 +1132,7 @@ var exposure_stimuli = [
     "set": "Reign",
     "step": "NA",
     "recording": "1",
-    "path": "Reign_1.mp3"
+    "path": "word/Reign_1.mp3"
   },
   {
     "index": "82",
@@ -1146,7 +1146,7 @@ var exposure_stimuli = [
     "set": "Ring",
     "step": "NA",
     "recording": "1",
-    "path": "Ring_1.mp3"
+    "path": "word/Ring_1.mp3"
   },
   {
     "index": "83",
@@ -1160,7 +1160,7 @@ var exposure_stimuli = [
     "set": "Roar",
     "step": "NA",
     "recording": "1",
-    "path": "Roar_1.mp3"
+    "path": "word/Roar_1.mp3"
   },
   {
     "index": "84",
@@ -1174,7 +1174,7 @@ var exposure_stimuli = [
     "set": "Royal",
     "step": "NA",
     "recording": "1",
-    "path": "Royal_1.mp3"
+    "path": "word/Royal_1.mp3"
   },
   {
     "index": "85",
@@ -1188,7 +1188,7 @@ var exposure_stimuli = [
     "set": "Ruin",
     "step": "NA",
     "recording": "1",
-    "path": "Ruin_1.mp3"
+    "path": "word/Ruin_1.mp3"
   },
   {
     "index": "86",
@@ -1202,7 +1202,7 @@ var exposure_stimuli = [
     "set": "Rumor",
     "step": "NA",
     "recording": "1",
-    "path": "Rumor_1.mp3"
+    "path": "word/Rumor_1.mp3"
   },
   {
     "index": "87",
@@ -1216,7 +1216,7 @@ var exposure_stimuli = [
     "set": "Runner",
     "step": "NA",
     "recording": "1",
-    "path": "Runner_1.mp3"
+    "path": "word/Runner_1.mp3"
   },
   {
     "index": "88",
@@ -1230,7 +1230,7 @@ var exposure_stimuli = [
     "set": "Sailor",
     "step": "NA",
     "recording": "1",
-    "path": "Sailor_1.mp3"
+    "path": "word/Sailor_1.mp3"
   },
   {
     "index": "89",
@@ -1244,7 +1244,7 @@ var exposure_stimuli = [
     "set": "Seal",
     "step": "NA",
     "recording": "1",
-    "path": "Seal_1.mp3"
+    "path": "word/Seal_1.mp3"
   },
   {
     "index": "90",
@@ -1258,7 +1258,7 @@ var exposure_stimuli = [
     "set": "Shell",
     "step": "NA",
     "recording": "1",
-    "path": "Shell_1.mp3"
+    "path": "word/Shell_1.mp3"
   },
   {
     "index": "91",
@@ -1272,7 +1272,7 @@ var exposure_stimuli = [
     "set": "Similar",
     "step": "NA",
     "recording": "1",
-    "path": "Similar_1.mp3"
+    "path": "word/Similar_1.mp3"
   },
   {
     "index": "92",
@@ -1286,7 +1286,7 @@ var exposure_stimuli = [
     "set": "Soil",
     "step": "NA",
     "recording": "1",
-    "path": "Soil_1.mp3"
+    "path": "word/Soil_1.mp3"
   },
   {
     "index": "93",
@@ -1300,7 +1300,7 @@ var exposure_stimuli = [
     "set": "Valley",
     "step": "NA",
     "recording": "1",
-    "path": "Valley_1.mp3"
+    "path": "word/Valley_1.mp3"
   },
   {
     "index": "94",
@@ -1314,7 +1314,7 @@ var exposure_stimuli = [
     "set": "Vary",
     "step": "NA",
     "recording": "1",
-    "path": "Vary_1.mp3"
+    "path": "word/Vary_1.mp3"
   },
   {
     "index": "95",
@@ -1328,7 +1328,7 @@ var exposure_stimuli = [
     "set": "Venue",
     "step": "NA",
     "recording": "1",
-    "path": "Venue_1.mp3"
+    "path": "word/Venue_1.mp3"
   },
   {
     "index": "96",
@@ -1342,7 +1342,7 @@ var exposure_stimuli = [
     "set": "Violin",
     "step": "NA",
     "recording": "1",
-    "path": "Violin_1.mp3"
+    "path": "word/Violin_1.mp3"
   },
   {
     "index": "97",
@@ -1356,7 +1356,7 @@ var exposure_stimuli = [
     "set": "Volume",
     "step": "NA",
     "recording": "1",
-    "path": "Volume_1.mp3"
+    "path": "word/Volume_1.mp3"
   },
   {
     "index": "98",
@@ -1370,7 +1370,7 @@ var exposure_stimuli = [
     "set": "Sewer",
     "step": "NA",
     "recording": "1",
-    "path": "Sewer_1.mp3"
+    "path": "word/Sewer_1.mp3"
   },
   {
     "index": "99",
@@ -1384,7 +1384,7 @@ var exposure_stimuli = [
     "set": "Swear",
     "step": "NA",
     "recording": "1",
-    "path": "Swear_1.mp3"
+    "path": "word/Swear_1.mp3"
   },
   {
     "index": "100",
@@ -1398,7 +1398,7 @@ var exposure_stimuli = [
     "set": "Throne",
     "step": "NA",
     "recording": "1",
-    "path": "Throne_1.mp3"
+    "path": "word/Throne_1.mp3"
   },
   {
     "index": "101",
@@ -1412,7 +1412,7 @@ var exposure_stimuli = [
     "set": "Alinomy",
     "step": "NA",
     "recording": "1",
-    "path": "Alinomy_1.mp3"
+    "path": "nonword/Alinomy_1.mp3"
   },
   {
     "index": "102",
@@ -1426,7 +1426,7 @@ var exposure_stimuli = [
     "set": "Aller",
     "step": "NA",
     "recording": "1",
-    "path": "Aller_1.mp3"
+    "path": "nonword/Aller_1.mp3"
   },
   {
     "index": "103",
@@ -1440,7 +1440,7 @@ var exposure_stimuli = [
     "set": "Arema",
     "step": "NA",
     "recording": "1",
-    "path": "Arema_1.mp3"
+    "path": "nonword/Arema_1.mp3"
   },
   {
     "index": "104",
@@ -1454,7 +1454,7 @@ var exposure_stimuli = [
     "set": "Chame",
     "step": "NA",
     "recording": "1",
-    "path": "Chame_1.mp3"
+    "path": "nonword/Chame_1.mp3"
   },
   {
     "index": "105",
@@ -1468,7 +1468,7 @@ var exposure_stimuli = [
     "set": "Charle",
     "step": "NA",
     "recording": "1",
-    "path": "Charle_1.mp3"
+    "path": "nonword/Charle_1.mp3"
   },
   {
     "index": "106",
@@ -1482,7 +1482,7 @@ var exposure_stimuli = [
     "set": "Cheel",
     "step": "NA",
     "recording": "1",
-    "path": "Cheel_1.mp3"
+    "path": "nonword/Cheel_1.mp3"
   },
   {
     "index": "107",
@@ -1496,7 +1496,7 @@ var exposure_stimuli = [
     "set": "Churr",
     "step": "NA",
     "recording": "1",
-    "path": "Churr_1.mp3"
+    "path": "nonword/Churr_1.mp3"
   },
   {
     "index": "108",
@@ -1510,7 +1510,7 @@ var exposure_stimuli = [
     "set": "Eamer",
     "step": "NA",
     "recording": "1",
-    "path": "Eamer_1.mp3"
+    "path": "nonword/Eamer_1.mp3"
   },
   {
     "index": "109",
@@ -1524,7 +1524,7 @@ var exposure_stimuli = [
     "set": "Eelam",
     "step": "NA",
     "recording": "1",
-    "path": "Eelam_1.mp3"
+    "path": "nonword/Eelam_1.mp3"
   },
   {
     "index": "110",
@@ -1538,7 +1538,7 @@ var exposure_stimuli = [
     "set": "Elammer",
     "step": "NA",
     "recording": "1",
-    "path": "Elammer_1.mp3"
+    "path": "nonword/Elammer_1.mp3"
   },
   {
     "index": "111",
@@ -1552,7 +1552,7 @@ var exposure_stimuli = [
     "set": "Enlow",
     "step": "NA",
     "recording": "1",
-    "path": "Enlow_1.mp3"
+    "path": "nonword/Enlow_1.mp3"
   },
   {
     "index": "112",
@@ -1566,7 +1566,7 @@ var exposure_stimuli = [
     "set": "Eynam",
     "step": "NA",
     "recording": "1",
-    "path": "Eynam_1.mp3"
+    "path": "nonword/Eynam_1.mp3"
   },
   {
     "index": "113",
@@ -1580,7 +1580,7 @@ var exposure_stimuli = [
     "set": "Fairdon",
     "step": "NA",
     "recording": "1",
-    "path": "Fairdon_1.mp3"
+    "path": "nonword/Fairdon_1.mp3"
   },
   {
     "index": "114",
@@ -1594,7 +1594,7 @@ var exposure_stimuli = [
     "set": "Feen",
     "step": "NA",
     "recording": "1",
-    "path": "Feen_1.mp3"
+    "path": "nonword/Feen_1.mp3"
   },
   {
     "index": "115",
@@ -1608,7 +1608,7 @@ var exposure_stimuli = [
     "set": "Felmy",
     "step": "NA",
     "recording": "1",
-    "path": "Felmy_1.mp3"
+    "path": "nonword/Felmy_1.mp3"
   },
   {
     "index": "116",
@@ -1622,7 +1622,7 @@ var exposure_stimuli = [
     "set": "Fime",
     "step": "NA",
     "recording": "1",
-    "path": "Fime_1.mp3"
+    "path": "nonword/Fime_1.mp3"
   },
   {
     "index": "117",
@@ -1636,7 +1636,7 @@ var exposure_stimuli = [
     "set": "Finneran",
     "step": "NA",
     "recording": "1",
-    "path": "Finneran_1.mp3"
+    "path": "nonword/Finneran_1.mp3"
   },
   {
     "index": "118",
@@ -1650,7 +1650,7 @@ var exposure_stimuli = [
     "set": "Flangle",
     "step": "NA",
     "recording": "1",
-    "path": "Flangle_1.mp3"
+    "path": "nonword/Flangle_1.mp3"
   },
   {
     "index": "119",
@@ -1664,7 +1664,7 @@ var exposure_stimuli = [
     "set": "Fonnow",
     "step": "NA",
     "recording": "1",
-    "path": "Fonnow_1.mp3"
+    "path": "nonword/Fonnow_1.mp3"
   },
   {
     "index": "120",
@@ -1678,7 +1678,7 @@ var exposure_stimuli = [
     "set": "Foon",
     "step": "NA",
     "recording": "1",
-    "path": "Foon_1.mp3"
+    "path": "nonword/Foon_1.mp3"
   },
   {
     "index": "121",
@@ -1692,7 +1692,7 @@ var exposure_stimuli = [
     "set": "Hallen",
     "step": "NA",
     "recording": "1",
-    "path": "Hallen_1.mp3"
+    "path": "nonword/Hallen_1.mp3"
   },
   {
     "index": "122",
@@ -1706,7 +1706,7 @@ var exposure_stimuli = [
     "set": "Hame",
     "step": "NA",
     "recording": "1",
-    "path": "Hame_1.mp3"
+    "path": "nonword/Hame_1.mp3"
   },
   {
     "index": "123",
@@ -1720,7 +1720,7 @@ var exposure_stimuli = [
     "set": "Harl",
     "step": "NA",
     "recording": "1",
-    "path": "Harl_1.mp3"
+    "path": "nonword/Harl_1.mp3"
   },
   {
     "index": "124",
@@ -1734,7 +1734,7 @@ var exposure_stimuli = [
     "set": "Harn",
     "step": "NA",
     "recording": "1",
-    "path": "Harn_1.mp3"
+    "path": "nonword/Harn_1.mp3"
   },
   {
     "index": "125",
@@ -1748,7 +1748,7 @@ var exposure_stimuli = [
     "set": "Harnomy",
     "step": "NA",
     "recording": "1",
-    "path": "Harnomy_1.mp3"
+    "path": "nonword/Harnomy_1.mp3"
   },
   {
     "index": "126",
@@ -1762,7 +1762,7 @@ var exposure_stimuli = [
     "set": "Heln",
     "step": "NA",
     "recording": "1",
-    "path": "Heln_1.mp3"
+    "path": "nonword/Heln_1.mp3"
   },
   {
     "index": "127",
@@ -1776,7 +1776,7 @@ var exposure_stimuli = [
     "set": "Hemmerle",
     "step": "NA",
     "recording": "1",
-    "path": "Hemmerle_1.mp3"
+    "path": "nonword/Hemmerle_1.mp3"
   },
   {
     "index": "128",
@@ -1790,7 +1790,7 @@ var exposure_stimuli = [
     "set": "Hemmery",
     "step": "NA",
     "recording": "1",
-    "path": "Hemmery_1.mp3"
+    "path": "nonword/Hemmery_1.mp3"
   },
   {
     "index": "129",
@@ -1804,7 +1804,7 @@ var exposure_stimuli = [
     "set": "Heon",
     "step": "NA",
     "recording": "1",
-    "path": "Heon_1.mp3"
+    "path": "nonword/Heon_1.mp3"
   },
   {
     "index": "130",
@@ -1818,7 +1818,7 @@ var exposure_stimuli = [
     "set": "Heyn",
     "step": "NA",
     "recording": "1",
-    "path": "Heyn_1.mp3"
+    "path": "nonword/Heyn_1.mp3"
   },
   {
     "index": "131",
@@ -1832,7 +1832,7 @@ var exposure_stimuli = [
     "set": "Hing",
     "step": "NA",
     "recording": "1",
-    "path": "Hing_1.mp3"
+    "path": "nonword/Hing_1.mp3"
   },
   {
     "index": "132",
@@ -1846,7 +1846,7 @@ var exposure_stimuli = [
     "set": "Hino",
     "step": "NA",
     "recording": "1",
-    "path": "Hino_1.mp3"
+    "path": "nonword/Hino_1.mp3"
   },
   {
     "index": "133",
@@ -1860,7 +1860,7 @@ var exposure_stimuli = [
     "set": "Hollin",
     "step": "NA",
     "recording": "1",
-    "path": "Hollin_1.mp3"
+    "path": "nonword/Hollin_1.mp3"
   },
   {
     "index": "134",
@@ -1874,7 +1874,7 @@ var exposure_stimuli = [
     "set": "Hoy",
     "step": "NA",
     "recording": "1",
-    "path": "Hoy_1.mp3"
+    "path": "nonword/Hoy_1.mp3"
   },
   {
     "index": "135",
@@ -1888,7 +1888,7 @@ var exposure_stimuli = [
     "set": "Hurn",
     "step": "NA",
     "recording": "1",
-    "path": "Hurn_1.mp3"
+    "path": "nonword/Hurn_1.mp3"
   },
   {
     "index": "136",
@@ -1902,7 +1902,7 @@ var exposure_stimuli = [
     "set": "Immel",
     "step": "NA",
     "recording": "1",
-    "path": "Immel_1.mp3"
+    "path": "nonword/Immel_1.mp3"
   },
   {
     "index": "137",
@@ -1916,7 +1916,7 @@ var exposure_stimuli = [
     "set": "Jare",
     "step": "NA",
     "recording": "1",
-    "path": "Jare_1.mp3"
+    "path": "nonword/Jare_1.mp3"
   },
   {
     "index": "138",
@@ -1930,7 +1930,7 @@ var exposure_stimuli = [
     "set": "Jeel",
     "step": "NA",
     "recording": "1",
-    "path": "Jeel_1.mp3"
+    "path": "nonword/Jeel_1.mp3"
   },
   {
     "index": "139",
@@ -1944,7 +1944,7 @@ var exposure_stimuli = [
     "set": "Jum",
     "step": "NA",
     "recording": "1",
-    "path": "Jum_1.mp3"
+    "path": "nonword/Jum_1.mp3"
   },
   {
     "index": "140",
@@ -1958,7 +1958,7 @@ var exposure_stimuli = [
     "set": "Jurio",
     "step": "NA",
     "recording": "1",
-    "path": "Jurio_1.mp3"
+    "path": "nonword/Jurio_1.mp3"
   },
   {
     "index": "141",
@@ -1972,7 +1972,7 @@ var exposure_stimuli = [
     "set": "Lahm",
     "step": "NA",
     "recording": "1",
-    "path": "Lahm_1.mp3"
+    "path": "nonword/Lahm_1.mp3"
   },
   {
     "index": "142",
@@ -1986,7 +1986,7 @@ var exposure_stimuli = [
     "set": "Lail",
     "step": "NA",
     "recording": "1",
-    "path": "Lail_1.mp3"
+    "path": "nonword/Lail_1.mp3"
   },
   {
     "index": "143",
@@ -2000,7 +2000,7 @@ var exposure_stimuli = [
     "set": "Lamurre",
     "step": "NA",
     "recording": "1",
-    "path": "Lamurre_1.mp3"
+    "path": "nonword/Lamurre_1.mp3"
   },
   {
     "index": "144",
@@ -2014,7 +2014,7 @@ var exposure_stimuli = [
     "set": "Lar",
     "step": "NA",
     "recording": "1",
-    "path": "Lar_1.mp3"
+    "path": "nonword/Lar_1.mp3"
   },
   {
     "index": "145",
@@ -2028,7 +2028,7 @@ var exposure_stimuli = [
     "set": "Larrow",
     "step": "NA",
     "recording": "1",
-    "path": "Larrow_1.mp3"
+    "path": "nonword/Larrow_1.mp3"
   },
   {
     "index": "146",
@@ -2042,7 +2042,7 @@ var exposure_stimuli = [
     "set": "Lemmela",
     "step": "NA",
     "recording": "1",
-    "path": "Lemmela_1.mp3"
+    "path": "nonword/Lemmela_1.mp3"
   },
   {
     "index": "147",
@@ -2056,7 +2056,7 @@ var exposure_stimuli = [
     "set": "Lennim",
     "step": "NA",
     "recording": "1",
-    "path": "Lennim_1.mp3"
+    "path": "nonword/Lennim_1.mp3"
   },
   {
     "index": "148",
@@ -2070,7 +2070,7 @@ var exposure_stimuli = [
     "set": "Leonie",
     "step": "NA",
     "recording": "1",
-    "path": "Leonie_1.mp3"
+    "path": "nonword/Leonie_1.mp3"
   },
   {
     "index": "149",
@@ -2084,7 +2084,7 @@ var exposure_stimuli = [
     "set": "Lermie",
     "step": "NA",
     "recording": "1",
-    "path": "Lermie_1.mp3"
+    "path": "nonword/Lermie_1.mp3"
   },
   {
     "index": "150",
@@ -2098,7 +2098,7 @@ var exposure_stimuli = [
     "set": "Loanler",
     "step": "NA",
     "recording": "1",
-    "path": "Loanler_1.mp3"
+    "path": "nonword/Loanler_1.mp3"
   },
   {
     "index": "151",
@@ -2112,7 +2112,7 @@ var exposure_stimuli = [
     "set": "Loff",
     "step": "NA",
     "recording": "1",
-    "path": "Loff_1.mp3"
+    "path": "nonword/Loff_1.mp3"
   },
   {
     "index": "152",
@@ -2126,7 +2126,7 @@ var exposure_stimuli = [
     "set": "Lum",
     "step": "NA",
     "recording": "1",
-    "path": "Lum_1.mp3"
+    "path": "nonword/Lum_1.mp3"
   },
   {
     "index": "153",
@@ -2140,7 +2140,7 @@ var exposure_stimuli = [
     "set": "Mallon",
     "step": "NA",
     "recording": "1",
-    "path": "Mallon_1.mp3"
+    "path": "nonword/Mallon_1.mp3"
   },
   {
     "index": "154",
@@ -2154,7 +2154,7 @@ var exposure_stimuli = [
     "set": "Mang",
     "step": "NA",
     "recording": "1",
-    "path": "Mang_1.mp3"
+    "path": "nonword/Mang_1.mp3"
   },
   {
     "index": "155",
@@ -2168,7 +2168,7 @@ var exposure_stimuli = [
     "set": "Mannow",
     "step": "NA",
     "recording": "1",
-    "path": "Mannow_1.mp3"
+    "path": "nonword/Mannow_1.mp3"
   },
   {
     "index": "156",
@@ -2182,7 +2182,7 @@ var exposure_stimuli = [
     "set": "Marn",
     "step": "NA",
     "recording": "1",
-    "path": "Marn_1.mp3"
+    "path": "nonword/Marn_1.mp3"
   },
   {
     "index": "157",
@@ -2196,7 +2196,7 @@ var exposure_stimuli = [
     "set": "Mawen",
     "step": "NA",
     "recording": "1",
-    "path": "Mawen_1.mp3"
+    "path": "nonword/Mawen_1.mp3"
   },
   {
     "index": "158",
@@ -2210,7 +2210,7 @@ var exposure_stimuli = [
     "set": "Mawn",
     "step": "NA",
     "recording": "1",
-    "path": "Mawn_1.mp3"
+    "path": "nonword/Mawn_1.mp3"
   },
   {
     "index": "159",
@@ -2224,7 +2224,7 @@ var exposure_stimuli = [
     "set": "Mayin",
     "step": "NA",
     "recording": "1",
-    "path": "Mayin_1.mp3"
+    "path": "nonword/Mayin_1.mp3"
   },
   {
     "index": "160",
@@ -2238,7 +2238,7 @@ var exposure_stimuli = [
     "set": "Memmel",
     "step": "NA",
     "recording": "1",
-    "path": "Memmel_1.mp3"
+    "path": "nonword/Memmel_1.mp3"
   },
   {
     "index": "161",
@@ -2252,7 +2252,7 @@ var exposure_stimuli = [
     "set": "Mewry",
     "step": "NA",
     "recording": "1",
-    "path": "Mewry_1.mp3"
+    "path": "nonword/Mewry_1.mp3"
   },
   {
     "index": "162",
@@ -2266,7 +2266,7 @@ var exposure_stimuli = [
     "set": "Minnin",
     "step": "NA",
     "recording": "1",
-    "path": "Minnin_1.mp3"
+    "path": "nonword/Minnin_1.mp3"
   },
   {
     "index": "163",
@@ -2280,7 +2280,7 @@ var exposure_stimuli = [
     "set": "Morial",
     "step": "NA",
     "recording": "1",
-    "path": "Morial_1.mp3"
+    "path": "nonword/Morial_1.mp3"
   },
   {
     "index": "164",
@@ -2294,7 +2294,7 @@ var exposure_stimuli = [
     "set": "Moyer",
     "step": "NA",
     "recording": "1",
-    "path": "Moyer_1.mp3"
+    "path": "nonword/Moyer_1.mp3"
   },
   {
     "index": "165",
@@ -2308,7 +2308,7 @@ var exposure_stimuli = [
     "set": "Mun",
     "step": "NA",
     "recording": "1",
-    "path": "Mun_1.mp3"
+    "path": "nonword/Mun_1.mp3"
   },
   {
     "index": "166",
@@ -2322,7 +2322,7 @@ var exposure_stimuli = [
     "set": "Munnel",
     "step": "NA",
     "recording": "1",
-    "path": "Munnel_1.mp3"
+    "path": "nonword/Munnel_1.mp3"
   },
   {
     "index": "167",
@@ -2336,7 +2336,7 @@ var exposure_stimuli = [
     "set": "Nallow",
     "step": "NA",
     "recording": "1",
-    "path": "Nallow_1.mp3"
+    "path": "nonword/Nallow_1.mp3"
   },
   {
     "index": "168",
@@ -2350,7 +2350,7 @@ var exposure_stimuli = [
     "set": "Nellon",
     "step": "NA",
     "recording": "1",
-    "path": "Nellon_1.mp3"
+    "path": "nonword/Nellon_1.mp3"
   },
   {
     "index": "169",
@@ -2364,7 +2364,7 @@ var exposure_stimuli = [
     "set": "Neoma",
     "step": "NA",
     "recording": "1",
-    "path": "Neoma_1.mp3"
+    "path": "nonword/Neoma_1.mp3"
   },
   {
     "index": "170",
@@ -2378,7 +2378,7 @@ var exposure_stimuli = [
     "set": "Ner",
     "step": "NA",
     "recording": "1",
-    "path": "Ner_1.mp3"
+    "path": "nonword/Ner_1.mp3"
   },
   {
     "index": "171",
@@ -2392,7 +2392,7 @@ var exposure_stimuli = [
     "set": "Norlin",
     "step": "NA",
     "recording": "1",
-    "path": "Norlin_1.mp3"
+    "path": "nonword/Norlin_1.mp3"
   },
   {
     "index": "172",
@@ -2406,7 +2406,7 @@ var exposure_stimuli = [
     "set": "Noron",
     "step": "NA",
     "recording": "1",
-    "path": "Noron_1.mp3"
+    "path": "nonword/Noron_1.mp3"
   },
   {
     "index": "173",
@@ -2420,7 +2420,7 @@ var exposure_stimuli = [
     "set": "Noy",
     "step": "NA",
     "recording": "1",
-    "path": "Noy_1.mp3"
+    "path": "nonword/Noy_1.mp3"
   },
   {
     "index": "174",
@@ -2434,7 +2434,7 @@ var exposure_stimuli = [
     "set": "Orn",
     "step": "NA",
     "recording": "1",
-    "path": "Orn_1.mp3"
+    "path": "nonword/Orn_1.mp3"
   },
   {
     "index": "175",
@@ -2448,7 +2448,7 @@ var exposure_stimuli = [
     "set": "Rame",
     "step": "NA",
     "recording": "1",
-    "path": "Rame_1.mp3"
+    "path": "nonword/Rame_1.mp3"
   },
   {
     "index": "176",
@@ -2462,7 +2462,7 @@ var exposure_stimuli = [
     "set": "Rannel",
     "step": "NA",
     "recording": "1",
-    "path": "Rannel_1.mp3"
+    "path": "nonword/Rannel_1.mp3"
   },
   {
     "index": "177",
@@ -2476,7 +2476,7 @@ var exposure_stimuli = [
     "set": "Rawl",
     "step": "NA",
     "recording": "1",
-    "path": "Rawl_1.mp3"
+    "path": "nonword/Rawl_1.mp3"
   },
   {
     "index": "178",
@@ -2490,7 +2490,7 @@ var exposure_stimuli = [
     "set": "Reen",
     "step": "NA",
     "recording": "1",
-    "path": "Reen_1.mp3"
+    "path": "nonword/Reen_1.mp3"
   },
   {
     "index": "179",
@@ -2504,7 +2504,7 @@ var exposure_stimuli = [
     "set": "Rhinen",
     "step": "NA",
     "recording": "2",
-    "path": "Rhinen_2.mp3"
+    "path": "nonword/Rhinen_2.mp3"
   },
   {
     "index": "180",
@@ -2518,7 +2518,7 @@ var exposure_stimuli = [
     "set": "Ria",
     "step": "NA",
     "recording": "1",
-    "path": "Ria_1.mp3"
+    "path": "nonword/Ria_1.mp3"
   },
   {
     "index": "181",
@@ -2532,7 +2532,7 @@ var exposure_stimuli = [
     "set": "Saln",
     "step": "NA",
     "recording": "1",
-    "path": "Saln_1.mp3"
+    "path": "nonword/Saln_1.mp3"
   },
   {
     "index": "182",
@@ -2546,7 +2546,7 @@ var exposure_stimuli = [
     "set": "Sare",
     "step": "NA",
     "recording": "1",
-    "path": "Sare_1.mp3"
+    "path": "nonword/Sare_1.mp3"
   },
   {
     "index": "183",
@@ -2560,7 +2560,7 @@ var exposure_stimuli = [
     "set": "Selmer",
     "step": "NA",
     "recording": "1",
-    "path": "Selmer_1.mp3"
+    "path": "nonword/Selmer_1.mp3"
   },
   {
     "index": "184",
@@ -2574,7 +2574,7 @@ var exposure_stimuli = [
     "set": "Siller",
     "step": "NA",
     "recording": "1",
-    "path": "Siller_1.mp3"
+    "path": "nonword/Siller_1.mp3"
   },
   {
     "index": "185",
@@ -2588,7 +2588,7 @@ var exposure_stimuli = [
     "set": "Slomb",
     "step": "NA",
     "recording": "1",
-    "path": "Slomb_1.mp3"
+    "path": "nonword/Slomb_1.mp3"
   },
   {
     "index": "186",
@@ -2602,7 +2602,7 @@ var exposure_stimuli = [
     "set": "Smong",
     "step": "NA",
     "recording": "1",
-    "path": "Smong_1.mp3"
+    "path": "nonword/Smong_1.mp3"
   },
   {
     "index": "187",
@@ -2616,7 +2616,7 @@ var exposure_stimuli = [
     "set": "Snoll",
     "step": "NA",
     "recording": "1",
-    "path": "Snoll_1.mp3"
+    "path": "nonword/Snoll_1.mp3"
   },
   {
     "index": "188",
@@ -2630,7 +2630,7 @@ var exposure_stimuli = [
     "set": "Snyre",
     "step": "NA",
     "recording": "1",
-    "path": "Snyre_1.mp3"
+    "path": "nonword/Snyre_1.mp3"
   },
   {
     "index": "189",
@@ -2644,7 +2644,7 @@ var exposure_stimuli = [
     "set": "Somb",
     "step": "NA",
     "recording": "1",
-    "path": "Somb_1.mp3"
+    "path": "nonword/Somb_1.mp3"
   },
   {
     "index": "190",
@@ -2658,7 +2658,7 @@ var exposure_stimuli = [
     "set": "Thim",
     "step": "NA",
     "recording": "1",
-    "path": "Thim_1.mp3"
+    "path": "nonword/Thim_1.mp3"
   },
   {
     "index": "191",
@@ -2672,7 +2672,7 @@ var exposure_stimuli = [
     "set": "Threen",
     "step": "NA",
     "recording": "1",
-    "path": "Threen_1.mp3"
+    "path": "nonword/Threen_1.mp3"
   },
   {
     "index": "192",
@@ -2686,7 +2686,7 @@ var exposure_stimuli = [
     "set": "Vainyl",
     "step": "NA",
     "recording": "1",
-    "path": "Vainyl_1.mp3"
+    "path": "nonword/Vainyl_1.mp3"
   },
   {
     "index": "193",
@@ -2700,7 +2700,7 @@ var exposure_stimuli = [
     "set": "Vallon",
     "step": "NA",
     "recording": "1",
-    "path": "Vallon_1.mp3"
+    "path": "nonword/Vallon_1.mp3"
   },
   {
     "index": "194",
@@ -2714,7 +2714,7 @@ var exposure_stimuli = [
     "set": "Vunn",
     "step": "NA",
     "recording": "1",
-    "path": "Vunn_1.mp3"
+    "path": "nonword/Vunn_1.mp3"
   },
   {
     "index": "195",
@@ -2728,7 +2728,7 @@ var exposure_stimuli = [
     "set": "Werro",
     "step": "NA",
     "recording": "1",
-    "path": "Werro_1.mp3"
+    "path": "nonword/Werro_1.mp3"
   },
   {
     "index": "196",
@@ -2742,7 +2742,7 @@ var exposure_stimuli = [
     "set": "Winal",
     "step": "NA",
     "recording": "1",
-    "path": "Winal_1.mp3"
+    "path": "nonword/Winal_1.mp3"
   },
   {
     "index": "197",
@@ -2756,7 +2756,7 @@ var exposure_stimuli = [
     "set": "Woony",
     "step": "NA",
     "recording": "1",
-    "path": "Woony_1.mp3"
+    "path": "nonword/Woony_1.mp3"
   },
   {
     "index": "198",
@@ -2770,7 +2770,7 @@ var exposure_stimuli = [
     "set": "Wyan",
     "step": "NA",
     "recording": "1",
-    "path": "Wyan_1.mp3"
+    "path": "nonword/Wyan_1.mp3"
   },
   {
     "index": "199",
@@ -2784,7 +2784,7 @@ var exposure_stimuli = [
     "set": "Yorn",
     "step": "NA",
     "recording": "1",
-    "path": "Yorn_1.mp3"
+    "path": "nonword/Yorn_1.mp3"
   },
   {
     "index": "200",
@@ -2798,7 +2798,7 @@ var exposure_stimuli = [
     "set": "Ven",
     "step": "NA",
     "recording": "1",
-    "path": "Ven_1.mp3"
+    "path": "nonword/Ven_1.mp3"
   }
 ]
 
@@ -7846,206 +7846,206 @@ var test_stimuli = [
 ]
 
 var assetPaths = [
-  "audio/exposure_B_group/Ballerina_Pallerina_1_15.mp3",
-  "audio/exposure_B_group/Balloon_Palloon_3_12.mp3",
-  "audio/exposure_B_group/Baloney_Paloney_1_10.mp3",
-  "audio/exposure_B_group/Banana_Panana_3_17.mp3",
-  "audio/exposure_B_group/Barely_Parely_1_7.mp3",
-  "audio/exposure_B_group/Barn_Parn_1_20.mp3",
-  "audio/exposure_B_group/Barren_Parren_3_17.mp3",
-  "audio/exposure_B_group/Belly_Pelly_3_17.mp3",
-  "audio/exposure_B_group/Benign_Penign_3_14.mp3",
-  "audio/exposure_B_group/Biannual_Piannual_3_7.mp3",
-  "audio/exposure_B_group/Billion_Pillion_3_18.mp3",
-  "audio/exposure_B_group/Billionaire_Pillionaire_3_8.mp3",
-  "audio/exposure_B_group/Blue_Plue_3_17.mp3",
-  "audio/exposure_B_group/Boil_Poil_1_15.mp3",
-  "audio/exposure_B_group/Boom_Poom_1_15.mp3",
-  "audio/exposure_B_group/Brain_Prain_3_19.mp3",
-  "audio/exposure_B_group/Brewery_Prewery_1_13.mp3",
-  "audio/exposure_B_group/Brown_Prown_3_11.mp3",
-  "audio/exposure_B_group/Burial_Purial_1_17.mp3",
-  "audio/exposure_B_group/Burrow_Purrow_3_9.mp3",
-  "audio/exposure_B_group/Barallel_Parallel_4.mp3",
-  "audio/exposure_B_group/Barlor_Parlor_4.mp3",
-  "audio/exposure_B_group/Bawn_Pawn_2.mp3",
-  "audio/exposure_B_group/Beninsula_Peninsula_2.mp3",
-  "audio/exposure_B_group/Berform_Perform_2.mp3",
-  "audio/exposure_B_group/Bioneer_Pioneer_4.mp3",
-  "audio/exposure_B_group/Blanner_Planner_2.mp3",
-  "audio/exposure_B_group/Blea_Plea_2.mp3",
-  "audio/exposure_B_group/Blyer_Plyer_2.mp3",
-  "audio/exposure_B_group/Bollen_Pollen_2.mp3",
-  "audio/exposure_B_group/Bolymer_Polymer_2.mp3",
-  "audio/exposure_B_group/Brayer_Prayer_2.mp3",
-  "audio/exposure_B_group/Breliminary_Preliminary_2.mp3",
-  "audio/exposure_B_group/Bremier_Premier_2.mp3",
-  "audio/exposure_B_group/Brimal_Primal_2.mp3",
-  "audio/exposure_B_group/Brime_Prime_2.mp3",
-  "audio/exposure_B_group/Brior_Prior_2.mp3",
-  "audio/exposure_B_group/Browl_Prowl_2.mp3",
-  "audio/exposure_B_group/Bry_Pry_2.mp3",
-  "audio/exposure_B_group/Bylon_Pylon_2.mp3",
-  "audio/exposure_B_group/Aisle_1.mp3",
-  "audio/exposure_B_group/Ally_1.mp3",
-  "audio/exposure_B_group/Area_1.mp3",
-  "audio/exposure_B_group/Arena_1.mp3",
-  "audio/exposure_B_group/Arrow_1.mp3",
-  "audio/exposure_B_group/Assume_1.mp3",
-  "audio/exposure_B_group/Aware_1.mp3",
-  "audio/exposure_B_group/Enemy_1.mp3",
-  "audio/exposure_B_group/Ensure_1.mp3",
-  "audio/exposure_B_group/Error_1.mp3",
-  "audio/exposure_B_group/Eye_1.mp3",
-  "audio/exposure_B_group/Failure_1.mp3",
-  "audio/exposure_B_group/Famous_1.mp3",
-  "audio/exposure_B_group/Flower_1.mp3",
-  "audio/exposure_B_group/Frame_1.mp3",
-  "audio/exposure_B_group/Funnel_1.mp3",
-  "audio/exposure_B_group/Hallway_1.mp3",
-  "audio/exposure_B_group/Hang_1.mp3",
-  "audio/exposure_B_group/Harmony_1.mp3",
-  "audio/exposure_B_group/Hill_1.mp3",
-  "audio/exposure_B_group/Hole_1.mp3",
-  "audio/exposure_B_group/Horn_1.mp3",
-  "audio/exposure_B_group/Jelly_1.mp3",
-  "audio/exposure_B_group/Jewel_1.mp3",
-  "audio/exposure_B_group/Lawyer_1.mp3",
-  "audio/exposure_B_group/Layer_1.mp3",
-  "audio/exposure_B_group/Learning_1.mp3",
-  "audio/exposure_B_group/Low_1.mp3",
-  "audio/exposure_B_group/Main_1.mp3",
-  "audio/exposure_B_group/Marine_1.mp3",
-  "audio/exposure_B_group/Memory_1.mp3",
-  "audio/exposure_B_group/Money_1.mp3",
-  "audio/exposure_B_group/Name_1.mp3",
-  "audio/exposure_B_group/Narrow_1.mp3",
-  "audio/exposure_B_group/Normal_1.mp3",
-  "audio/exposure_B_group/Nun_1.mp3",
-  "audio/exposure_B_group/Phenomenon_1.mp3",
-  "audio/exposure_B_group/Rally_1.mp3",
-  "audio/exposure_B_group/Range_1.mp3",
-  "audio/exposure_B_group/Real_1.mp3",
-  "audio/exposure_B_group/Reign_1.mp3",
-  "audio/exposure_B_group/Ring_1.mp3",
-  "audio/exposure_B_group/Roar_1.mp3",
-  "audio/exposure_B_group/Royal_1.mp3",
-  "audio/exposure_B_group/Ruin_1.mp3",
-  "audio/exposure_B_group/Rumor_1.mp3",
-  "audio/exposure_B_group/Runner_1.mp3",
-  "audio/exposure_B_group/Sailor_1.mp3",
-  "audio/exposure_B_group/Seal_1.mp3",
-  "audio/exposure_B_group/Shell_1.mp3",
-  "audio/exposure_B_group/Similar_1.mp3",
-  "audio/exposure_B_group/Soil_1.mp3",
-  "audio/exposure_B_group/Valley_1.mp3",
-  "audio/exposure_B_group/Vary_1.mp3",
-  "audio/exposure_B_group/Venue_1.mp3",
-  "audio/exposure_B_group/Violin_1.mp3",
-  "audio/exposure_B_group/Volume_1.mp3",
-  "audio/exposure_B_group/Sewer_1.mp3",
-  "audio/exposure_B_group/Swear_1.mp3",
-  "audio/exposure_B_group/Throne_1.mp3",
-  "audio/exposure_B_group/Alinomy_1.mp3",
-  "audio/exposure_B_group/Aller_1.mp3",
-  "audio/exposure_B_group/Arema_1.mp3",
-  "audio/exposure_B_group/Chame_1.mp3",
-  "audio/exposure_B_group/Charle_1.mp3",
-  "audio/exposure_B_group/Cheel_1.mp3",
-  "audio/exposure_B_group/Churr_1.mp3",
-  "audio/exposure_B_group/Eamer_1.mp3",
-  "audio/exposure_B_group/Eelam_1.mp3",
-  "audio/exposure_B_group/Elammer_1.mp3",
-  "audio/exposure_B_group/Enlow_1.mp3",
-  "audio/exposure_B_group/Eynam_1.mp3",
-  "audio/exposure_B_group/Fairdon_1.mp3",
-  "audio/exposure_B_group/Feen_1.mp3",
-  "audio/exposure_B_group/Felmy_1.mp3",
-  "audio/exposure_B_group/Fime_1.mp3",
-  "audio/exposure_B_group/Finneran_1.mp3",
-  "audio/exposure_B_group/Flangle_1.mp3",
-  "audio/exposure_B_group/Fonnow_1.mp3",
-  "audio/exposure_B_group/Foon_1.mp3",
-  "audio/exposure_B_group/Hallen_1.mp3",
-  "audio/exposure_B_group/Hame_1.mp3",
-  "audio/exposure_B_group/Harl_1.mp3",
-  "audio/exposure_B_group/Harn_1.mp3",
-  "audio/exposure_B_group/Harnomy_1.mp3",
-  "audio/exposure_B_group/Heln_1.mp3",
-  "audio/exposure_B_group/Hemmerle_1.mp3",
-  "audio/exposure_B_group/Hemmery_1.mp3",
-  "audio/exposure_B_group/Heon_1.mp3",
-  "audio/exposure_B_group/Heyn_1.mp3",
-  "audio/exposure_B_group/Hing_1.mp3",
-  "audio/exposure_B_group/Hino_1.mp3",
-  "audio/exposure_B_group/Hollin_1.mp3",
-  "audio/exposure_B_group/Hoy_1.mp3",
-  "audio/exposure_B_group/Hurn_1.mp3",
-  "audio/exposure_B_group/Immel_1.mp3",
-  "audio/exposure_B_group/Jare_1.mp3",
-  "audio/exposure_B_group/Jeel_1.mp3",
-  "audio/exposure_B_group/Jum_1.mp3",
-  "audio/exposure_B_group/Jurio_1.mp3",
-  "audio/exposure_B_group/Lahm_1.mp3",
-  "audio/exposure_B_group/Lail_1.mp3",
-  "audio/exposure_B_group/Lamurre_1.mp3",
-  "audio/exposure_B_group/Lar_1.mp3",
-  "audio/exposure_B_group/Larrow_1.mp3",
-  "audio/exposure_B_group/Lemmela_1.mp3",
-  "audio/exposure_B_group/Lennim_1.mp3",
-  "audio/exposure_B_group/Leonie_1.mp3",
-  "audio/exposure_B_group/Lermie_1.mp3",
-  "audio/exposure_B_group/Loanler_1.mp3",
-  "audio/exposure_B_group/Loff_1.mp3",
-  "audio/exposure_B_group/Lum_1.mp3",
-  "audio/exposure_B_group/Mallon_1.mp3",
-  "audio/exposure_B_group/Mang_1.mp3",
-  "audio/exposure_B_group/Mannow_1.mp3",
-  "audio/exposure_B_group/Marn_1.mp3",
-  "audio/exposure_B_group/Mawen_1.mp3",
-  "audio/exposure_B_group/Mawn_1.mp3",
-  "audio/exposure_B_group/Mayin_1.mp3",
-  "audio/exposure_B_group/Memmel_1.mp3",
-  "audio/exposure_B_group/Mewry_1.mp3",
-  "audio/exposure_B_group/Minnin_1.mp3",
-  "audio/exposure_B_group/Morial_1.mp3",
-  "audio/exposure_B_group/Moyer_1.mp3",
-  "audio/exposure_B_group/Mun_1.mp3",
-  "audio/exposure_B_group/Munnel_1.mp3",
-  "audio/exposure_B_group/Nallow_1.mp3",
-  "audio/exposure_B_group/Nellon_1.mp3",
-  "audio/exposure_B_group/Neoma_1.mp3",
-  "audio/exposure_B_group/Ner_1.mp3",
-  "audio/exposure_B_group/Norlin_1.mp3",
-  "audio/exposure_B_group/Noron_1.mp3",
-  "audio/exposure_B_group/Noy_1.mp3",
-  "audio/exposure_B_group/Orn_1.mp3",
-  "audio/exposure_B_group/Rame_1.mp3",
-  "audio/exposure_B_group/Rannel_1.mp3",
-  "audio/exposure_B_group/Rawl_1.mp3",
-  "audio/exposure_B_group/Reen_1.mp3",
-  "audio/exposure_B_group/Rhinen_2.mp3",
-  "audio/exposure_B_group/Ria_1.mp3",
-  "audio/exposure_B_group/Saln_1.mp3",
-  "audio/exposure_B_group/Sare_1.mp3",
-  "audio/exposure_B_group/Selmer_1.mp3",
-  "audio/exposure_B_group/Siller_1.mp3",
-  "audio/exposure_B_group/Slomb_1.mp3",
-  "audio/exposure_B_group/Smong_1.mp3",
-  "audio/exposure_B_group/Snoll_1.mp3",
-  "audio/exposure_B_group/Snyre_1.mp3",
-  "audio/exposure_B_group/Somb_1.mp3",
-  "audio/exposure_B_group/Thim_1.mp3",
-  "audio/exposure_B_group/Threen_1.mp3",
-  "audio/exposure_B_group/Vainyl_1.mp3",
-  "audio/exposure_B_group/Vallon_1.mp3",
-  "audio/exposure_B_group/Vunn_1.mp3",
-  "audio/exposure_B_group/Werro_1.mp3",
-  "audio/exposure_B_group/Winal_1.mp3",
-  "audio/exposure_B_group/Woony_1.mp3",
-  "audio/exposure_B_group/Wyan_1.mp3",
-  "audio/exposure_B_group/Yorn_1.mp3",
-  "audio/exposure_B_group/Ven_1.mp3",
+  "audio/exposure_B_group/ambiguous/Ballerina_Pallerina_1_15.mp3",
+  "audio/exposure_B_group/ambiguous/Balloon_Palloon_3_12.mp3",
+  "audio/exposure_B_group/ambiguous/Baloney_Paloney_1_10.mp3",
+  "audio/exposure_B_group/ambiguous/Banana_Panana_3_17.mp3",
+  "audio/exposure_B_group/ambiguous/Barely_Parely_1_7.mp3",
+  "audio/exposure_B_group/ambiguous/Barn_Parn_1_20.mp3",
+  "audio/exposure_B_group/ambiguous/Barren_Parren_3_17.mp3",
+  "audio/exposure_B_group/ambiguous/Belly_Pelly_3_17.mp3",
+  "audio/exposure_B_group/ambiguous/Benign_Penign_3_14.mp3",
+  "audio/exposure_B_group/ambiguous/Biannual_Piannual_3_7.mp3",
+  "audio/exposure_B_group/ambiguous/Billion_Pillion_3_18.mp3",
+  "audio/exposure_B_group/ambiguous/Billionaire_Pillionaire_3_8.mp3",
+  "audio/exposure_B_group/ambiguous/Blue_Plue_3_17.mp3",
+  "audio/exposure_B_group/ambiguous/Boil_Poil_1_15.mp3",
+  "audio/exposure_B_group/ambiguous/Boom_Poom_1_15.mp3",
+  "audio/exposure_B_group/ambiguous/Brain_Prain_3_19.mp3",
+  "audio/exposure_B_group/ambiguous/Brewery_Prewery_1_13.mp3",
+  "audio/exposure_B_group/ambiguous/Brown_Prown_3_11.mp3",
+  "audio/exposure_B_group/ambiguous/Burial_Purial_1_17.mp3",
+  "audio/exposure_B_group/ambiguous/Burrow_Purrow_3_9.mp3",
+  "audio/exposure_B_group/unambiguous/Barallel_Parallel_4.mp3",
+  "audio/exposure_B_group/unambiguous/Barlor_Parlor_4.mp3",
+  "audio/exposure_B_group/unambiguous/Bawn_Pawn_2.mp3",
+  "audio/exposure_B_group/unambiguous/Beninsula_Peninsula_2.mp3",
+  "audio/exposure_B_group/unambiguous/Berform_Perform_2.mp3",
+  "audio/exposure_B_group/unambiguous/Bioneer_Pioneer_4.mp3",
+  "audio/exposure_B_group/unambiguous/Blanner_Planner_2.mp3",
+  "audio/exposure_B_group/unambiguous/Blea_Plea_2.mp3",
+  "audio/exposure_B_group/unambiguous/Blyer_Plyer_2.mp3",
+  "audio/exposure_B_group/unambiguous/Bollen_Pollen_2.mp3",
+  "audio/exposure_B_group/unambiguous/Bolymer_Polymer_2.mp3",
+  "audio/exposure_B_group/unambiguous/Brayer_Prayer_2.mp3",
+  "audio/exposure_B_group/unambiguous/Breliminary_Preliminary_2.mp3",
+  "audio/exposure_B_group/unambiguous/Bremier_Premier_2.mp3",
+  "audio/exposure_B_group/unambiguous/Brimal_Primal_2.mp3",
+  "audio/exposure_B_group/unambiguous/Brime_Prime_2.mp3",
+  "audio/exposure_B_group/unambiguous/Brior_Prior_2.mp3",
+  "audio/exposure_B_group/unambiguous/Browl_Prowl_2.mp3",
+  "audio/exposure_B_group/unambiguous/Bry_Pry_2.mp3",
+  "audio/exposure_B_group/unambiguous/Bylon_Pylon_2.mp3",
+  "audio/exposure_B_group/word/Aisle_1.mp3",
+  "audio/exposure_B_group/word/Ally_1.mp3",
+  "audio/exposure_B_group/word/Area_1.mp3",
+  "audio/exposure_B_group/word/Arena_1.mp3",
+  "audio/exposure_B_group/word/Arrow_1.mp3",
+  "audio/exposure_B_group/word/Assume_1.mp3",
+  "audio/exposure_B_group/word/Aware_1.mp3",
+  "audio/exposure_B_group/word/Enemy_1.mp3",
+  "audio/exposure_B_group/word/Ensure_1.mp3",
+  "audio/exposure_B_group/word/Error_1.mp3",
+  "audio/exposure_B_group/word/Eye_1.mp3",
+  "audio/exposure_B_group/word/Failure_1.mp3",
+  "audio/exposure_B_group/word/Famous_1.mp3",
+  "audio/exposure_B_group/word/Flower_1.mp3",
+  "audio/exposure_B_group/word/Frame_1.mp3",
+  "audio/exposure_B_group/word/Funnel_1.mp3",
+  "audio/exposure_B_group/word/Hallway_1.mp3",
+  "audio/exposure_B_group/word/Hang_1.mp3",
+  "audio/exposure_B_group/word/Harmony_1.mp3",
+  "audio/exposure_B_group/word/Hill_1.mp3",
+  "audio/exposure_B_group/word/Hole_1.mp3",
+  "audio/exposure_B_group/word/Horn_1.mp3",
+  "audio/exposure_B_group/word/Jelly_1.mp3",
+  "audio/exposure_B_group/word/Jewel_1.mp3",
+  "audio/exposure_B_group/word/Lawyer_1.mp3",
+  "audio/exposure_B_group/word/Layer_1.mp3",
+  "audio/exposure_B_group/word/Learning_1.mp3",
+  "audio/exposure_B_group/word/Low_1.mp3",
+  "audio/exposure_B_group/word/Main_1.mp3",
+  "audio/exposure_B_group/word/Marine_1.mp3",
+  "audio/exposure_B_group/word/Memory_1.mp3",
+  "audio/exposure_B_group/word/Money_1.mp3",
+  "audio/exposure_B_group/word/Name_1.mp3",
+  "audio/exposure_B_group/word/Narrow_1.mp3",
+  "audio/exposure_B_group/word/Normal_1.mp3",
+  "audio/exposure_B_group/word/Nun_1.mp3",
+  "audio/exposure_B_group/word/Phenomenon_1.mp3",
+  "audio/exposure_B_group/word/Rally_1.mp3",
+  "audio/exposure_B_group/word/Range_1.mp3",
+  "audio/exposure_B_group/word/Real_1.mp3",
+  "audio/exposure_B_group/word/Reign_1.mp3",
+  "audio/exposure_B_group/word/Ring_1.mp3",
+  "audio/exposure_B_group/word/Roar_1.mp3",
+  "audio/exposure_B_group/word/Royal_1.mp3",
+  "audio/exposure_B_group/word/Ruin_1.mp3",
+  "audio/exposure_B_group/word/Rumor_1.mp3",
+  "audio/exposure_B_group/word/Runner_1.mp3",
+  "audio/exposure_B_group/word/Sailor_1.mp3",
+  "audio/exposure_B_group/word/Seal_1.mp3",
+  "audio/exposure_B_group/word/Shell_1.mp3",
+  "audio/exposure_B_group/word/Similar_1.mp3",
+  "audio/exposure_B_group/word/Soil_1.mp3",
+  "audio/exposure_B_group/word/Valley_1.mp3",
+  "audio/exposure_B_group/word/Vary_1.mp3",
+  "audio/exposure_B_group/word/Venue_1.mp3",
+  "audio/exposure_B_group/word/Violin_1.mp3",
+  "audio/exposure_B_group/word/Volume_1.mp3",
+  "audio/exposure_B_group/word/Sewer_1.mp3",
+  "audio/exposure_B_group/word/Swear_1.mp3",
+  "audio/exposure_B_group/word/Throne_1.mp3",
+  "audio/exposure_B_group/nonword/Alinomy_1.mp3",
+  "audio/exposure_B_group/nonword/Aller_1.mp3",
+  "audio/exposure_B_group/nonword/Arema_1.mp3",
+  "audio/exposure_B_group/nonword/Chame_1.mp3",
+  "audio/exposure_B_group/nonword/Charle_1.mp3",
+  "audio/exposure_B_group/nonword/Cheel_1.mp3",
+  "audio/exposure_B_group/nonword/Churr_1.mp3",
+  "audio/exposure_B_group/nonword/Eamer_1.mp3",
+  "audio/exposure_B_group/nonword/Eelam_1.mp3",
+  "audio/exposure_B_group/nonword/Elammer_1.mp3",
+  "audio/exposure_B_group/nonword/Enlow_1.mp3",
+  "audio/exposure_B_group/nonword/Eynam_1.mp3",
+  "audio/exposure_B_group/nonword/Fairdon_1.mp3",
+  "audio/exposure_B_group/nonword/Feen_1.mp3",
+  "audio/exposure_B_group/nonword/Felmy_1.mp3",
+  "audio/exposure_B_group/nonword/Fime_1.mp3",
+  "audio/exposure_B_group/nonword/Finneran_1.mp3",
+  "audio/exposure_B_group/nonword/Flangle_1.mp3",
+  "audio/exposure_B_group/nonword/Fonnow_1.mp3",
+  "audio/exposure_B_group/nonword/Foon_1.mp3",
+  "audio/exposure_B_group/nonword/Hallen_1.mp3",
+  "audio/exposure_B_group/nonword/Hame_1.mp3",
+  "audio/exposure_B_group/nonword/Harl_1.mp3",
+  "audio/exposure_B_group/nonword/Harn_1.mp3",
+  "audio/exposure_B_group/nonword/Harnomy_1.mp3",
+  "audio/exposure_B_group/nonword/Heln_1.mp3",
+  "audio/exposure_B_group/nonword/Hemmerle_1.mp3",
+  "audio/exposure_B_group/nonword/Hemmery_1.mp3",
+  "audio/exposure_B_group/nonword/Heon_1.mp3",
+  "audio/exposure_B_group/nonword/Heyn_1.mp3",
+  "audio/exposure_B_group/nonword/Hing_1.mp3",
+  "audio/exposure_B_group/nonword/Hino_1.mp3",
+  "audio/exposure_B_group/nonword/Hollin_1.mp3",
+  "audio/exposure_B_group/nonword/Hoy_1.mp3",
+  "audio/exposure_B_group/nonword/Hurn_1.mp3",
+  "audio/exposure_B_group/nonword/Immel_1.mp3",
+  "audio/exposure_B_group/nonword/Jare_1.mp3",
+  "audio/exposure_B_group/nonword/Jeel_1.mp3",
+  "audio/exposure_B_group/nonword/Jum_1.mp3",
+  "audio/exposure_B_group/nonword/Jurio_1.mp3",
+  "audio/exposure_B_group/nonword/Lahm_1.mp3",
+  "audio/exposure_B_group/nonword/Lail_1.mp3",
+  "audio/exposure_B_group/nonword/Lamurre_1.mp3",
+  "audio/exposure_B_group/nonword/Lar_1.mp3",
+  "audio/exposure_B_group/nonword/Larrow_1.mp3",
+  "audio/exposure_B_group/nonword/Lemmela_1.mp3",
+  "audio/exposure_B_group/nonword/Lennim_1.mp3",
+  "audio/exposure_B_group/nonword/Leonie_1.mp3",
+  "audio/exposure_B_group/nonword/Lermie_1.mp3",
+  "audio/exposure_B_group/nonword/Loanler_1.mp3",
+  "audio/exposure_B_group/nonword/Loff_1.mp3",
+  "audio/exposure_B_group/nonword/Lum_1.mp3",
+  "audio/exposure_B_group/nonword/Mallon_1.mp3",
+  "audio/exposure_B_group/nonword/Mang_1.mp3",
+  "audio/exposure_B_group/nonword/Mannow_1.mp3",
+  "audio/exposure_B_group/nonword/Marn_1.mp3",
+  "audio/exposure_B_group/nonword/Mawen_1.mp3",
+  "audio/exposure_B_group/nonword/Mawn_1.mp3",
+  "audio/exposure_B_group/nonword/Mayin_1.mp3",
+  "audio/exposure_B_group/nonword/Memmel_1.mp3",
+  "audio/exposure_B_group/nonword/Mewry_1.mp3",
+  "audio/exposure_B_group/nonword/Minnin_1.mp3",
+  "audio/exposure_B_group/nonword/Morial_1.mp3",
+  "audio/exposure_B_group/nonword/Moyer_1.mp3",
+  "audio/exposure_B_group/nonword/Mun_1.mp3",
+  "audio/exposure_B_group/nonword/Munnel_1.mp3",
+  "audio/exposure_B_group/nonword/Nallow_1.mp3",
+  "audio/exposure_B_group/nonword/Nellon_1.mp3",
+  "audio/exposure_B_group/nonword/Neoma_1.mp3",
+  "audio/exposure_B_group/nonword/Ner_1.mp3",
+  "audio/exposure_B_group/nonword/Norlin_1.mp3",
+  "audio/exposure_B_group/nonword/Noron_1.mp3",
+  "audio/exposure_B_group/nonword/Noy_1.mp3",
+  "audio/exposure_B_group/nonword/Orn_1.mp3",
+  "audio/exposure_B_group/nonword/Rame_1.mp3",
+  "audio/exposure_B_group/nonword/Rannel_1.mp3",
+  "audio/exposure_B_group/nonword/Rawl_1.mp3",
+  "audio/exposure_B_group/nonword/Reen_1.mp3",
+  "audio/exposure_B_group/nonword/Rhinen_2.mp3",
+  "audio/exposure_B_group/nonword/Ria_1.mp3",
+  "audio/exposure_B_group/nonword/Saln_1.mp3",
+  "audio/exposure_B_group/nonword/Sare_1.mp3",
+  "audio/exposure_B_group/nonword/Selmer_1.mp3",
+  "audio/exposure_B_group/nonword/Siller_1.mp3",
+  "audio/exposure_B_group/nonword/Slomb_1.mp3",
+  "audio/exposure_B_group/nonword/Smong_1.mp3",
+  "audio/exposure_B_group/nonword/Snoll_1.mp3",
+  "audio/exposure_B_group/nonword/Snyre_1.mp3",
+  "audio/exposure_B_group/nonword/Somb_1.mp3",
+  "audio/exposure_B_group/nonword/Thim_1.mp3",
+  "audio/exposure_B_group/nonword/Threen_1.mp3",
+  "audio/exposure_B_group/nonword/Vainyl_1.mp3",
+  "audio/exposure_B_group/nonword/Vallon_1.mp3",
+  "audio/exposure_B_group/nonword/Vunn_1.mp3",
+  "audio/exposure_B_group/nonword/Werro_1.mp3",
+  "audio/exposure_B_group/nonword/Winal_1.mp3",
+  "audio/exposure_B_group/nonword/Woony_1.mp3",
+  "audio/exposure_B_group/nonword/Wyan_1.mp3",
+  "audio/exposure_B_group/nonword/Yorn_1.mp3",
+  "audio/exposure_B_group/nonword/Ven_1.mp3",
   "audio/test/BAA_PAA_3_0.mp3",
   "audio/test/BAH_PAH_3_0.mp3",
   "audio/test/BIH_PIH_1_0.mp3",

@@ -41,7 +41,7 @@ fs.createReadStream('B_group_left/trial_csv/exposure_B_group_left.csv')
 			.on('data', data => {
 				testResults.push(data)
 				assetPaths.push([
-					'audio/experimental/' + data.path, 
+					'audio/test/' + data.path, 
 				])
 			})
 			.on('end', () => {
