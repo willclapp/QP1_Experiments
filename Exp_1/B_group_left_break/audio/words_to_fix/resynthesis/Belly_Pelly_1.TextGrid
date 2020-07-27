@@ -1,0 +1,40 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.7731191160985134 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "region" 
+        xmin = 0 
+        xmax = 0.7731191160985134 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1778793780193237 
+            text = "" 
+        intervals [2]:
+            xmin = 0.1778793780193237 
+            xmax = 0.1855631555944056 
+            text = "" 
+        intervals [3]:
+            xmin = 0.1855631555944056 
+            xmax = 0.5159247685185185 
+            text = "" 
+        intervals [4]:
+            xmin = 0.5159247685185185 
+            xmax = 0.7731191160985134 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "word" 
+        xmin = 0 
+        xmax = 0.7731191160985134 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7731191160985134 
+            text = "Belly_Pelly_1" 

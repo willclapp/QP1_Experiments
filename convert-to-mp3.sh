@@ -1,6 +1,6 @@
 #!/bin/sh
 
-arr=("./Exp_1/updateaudio/*")
+arr=("./Exp_1/B_group_left/audio/words_to_fix/volume/*")
 
 for d in "${arr[@]}"; do
 	echo "converting audio in ${d}"
