@@ -21,9 +21,11 @@ function make_slides(f) {
     name: "exposure",
     present: exp.exposure_stimuli,
     present_handle: function(stim) {
-      (function time_getting_function() {
-        var trialT = Date.now();
-      }),
+      var trialT = $("<div />")
+        .attr("id", "trialT")
+        .attr("data-time", Date.now())
+        .hide()
+      $(".trial-t").append(trialT)
       $(".err").hide();
       this.stim = stim;
       $(".trial_button")
@@ -61,11 +63,13 @@ function make_slides(f) {
       }
     },
     log_responses : function() {
+      var trialT = $("#trialT").attr("data-time")
+      $(".trial-t").children().remove()
       exp.data_trials.push(Object.assign({
         "slide_order": exp.phase-3,
         "participant_id" : exp.uuid,
         "response" : this.response,
-        "trial_time" : this.trialT
+        "trial_time" : trialT
       }, this.stim));
     }
   })
@@ -81,12 +85,17 @@ function make_slides(f) {
     name: "test",
     present: exp.test_stimuli,
     present_handle: function(stim) {
+      var trialT = $("<div />")
+        .attr("id", "trialT")
+        .attr("data-time", Date.now())
+        .hide()
+      $(".trial-t").append(trialT)
       $(".err").hide();
       this.stim = stim;
       $(".trial_button")
       .attr("disabled", true)
       var audio = $("<audio />")
-      .attr("src", "audio/experimental/" + stim.path)
+      .attr("src", "audio/test/" + stim.path)
       .attr("autoplay", true)
       .on("ended", function() {
         $(".display_condition_test").children().remove()
@@ -119,10 +128,13 @@ function make_slides(f) {
       }
     },
     log_responses : function() {
+      var trialT = $("#trialT").attr("data-time")
+      $(".trial-t").children().remove()
       exp.data_trials.push(Object.assign({
         "slide_order": exp.phase-3,
         "participant_id" : exp.uuid,
-        "response" : this.response
+        "response" : this.response,
+        "trial_time" : trialT
       }, this.stim));
     }
   })
@@ -135,6 +147,7 @@ function make_slides(f) {
         language : $("#language").val(),
         enjoyment : $("#enjoyment").val(),
         assess : $('input[name="assess"]:checked').val(),
+        listen : $('input[name="listen"]:checked').val(),
         age : $("#age").val(),
         gender : $("#gender").val(),
         education : $("#education").val(),

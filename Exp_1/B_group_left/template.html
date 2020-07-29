@@ -45,10 +45,10 @@
         $(document).on("keypress", function(e) {
           if (e.which === 107) {
             $("#selection_no").attr("checked", true)
-            setTimeout(() => (_s.button()), 2000)
+            setTimeout(() => (_s.button()), 1500)
           } else if (e.which === 115) {
             $("#selection_yes").attr("checked", true)
-            setTimeout(() => (_s.button()), 2000)
+            setTimeout(() => (_s.button()), 1500)
           }
         })
       })
@@ -62,7 +62,7 @@
   <div class="slide" id="i0" >
     <img src="shared/images/stanford.png" alt="Stanford CoCoLab" id="cocologo"></img>
     <p id="cocolab">Stanford Linguistics</p>
-    <p id="instruct-text">In this experiment, you'll hear some audio and then make a selection. Please proceed only if you're a native English speaker working in a quiet area and listening on headphones. The HIT should take about 20 minutes. Please listen carefully, thanks!</p>
+    <p id="instruct-text">In this experiment, you'll hear some audio and then make a selection. Please proceed only if you're a native English speaker working in a quiet area and listening on headphones. The HIT should take about 15 minutes. Please listen carefully, thanks!</p>
     <button id="start_button" type="button">Start Experiment</button>
     <p id="legal">
       <font size="2">
@@ -85,6 +85,7 @@
 
   <div class="slide" id="exposure">
     <div class="display_condition_exposure"></div>
+    <div class="trial-t"></div>
     <div><h3>Is this a real English word?</h3></div>
     <div class='exposure_options_container options_container'></div>
     <pre class="tab press">Press "s"             ||               Press "k"</pre>
@@ -108,6 +109,7 @@
 
   <div class="slide" id="test">
     <div class="display_condition_test"></div>
+    <div class="trial-t"></div>
     <div><h3>Which sound did you hear?</h3></div>
     <div class='test_options_container options_container'></div>
     <pre class="tab press">Press "s"             ||               Press "k"</pre>
@@ -146,7 +148,11 @@
       <p>Were there any problems or bugs in the experiment?</p>
       <textarea id="problems" rows="2" cols="50"></textarea>
 
-
+      <p>How did you listen to the audio during this HIT?</p>
+      <label><input type="radio"  name="listen" value="comp_speak"/>Computer speakers</label>
+      <label><input type="radio"  name="listen" value="ext-speak"/>External speakers</label>
+      <label><input type="radio"  name="listen" value="headphones"/>Headphones</label>
+      <label><input type="radio"  name="listen" value="other"/>Other</label>
 
       <p>What do you think is a fair price for the work you did?</p>
       <textarea id="fairprice" rows="1" cols="10"></textarea>

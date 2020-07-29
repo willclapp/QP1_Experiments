@@ -17,13 +17,19 @@ function make_slides(f) {
   });
 
 
+
+  // EXPOSURE
+
+
   slides.exposure = slide({
     name: "exposure",
     present: exp.exposure_stimuli,
     present_handle: function(stim) {
-      (function time_getting_function() {
-        var trialT = Date.now();
-      }),
+      var trialT = $("<div />")
+        .attr("id", "trialT")
+        .attr("data-time", Date.now())
+        .hide()
+      $(".trial-t").append(trialT)
       $(".err").hide();
       this.stim = stim;
       $(".trial_button")
@@ -61,11 +67,13 @@ function make_slides(f) {
       }
     },
     log_responses : function() {
+      var trialT = $("#trialT").attr("data-time")
+      $(".trial-t").children().remove()
       exp.data_trials.push(Object.assign({
         "slide_order": exp.phase-3,
         "participant_id" : exp.uuid,
         "response" : this.response,
-        "trial_time" : this.trialT
+        "trial_time" : trialT
       }, this.stim));
     }
   })
@@ -77,16 +85,23 @@ function make_slides(f) {
     }
   })
 
-  slides.test = slide({
-    name: "test",
-    present: exp.test_stimuli,
+// LABIAL TEST
+
+  slides.labial_test = slide({
+    name: "labial_test",
+    present: exp.test_stimuli_lab,
     present_handle: function(stim) {
+      var trialT = $("<div />")
+        .attr("id", "trialT")
+        .attr("data-time", Date.now())
+        .hide()
+      $(".trial-t").append(trialT)
       $(".err").hide();
       this.stim = stim;
       $(".trial_button")
       .attr("disabled", true)
       var audio = $("<audio />")
-      .attr("src", "audio/experimental/" + stim.path)
+      .attr("src", "audio/test/" + stim.path)
       .attr("autoplay", true)
       .on("ended", function() {
         $(".display_condition_test").children().remove()
@@ -101,7 +116,7 @@ function make_slides(f) {
       $(".display_condition_nonword")
       .append(audio)
 
-      $(".test_options_container")
+      $(".labial_options_container")
       .append(options[0])
       .append(options[1])
     },
@@ -113,19 +128,157 @@ function make_slides(f) {
       } else {
         // play continuation audio
         // cleanup
-        $(".test_options_container").children().remove()
+        $(".labial_options_container").children().remove()
         this.log_responses();
         _stream.apply(this);
       }
     },
     log_responses : function() {
+      var trialT = $("#trialT").attr("data-time")
+      $(".trial-t").children().remove()
       exp.data_trials.push(Object.assign({
         "slide_order": exp.phase-3,
         "participant_id" : exp.uuid,
-        "response" : this.response
+        "response" : this.response,
+        "trial_time" : trialT
       }, this.stim));
     }
   })
+
+  slides.third_instructions = slide({
+    name: "third_instructions",
+    button: function() {
+      exp.go()
+    }
+  })
+
+// CORONAL TEST
+
+  slides.coronal_test = slide({
+    name: "coronal_test",
+    present: exp.test_stimuli_cor,
+    present_handle: function(stim) {
+      var trialT = $("<div />")
+        .attr("id", "trialT")
+        .attr("data-time", Date.now())
+        .hide()
+      $(".trial-t").append(trialT)
+      $(".err").hide();
+      this.stim = stim;
+      $(".trial_button")
+      .attr("disabled", true)
+      var audio = $("<audio />")
+      .attr("src", "audio/test/" + stim.path)
+      .attr("autoplay", true)
+      .on("ended", function() {
+        $(".display_condition_test").children().remove()
+        $(".trial_button")
+        .attr("disabled", false)
+      })
+
+      var voiced_option = build_trial_option(stim.voiced_sel, "yes")
+      var voiceless_option = build_trial_option(stim.voiceless_sel, "no")
+      var options = [voiced_option, voiceless_option]
+
+      $(".display_condition_nonword")
+      .append(audio)
+
+      $(".coronal_options_container")
+      .append(options[0])
+      .append(options[1])
+    },
+    button : function() {
+      // TODO capture val of image radio button
+      this.response = $('input[name="selection"]:checked').val();
+      if (this.response == undefined) {
+        $(".err").show();
+      } else {
+        // play continuation audio
+        // cleanup
+        $(".coronal_options_container").children().remove()
+        this.log_responses();
+        _stream.apply(this);
+      }
+    },
+    log_responses : function() {
+      var trialT = $("#trialT").attr("data-time")
+      $(".trial-t").children().remove()
+      exp.data_trials.push(Object.assign({
+        "slide_order": exp.phase-3,
+        "participant_id" : exp.uuid,
+        "response" : this.response,
+        "trial_time" : trialT
+      }, this.stim));
+    }
+  })
+
+  slides.fourth_instructions = slide({
+    name: "fourth_instructions",
+    button: function() {
+      exp.go()
+    }
+  })
+
+// DORSAL TEST
+
+  slides.dorsal_test = slide({
+    name: "dorsal_test",
+    present: exp.test_stimuli_dor,
+    present_handle: function(stim) {
+      var trialT = $("<div />")
+        .attr("id", "trialT")
+        .attr("data-time", Date.now())
+        .hide()
+      $(".trial-t").append(trialT)
+      $(".err").hide();
+      this.stim = stim;
+      $(".trial_button")
+      .attr("disabled", true)
+      var audio = $("<audio />")
+      .attr("src", "audio/test/" + stim.path)
+      .attr("autoplay", true)
+      .on("ended", function() {
+        $(".display_condition_test").children().remove()
+        $(".trial_button")
+        .attr("disabled", false)
+      })
+
+      var voiced_option = build_trial_option(stim.voiced_sel, "yes")
+      var voiceless_option = build_trial_option(stim.voiceless_sel, "no")
+      var options = [voiced_option, voiceless_option]
+
+      $(".display_condition_nonword")
+      .append(audio)
+
+      $(".dorsal_options_container")
+      .append(options[0])
+      .append(options[1])
+    },
+    button : function() {
+      // TODO capture val of image radio button
+      this.response = $('input[name="selection"]:checked').val();
+      if (this.response == undefined) {
+        $(".err").show();
+      } else {
+        // play continuation audio
+        // cleanup
+        $(".dorsal_options_container").children().remove()
+        this.log_responses();
+        _stream.apply(this);
+      }
+    },
+    log_responses : function() {
+      var trialT = $("#trialT").attr("data-time")
+      $(".trial-t").children().remove()
+      exp.data_trials.push(Object.assign({
+        "slide_order": exp.phase-3,
+        "participant_id" : exp.uuid,
+        "response" : this.response,
+        "trial_time" : trialT
+      }, this.stim));
+    }
+  })
+
 
   slides.subj_info =  slide({
     name : "subj_info",
@@ -135,6 +288,7 @@ function make_slides(f) {
         language : $("#language").val(),
         enjoyment : $("#enjoyment").val(),
         assess : $('input[name="assess"]:checked').val(),
+        listen : $('input[name="listen"]:checked').val(),
         age : $("#age").val(),
         gender : $("#gender").val(),
         education : $("#education").val(),
@@ -176,7 +330,9 @@ function init() {
   exp.uuid = uuidv4()
   // variables imported from stims.js
   exp.exposure_stimuli = _.shuffle(exposure_stimuli)
-  exp.test_stimuli = _.shuffle(test_stimuli)
+  exp.test_stimuli_lab = _.shuffle(test_stimuli_lab)
+  exp.test_stimuli_cor = _.shuffle(test_stimuli_cor)
+  exp.test_stimuli_dor = _.shuffle(test_stimuli_dor)
   exp.system = {
     Browser : BrowserDetect.browser,
     OS : BrowserDetect.OS,
@@ -186,7 +342,7 @@ function init() {
     screenUW: exp.width
   };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "exposure", "second_instructions", "test", 'subj_info', 'thanks'];
+  exp.structure=["i0", "instructions", "exposure", "second_instructions", "labial_test", "third_instructions", "coronal_test", "fourth_instructions", "dorsal_test", 'subj_info', 'thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:
