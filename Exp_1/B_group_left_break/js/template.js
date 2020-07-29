@@ -9,6 +9,19 @@ function make_slides(f) {
     }
   });
 
+  slides.general_instructions = slide({
+    name: "general_instructions",
+    button: function () {
+      if (($('input[name="lang"]:checked').val() == "no") && ($('input[name="phones"]:checked').val() == "yes") && ($('input[name="environ"]:checked').val() == "yes")) {
+        console.log("hello");
+        exp.go(); //use exp.go() if and only if there is no "present" data.
+      } else {
+        $('#questions').remove();
+        $('#general_instructions').append("<p><br><br>Sorry, this HIT is only available for monolingual speakers of <br>English working in a quiet environment and listening on headphones.<br><br>Please exit the HIT.</p>");
+      }
+    }
+  });
+
   slides.instructions = slide({
     name : "instructions",
     button : function() {
@@ -280,24 +293,25 @@ function make_slides(f) {
   })
 
 
-  slides.subj_info =  slide({
-    name : "subj_info",
-    submit : function(e){
+  slides.subj_info = slide({
+    name: "subj_info",
+    submit: function (e) {
       //if (e.preventDefault) e.preventDefault(); // I don't know what this means.
       exp.subj_data = {
-        language : $("#language").val(),
-        enjoyment : $("#enjoyment").val(),
-        assess : $('input[name="assess"]:checked').val(),
-        listen : $('input[name="listen"]:checked').val(),
-        age : $("#age").val(),
-        gender : $("#gender").val(),
-        education : $("#education").val(),
-        comments : $("#comments").val(),
+        language: $("#language").val(),
+        enjoyment: $("#enjoyment").val(),
+        assess: $('input[name="assess"]:checked').val(),
+        listen: $('input[name="listen"]:checked').val(),
+        age: $("#age").val(),
+        gender: $("#gender").val(),
+        education: $("#education").val(),
+        comments: $("#comments").val(),
         problems: $("#problems").val(),
         fairprice: $("#fairprice").val(),
         interruption: $('input[name="interruption"]:checked').val(),
         int_minutes: $("#int_minutes").val(),
-        email: $ ("#email").val()
+        email: $('input[name="email"]:checked').val(),
+        handed: $('input[name="hand"]:checked').val()
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
@@ -342,7 +356,7 @@ function init() {
     screenUW: exp.width
   };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "exposure", "second_instructions", "labial_test", "third_instructions", "coronal_test", "fourth_instructions", "dorsal_test", 'subj_info', 'thanks'];
+  exp.structure=["i0", "general_instructions", "instructions", "exposure", "second_instructions", "labial_test", "third_instructions", "coronal_test", "fourth_instructions", "dorsal_test", 'subj_info', 'thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:
