@@ -1685,14 +1685,14 @@ var exposure_stimuli = [
     "group": "B_group",
     "side": "left",
     "phase": "exposure",
-    "target": "Hallen",
+    "target": "Ven",
     "type": "fill_nonword",
     "word_sel": "Real",
     "nonword_sel": "Pseudo",
-    "set": "Hallen",
+    "set": "Ven",
     "step": "NA",
     "recording": "1",
-    "path": "nonword/Hallen_1.mp3"
+    "path": "nonword/Ven_2.mp3"
   },
   {
     "index": "122",
@@ -8326,7 +8326,7 @@ var assetPaths = [
   "audio/exposure_B_group/nonword/Flangle_1.mp3",
   "audio/exposure_B_group/nonword/Fonnow_1.mp3",
   "audio/exposure_B_group/nonword/Foon_1.mp3",
-  "audio/exposure_B_group/nonword/Hallen_1.mp3",
+  "audio/exposure_B_group/nonword/Ven_2.mp3",
   "audio/exposure_B_group/nonword/Hame_1.mp3",
   "audio/exposure_B_group/nonword/Harl_1.mp3",
   "audio/exposure_B_group/nonword/Harn_1.mp3",

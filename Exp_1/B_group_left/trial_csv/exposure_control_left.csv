@@ -32,7 +32,7 @@ index,group,side,phase,target,type,word_sel,nonword_sel,set,step,recording,path
 31,control,left,exposure,Fime,fill_nonword,Real,Pseudo,Fime,NA,1,nonword/Fime_1.mp3
 32,control,left,exposure,Fonnow,fill_nonword,Real,Pseudo,Fonnow,NA,1,nonword/Fonnow_1.mp3
 33,control,left,exposure,Foon,fill_nonword,Real,Pseudo,Foon,NA,1,nonword/Foon_1.mp3
-34,control,left,exposure,Hallen,fill_nonword,Real,Pseudo,Hallen,NA,1,nonword/Hallen_1.mp3
+34,control,left,exposure,Ven,fill_nonword,Real,Pseudo,Ven,NA,1,nonword/Ven_2.mp3
 35,control,left,exposure,Hame,fill_nonword,Real,Pseudo,Hame,NA,1,nonword/Hame_1.mp3
 36,control,left,exposure,Harl,fill_nonword,Real,Pseudo,Harl,NA,1,nonword/Harl_1.mp3
 37,control,left,exposure,Harn,fill_nonword,Real,Pseudo,Harn,NA,1,nonword/Harn_1.mp3

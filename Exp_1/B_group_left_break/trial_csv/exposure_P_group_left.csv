@@ -119,7 +119,7 @@ index,group,side,phase,target,type,word_sel,nonword_sel,set,step,recording,path
 118,P_group,left,exposure,Flangle,fill_nonword,Real,Pseudo,Flangle,NA,1,nonword/Flangle_1.mp3
 119,P_group,left,exposure,Fonnow,fill_nonword,Real,Pseudo,Fonnow,NA,1,nonword/Fonnow_1.mp3
 120,P_group,left,exposure,Foon,fill_nonword,Real,Pseudo,Foon,NA,1,nonword/Foon_1.mp3
-121,P_group,left,exposure,Hallen,fill_nonword,Real,Pseudo,Hallen,NA,1,nonword/Hallen_1.mp3
+121,P_group,left,exposure,Ven,fill_nonword,Real,Pseudo,Ven,NA,1,nonword/Ven_2.mp3
 122,P_group,left,exposure,Hame,fill_nonword,Real,Pseudo,Hame,NA,1,nonword/Hame_1.mp3
 123,P_group,left,exposure,Harl,fill_nonword,Real,Pseudo,Harl,NA,1,nonword/Harl_1.mp3
 124,P_group,left,exposure,Harn,fill_nonword,Real,Pseudo,Harn,NA,1,nonword/Harn_1.mp3
