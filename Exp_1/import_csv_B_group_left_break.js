@@ -27,7 +27,7 @@ const writeResults = (word, coronal, labial, dorsal, assets) => {
 }
 
 // Getting read for trial
-fs.createReadStream('B_group_left/trial_csv/exposure_B_group_left.csv')
+fs.createReadStream('B_group_left_break/trial_csv/exposure_B_group_left.csv')
 	.pipe(csv())
 	.on('data', data => {
 		exposureResults.push(data)
