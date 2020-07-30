@@ -111,7 +111,7 @@ index,group,side,phase,target,type,word_sel,nonword_sel,set,step,recording,path
 110,B_group,left,exposure,Elammer,fill_nonword,Real,Pseudo,Elammer,NA,1,nonword/Elammer_1.mp3
 111,B_group,left,exposure,Enlow,fill_nonword,Real,Pseudo,Enlow,NA,1,nonword/Enlow_1.mp3
 112,B_group,left,exposure,Eynam,fill_nonword,Real,Pseudo,Eynam,NA,1,nonword/Eynam_1.mp3
-113,B_group,left,exposure,Fairdon,fill_nonword,Real,Pseudo,Fairdon,NA,1,nonword/Fairdon_1.mp3
+113,B_group,left,exposure,Freel,fill_nonword,Real,Pseudo,Freel,NA,1,nonword/Freel_2.mp3
 114,B_group,left,exposure,Feen,fill_nonword,Real,Pseudo,Feen,NA,1,nonword/Feen_1.mp3
 115,B_group,left,exposure,Felmy,fill_nonword,Real,Pseudo,Felmy,NA,1,nonword/Felmy_1.mp3
 116,B_group,left,exposure,Fime,fill_nonword,Real,Pseudo,Fime,NA,1,nonword/Fime_1.mp3

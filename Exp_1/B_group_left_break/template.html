@@ -45,7 +45,6 @@
         $(document).on("keypress", function(e) {
           if (e.which === 107) {
             $("#selection_no").attr("checked", true)
-            console.log("XD")
             setTimeout(() => (_s.button()), 1500)
           } else if (e.which === 115) {
             $("#selection_yes").attr("checked", true)
@@ -100,7 +99,7 @@
       <p>
         Do you speak any languages other than English?
       </p>
-      <label><input type="radio" name="lang" value="yes">Yes</label>
+      <label><input type="radio" name="lang" value="yes" required>Yes</label>
       <label><input type="radio" name="lang" value="no">No</label>
       <br>
       <p>

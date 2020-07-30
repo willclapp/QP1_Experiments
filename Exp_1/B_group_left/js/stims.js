@@ -1573,14 +1573,14 @@ var exposure_stimuli = [
     "group": "B_group",
     "side": "left",
     "phase": "exposure",
-    "target": "Fairdon",
+    "target": "Freel",
     "type": "fill_nonword",
     "word_sel": "Real",
     "nonword_sel": "Pseudo",
-    "set": "Fairdon",
+    "set": "Freel",
     "step": "NA",
     "recording": "1",
-    "path": "nonword/Fairdon_1.mp3"
+    "path": "nonword/Freel_2.mp3"
   },
   {
     "index": "114",
@@ -8318,7 +8318,7 @@ var assetPaths = [
   "audio/exposure_B_group/nonword/Elammer_1.mp3",
   "audio/exposure_B_group/nonword/Enlow_1.mp3",
   "audio/exposure_B_group/nonword/Eynam_1.mp3",
-  "audio/exposure_B_group/nonword/Fairdon_1.mp3",
+  "audio/exposure_B_group/nonword/Freel_2.mp3",
   "audio/exposure_B_group/nonword/Feen_1.mp3",
   "audio/exposure_B_group/nonword/Felmy_1.mp3",
   "audio/exposure_B_group/nonword/Fime_1.mp3",
