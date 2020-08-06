@@ -1,0 +1,194 @@
+---
+title: "Exp1_Pilot"
+author: "Will Clapp"
+date: "7/30/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(lme4)
+```
+
+
+
+
+First, upload demographics
+```{r}
+df.b_sub <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/B_group_left/mturk/experiment-subject_information.csv")
+df.b_break_sub <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/B_group_left_break/mturk/experiment-subject_information.csv")
+df.p_sub <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/P_group_left/mturk/experiment-subject_information.csv")
+df.p_break_sub <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/P_group_left_break/mturk/experiment-subject_information.csv")
+df.c_sub <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/control_group_left/mturk/experiment-subject_information.csv")
+df.c_break_sub <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/control_group_left_break/mturk/experiment-subject_information.csv")
+
+
+# add condition to subject data
+df.b_sub <- df.b_sub %>% 
+  mutate("condition" = "b")
+df.p_sub <- df.p_sub %>% 
+  mutate("condition" = "p")
+df.c_sub <- df.c_sub %>% 
+  mutate("condition" = "c")
+df.b_break_sub <- df.b_break_sub %>% 
+  mutate("condition" = "b_break")
+df.p_break_sub <- df.p_break_sub %>% 
+  mutate("condition" = "p_break")
+df.c_break_sub <- df.c_break_sub %>% 
+  mutate("condition" = "c_break")
+
+# And join them together
+
+df.subjects <- rbind(df.b_sub, df.b_break_sub, df.p_sub, df.p_break_sub, df.c_sub, df.c_break_sub)
+
+```
+
+
+Then the actual data
+```{r}
+df.b <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/B_group_left/mturk/experiment-trials.csv")
+df.b_break <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/B_group_left_break/mturk/experiment-trials.csv")
+df.p <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/P_group_left/mturk/experiment-trials.csv")
+df.p_break <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/P_group_left_break/mturk/experiment-trials.csv")
+df.c <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/control_group_left/mturk/experiment-trials.csv")
+df.c_break <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/control_group_left_break/mturk/experiment-trials.csv")
+
+# Add condition to join by
+
+df.b <- df.b %>% 
+  mutate("condition" = "b")
+df.p <- df.p %>% 
+  mutate("condition" = "p")
+df.c <- df.c %>% 
+  mutate("condition" = "c")
+df.b_break <- df.b_break %>% 
+  mutate("condition" = "b_break")
+df.p_break <- df.p_break %>% 
+  mutate("condition" = "p_break")
+df.c_break <- df.c_break %>% 
+  mutate("condition" = "c_break")
+
+df.data <- rbind(df.b, df.b_break, df.p, df.p_break, df.c, df.c_break)
+```
+
+
+Add subject data to trial data
+```{r}
+df.data <- left_join(df.data, df.subjects, by = c("condition", "workerid"))
+```
+
+
+
+Add a column for correct or not for exposure
+```{r}
+df.data = df.data %>% 
+  mutate("word_target" = ifelse(((type=="fill_word") | (type=="crit_unamb") | (type=="crit_amb")), 1, 0)) %>% 
+  mutate("pseudo_target" = ifelse(((type=="fill_nonword") | (type=="crit_nonword")), 1, 0)) %>% 
+  mutate("correct_word" = ifelse(((word_target==1) & (response=="yes")), 1, 0)) %>% 
+  mutate("correct_pseudo" = ifelse(((pseudo_target==1) & (response=="no")), 1, 0)) %>% 
+  mutate("correct_both" = ifelse(((correct_word + correct_pseudo)==1), 1, 0)) %>% 
+  mutate("correct_exposure" = ifelse((((correct_both==1) | (correct_both==0)) & phase=="exposure"), correct_both, "NA")) %>% 
+  mutate("correct_exposure" = as.numeric(correct_exposure))
+
+
+
+df.accuracy = df.data %>% 
+  filter(phase == "exposure") %>% 
+  group_by(participant_id, Answer.time_in_minutes, group) %>% 
+  summarise(accuracy = mean(correct_exposure))
+
+
+df.data = left_join(df.data, df.accuracy, by="participant_id")
+
+ggplot(data = df.accuracy,
+       mapping = aes(x = Answer.time_in_minutes,
+                     y = accuracy)) +
+  geom_point(aes(shape=group,
+                 color=group,
+                 size = 5)) +
+  geom_smooth()
+
+```
+
+
+Damn. A lot of people guessing randomly
+```{r}
+df.guessers <- df.data %>% 
+  filter(accuracy < 0.8)
+
+df.listeners <- df.data %>% 
+  filter(accuracy > 0.8)
+
+```
+
+
+Summary stats
+```{r}
+summary(df.data)
+summary(df.guessers)
+summary(df.listeners)
+```
+
+
+First let's just do how many of the exposure tokens were identified correctly.
+
+Not nearly enough. This suggests we need a different norming task or a different exposure task.
+Why not couch it in something that carries with it the assumption of wordhood?
+Like free association? Might also hold attention better.
+
+```{r}
+df.listeners %>%
+  filter(type == "crit_amb") %>% 
+  ggplot(aes(x = correct_exposure)) +
+  geom_bar() +
+  facet_wrap(~set)
+
+
+```
+
+
+
+
+```{r}
+df.steps = df.listeners %>% 
+  filter(phase == "test") %>% 
+  mutate(response_01 = ifelse(response=="yes", 1, 0)) %>% 
+  group_by(group.x, step) %>% 
+  summarise(mean_res = mean(response_01))
+
+df.sep_steps = df.listeners %>% 
+  filter(phase == "test") %>% 
+  mutate(response_01 = ifelse(response=="yes", 1, 0)) %>% 
+  group_by(group.x, step, voiced_sel) %>% 
+  summarise(mean_res = mean(response_01))
+  
+
+```
+
+
+
+```{r}
+df.sep_steps %>% 
+  filter(group.x != "control") %>% 
+  filter(voiced_sel == "B") %>% 
+  ggplot(data=.,
+         mapping = aes(x = step,
+                       y = mean_res)) +
+  geom_point(aes(color=group.x)) +
+  geom_smooth(aes(color=group.x))
+
+```
+
+
+
+```{r}
+
+
+```
+
+
+
+```{r}
+
+
+```
