@@ -1,4 +1,4 @@
-index,group,yes_side,phase,type,audio,match,same_onset,needs_match_onset,visual_target,word_sel,nonword_sel,step,path
+index,group,yes_side,phase,type,audio,match,same_onset,needs_match_onset,visual_target,match_sel,mismatch_sel,step,path
 1,P_group,left,exposure,crit_amb,Parallel,1,1,2,Parallel,SAME,DIFFERENT,21,ambiguous/Barallel_Parallel_3_21.mp3
 2,P_group,left,exposure,crit_amb,Parlor,0,0,0,Neutral,SAME,DIFFERENT,25,ambiguous/Barlor_Parlor_3_25.mp3
 3,P_group,left,exposure,crit_amb,Pawn,1,1,2,Pawn,SAME,DIFFERENT,25,ambiguous/Bawn_Pawn_3_25.mp3
