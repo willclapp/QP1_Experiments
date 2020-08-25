@@ -325,7 +325,16 @@ function make_slides(f) {
         "subject_information": exp.subj_data,
         "time_in_minutes": (Date.now() - exp.startT) / 60000
       };
-      setTimeout(function () { turk.submit(exp.data); }, 1000);
+      submitResults(1, exp.data, function(err, data) {
+        if (err) {
+          console.error(err)
+        } else {
+          let finishLink = $("<a>Click here to finish</a>")
+          .attr("href", "https://app.prolific.co/submissions/complete?cc=1DB75173")
+
+          $(".link-container").append(finishLink)
+        }
+      })
     }
   });
 
