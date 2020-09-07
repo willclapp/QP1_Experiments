@@ -325,7 +325,7 @@ function make_slides(f) {
         "subject_information": exp.subj_data,
         "time_in_minutes": (Date.now() - exp.startT) / 60000
       };
-      submitResults(1, exp.data, function(err, data) {
+      submitResults(4, exp.data, function(err, data) {
         if (err) {
           console.error(err)
         } else {
