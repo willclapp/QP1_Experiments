@@ -330,7 +330,7 @@ function make_slides(f) {
           console.error(err)
         } else {
           let finishLink = $("<a>Click here to finish</a>")
-          .attr("href", "https://app.prolific.co/submissions/complete?cc=1DB75173")
+          .attr("href", "https://app.prolific.co/submissions/complete?cc=1E960312")
 
           $(".link-container").append(finishLink)
         }
