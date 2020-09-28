@@ -1,0 +1,272 @@
+---
+title: "Pilot Analysis"
+author: "Will Clapp"
+date: "8/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(psych)
+```
+
+
+```{r}
+df.b_left_g_first <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/data/pilot/run-1-results.csv")
+df.p_left_g_first <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/data/pilot/run-2-results.csv")
+df.data <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_1/Analysis/First_run.csv")
+
+df.data <- rbind(df.data, df.b_left_g_first, df.p_left_g_first)
+```
+
+
+Add column for accuracy on exposure
+```{r}
+df.data <- df.data %>% 
+  mutate("accurate" = ifelse(((phase=="exposure") & (((response=="yes") & (correct=="yes")) | ((response=="no") & (correct=="no")))), 1, 0))
+
+df.data <- df.data %>% 
+  mutate("accurate" = ifelse((phase=="exposure"), accurate, NA))
+
+```
+
+```{r}
+df.data <- df.data %>% 
+  mutate(response_01 = ifelse(response=="yes", 1, 0))
+
+```
+
+```{r}
+df.accuracy = df.data %>% 
+  filter(phase == "exposure") %>% 
+  group_by(participant_id, time_in_minutes) %>% 
+  summarise(accuracy_exposure = mean(accurate))
+
+df.data = left_join(df.data, df.accuracy, by="participant_id")
+
+```
+
+What if we filter people also based on accuracy in the test round, using responses to steps 0 and 30
+
+```{r}
+df.0_30 <- df.data %>% 
+  filter(phase == "test" & (step == 0 | step == 30))
+
+df.0_30 <- df.0_30 %>% 
+  mutate("accurate_test" = ifelse(((response=="yes" & step == 30) | (response == "no" & step == 0)), 1, 0))
+
+
+df.accuracy_test = df.0_30 %>% 
+  group_by(participant_id) %>% 
+  summarise(accuracy_test = mean(accurate_test))
+
+df.data = left_join(df.data, df.accuracy_test, by="participant_id")
+
+```
+
+
+
+
+
+Some of the "type"s for the control group were mislabelled as crit_amb when they should've been crit_unamb. Go through and fix those now GOTTA DO THIS STILL
+```{r}
+# df.data <- df.data %>% 
+#   ifelse((group == "control" & type == "crit_amb"), type = "crit_unamb", type = type)
+
+```
+
+
+```{r}
+df.no_learning <- df.data %>% 
+  filter(accuracy_exposure < 0.85)
+
+df.no_learning <- df.no_learning %>% 
+  group_by(participant_id, time_in_minutes.x, group, yes_side, test_order) %>% 
+  summarize("hi" = mean(accuracy_exposure))
+
+
+df.guessers <- df.data %>% 
+  filter(accuracy_exposure < 0.85 | accuracy_test < 0.85)
+
+df.listeners <- df.data %>% 
+  filter(accuracy_exposure >= 0.85 & accuracy_test >= 0.85)
+```
+
+
+
+How many people in each group
+```{r}
+df.one_trial_all <- df.data %>% 
+  filter(audio == "Violin")
+
+
+df.one_trial <- df.listeners %>% 
+  filter(audio == "Violin")
+
+df.groups <-df.one_trial %>% 
+  group_by(group, test_order, yes_side) %>% 
+  tally()
+
+df.macro_groups <- df.one_trial %>% 
+  group_by(group) %>% 
+  tally()
+
+
+df.one_trial_bad <- df.guessers %>% 
+  filter(audio == "Violin")
+
+df.groups_bad <-df.one_trial_bad %>% 
+  group_by(group, test_order, yes_side) %>% 
+  tally()
+
+df.macro_group_bads <- df.one_trial_bad %>% 
+  group_by(group) %>% 
+  tally()
+```
+
+
+Add a column to the main df.data file indicating whether or not a participant was excluded
+
+
+```{r}
+df.data <- df.data %>% 
+  mutate("included" = ifelse((participant_id %in% df.one_trial_bad$participant_id), 0, 1))
+
+```
+
+
+
+
+
+```{r}
+df.listeners %>%
+  filter(type == "crit_amb" & group != "control") %>% 
+  ggplot(aes(x = accurate)) +
+  geom_bar() +
+  facet_wrap(~audio)
+
+```
+
+
+
+```{r}
+df.sep_steps = df.listeners %>% 
+  filter(phase == "test") %>% 
+  group_by(group, step, voiced_sel) %>% 
+  summarise(mean_res = mean(response_01))
+
+
+```
+
+
+
+
+
+Use anovas to follow old protocol
+```{r}
+all.aov <- aov()
+
+
+
+
+```
+
+
+
+
+```{r}
+df.sep_steps %>% 
+  filter(voiced_sel == "B") %>% 
+  ggplot(data=.,
+         mapping = aes(x = step,
+                       y = mean_res)) +
+  geom_point(aes(color=group)) +
+  geom_smooth(aes(color=group),
+              se=FALSE) +
+  labs(title = "B/P")
+
+df.sep_steps %>% 
+  filter(voiced_sel == "D") %>% 
+  ggplot(data=.,
+         mapping = aes(x = step,
+                       y = mean_res)) +
+  geom_point(aes(color=group)) +
+  geom_smooth(aes(color=group),
+              se=FALSE) +
+  labs(title = "D/T")
+
+df.sep_steps %>% 
+  filter(voiced_sel == "G") %>% 
+  ggplot(data=.,
+         mapping = aes(x = step,
+                       y = mean_res)) +
+  geom_point(aes(color=group)) +
+  geom_smooth(aes(color=group),
+              se=FALSE) +
+  labs(title = "G/K")
+
+
+```
+
+
+
+
+
+
+
+```{r}
+# reorder levels so control is first 
+
+df.listeners$group <- relevel(df.listeners$group,"control", "B_group", "P_group")
+
+
+df.listeners_test <- df.listeners %>% 
+  filter(phase == "test")
+
+df.labial <- df.listeners_test %>% 
+  filter(voiced_sel=="B")
+df.coronal <- df.listeners_test %>% 
+  filter(voiced_sel=="D")
+df.dorsal <- df.listeners_test %>% 
+  filter(voiced_sel=="G")
+
+glm.listeners_simple = glm(response_01 ~ 1 + group + step, 
+                     data = df.listeners_test,
+                     family="binomial")
+glm.labial_simple = glm(response_01 ~ 1 + group + step, 
+                     data = df.labial,
+                     family="binomial")
+glm.coronal_simple = glm(response_01 ~ 1 + group + step, 
+                     data = df.coronal,
+                     family="binomial")
+glm.dorsal_simple = glm(response_01 ~ 1 + group + step, 
+                     data = df.dorsal,
+                     family="binomial")
+
+summary(glm.listeners_simple)
+summary(glm.labial_simple)
+summary(glm.coronal_simple)
+summary(glm.dorsal_simple)
+
+
+glm.listeners = glm(response_01 ~ 1 + group * step, 
+                     data = df.listeners_test,
+                     family="binomial")
+glm.labial = glm(response_01 ~ 1 + group * step, 
+                     data = df.labial,
+                     family="binomial")
+glm.coronal = glm(response_01 ~ 1 + group * step, 
+                     data = df.coronal,
+                     family="binomial")
+glm.dorsal = glm(response_01 ~ 1 + group * step, 
+                     data = df.dorsal,
+                     family="binomial")
+
+summary(glm.listeners)
+summary(glm.labial)
+summary(glm.coronal)
+summary(glm.dorsal)
+
+
+
+```
