@@ -325,12 +325,12 @@ function make_slides(f) {
         "subject_information": exp.subj_data,
         "time_in_minutes": (Date.now() - exp.startT) / 60000
       };
-      submitResults(5, exp.data, function(err, data) {
+      submitResults(13, exp.data, function(err, data) {
         if (err) {
           console.error(err)
         } else {
           let finishLink = $("<a>Click here to finish</a>")
-          .attr("href", "https://app.prolific.co/submissions/complete?cc=1E960312")
+          .attr("href", "https://app.prolific.co/submissions/complete?cc=77FCAF2C")
 
           $(".link-container").append(finishLink)
         }
@@ -362,7 +362,7 @@ function init() {
     screenUW: exp.width
   };
   //blocks of the experiment:
-  exp.structure = ["i0", "general_instructions", "instructions", "exposure", "second_instructions", "labial_test", "third_instructions", "coronal_test", "fourth_instructions", "dorsal_test", 'subj_info', 'thanks'];
+  exp.structure = ["i0", "general_instructions", "instructions", "exposure", "second_instructions", "labial_test", "third_instructions", "dorsal_test", "fourth_instructions", "coronal_test", 'subj_info', 'thanks'];
 
   exp.data_trials = [];
   //make corresponding slides:
