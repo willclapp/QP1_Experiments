@@ -12,8 +12,9 @@ timeline.push(irb);
 
 let instructions = {
     type: 'html-keyboard-response',
-    stimulus: `<div class="spec_ins"><p>This experiment has two parts. In both sections, you hear two sounds and select which was louder. In the first section you'll hear pure-tone sine waves, and in the second section, you'll hear spoken syllables.<br><br>The two sounds will play automatically in succession. If the FIRST sound is louder, press the "S" key. If the SECOND sound is louder, press the "K" key. If the two are the same volume, press the space bar.<br><br>Please answer as quickly and accurately as possible.<br><br>A response cannot be made until the audio has played entirely. Once a selection is made, the slide will advance after a brief pause. If no response is made after several seconds, the slide will advance automatically.<br><br>Please press the space bar to begin.</p></div>`,
-    choices: ['space']
+    stimulus: `<div class="spec_ins"><p>This experiment has two parts. In both sections, you will hear two sounds and select which was louder. In the first section you'll hear pure-tone sine waves, and in the second section, you'll hear spoken syllables.<br><br>The two sounds will play automatically in succession. If the FIRST sound is louder, press the "S" key. If the SECOND sound is louder, press the "K" key. If the two are the same volume, press the space bar.<br><br>Please answer as quickly and accurately as possible.<br><br>A response cannot be made until the audio has played entirely. Once a selection is made, the slide will advance after a brief pause. If no response is made after several seconds, the slide will advance automatically.<br><br>Please press the space bar to begin.</p></div>`,
+    choices: ['space'],
+    post_trial_gap: 1000
 };
 
 timeline.push(instructions)
