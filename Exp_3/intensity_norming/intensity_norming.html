@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Intensity Norming</title>
+    <script src="../jspsych-6.2.0/jspsych.js"></script>
+    <script src="../jspsych-6.2.0/plugins/jspsych-audio-keyboard-response.js"></script>
+    <script src="../jspsych-6.2.0/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="../jspsych-6.2.0/plugins/jspsych-html-button-response.js"></script>
+    <script src="../jspsych-6.2.0/plugins/jspsych-survey-multi-choice.js"></script>
+    <script src="../jspsych-6.2.0/plugins/jspsych-survey-text.js"></script>
+    <link href="../jspsych-6.2.0/css/jspsych.css" rel="stylesheet" type="text/css">
+    <link href="intensity_norming.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="main-body"></body>
+<script src="stims/sine.js"></script>
+<script src="stims/syll.js"></script>
+<script>
+    function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            let j = Math.floor(Math.random() * (i + 1));
+            let temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+        return array;
+    } 
+    sine_1 = shuffle(sine_1)
+    syll_1 = shuffle(syll_1)
+</script>
+<script src="intensity_norming.js"></script>
+
+</html>
+
+<!-- <div class="big-container">
+    <div class="yes-no">
+        <div class="option-container">
+            <p>FIRST LOUDER</p>
+            <p>Press S</p>
+        </div>
+        <div class="option-container">
+            <p>SECOND LOUDER</p>
+            <p>Press K</p>
+        </div>
+    </div>
+    <div class="same-container">
+        <p>THE SAME</p>
+        <p>Space Bar</p>
+    </div>
+</div> -->
