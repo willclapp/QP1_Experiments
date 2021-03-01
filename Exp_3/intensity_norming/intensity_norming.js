@@ -21,8 +21,8 @@ timeline.push(instructions)
 
 // Sine waves
 
-// for (i = 0; i < sine_1.length; i++) {
-for (i = 0; i < 3; i++) {
+for (i = 0; i < sine_1.length; i++) {
+// for (i = 0; i < 3; i++) {
     timeline.push(sine_1[i])
     for (j = 0; j < sine_1.length; j++) {
         if (sine_2[j].pair == sine_1[i].pair) {
@@ -51,8 +51,8 @@ timeline.push(second_instructions)
 // Syllables
 
 
-// for (i = 0; i < 150; i++) {
-for (i = 0; i < 3; i++) {
+for (i = 0; i < 150; i++) {
+// for (i = 0; i < 3; i++) {
     timeline.push(syll_1[i])
     for (j = 0; j < syll_1.length; j++) {
         if (syll_2[j].pair == syll_1[i].pair) {
