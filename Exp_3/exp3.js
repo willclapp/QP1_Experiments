@@ -210,7 +210,10 @@ jsPsych.init({
     // preload_audio: audio,
     timeline: timeline,
     show_progress_bar: true,
-    on_finish: function () {
-        jsPsych.data.displayData();
-    }
+    // on_finish: function () {
+    //     jsPsych.data.displayData();
+    // }
+    on_finish: function(data) {
+        proliferate.submit({"trials": data.values()});
+      }
 });
