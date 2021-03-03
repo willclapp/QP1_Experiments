@@ -22,9 +22,11 @@ timeline.push(irb);
 
 let general_instructions = {
     type: 'html-keyboard-response',
-    stimulus: `<div class="gen_ins"><p>In this experiment, you will hear recordings and will make simple decisions about them.<br><br>Press the space bar to continue.</p></div>`,
+    stimulus: `<div class="gen_ins"><p>In this experiment, you will hear recordings and will make simple decisions about them.<br><br>IMPORTANT: Please only accept this task if you are listening through headphones and working in a quiet environment.<br><br>Press the space bar to continue.</p></div>`,
     choices: ['space']
 };
+
+//
 
 timeline.push(general_instructions);
 
@@ -51,12 +53,14 @@ if (v_no < 2 | v_no === 4 | v_no === 5) {
 // EXPOSURE STIMULI
 
 for (i = 0; i < exposure_set_trials.length; i++) {
+// for (i = 0; i < 5; i++) {
     if (exposure_set_trials[i].version === v_no) {
         timeline.push(exposure_set_trials[i])
     }
 }
 
 for (i = 0; i < exposure_trials.length; i++) {
+// for (i = 0; i < 5; i++) {
     if (exposure_trials[i].version === v_no) {
         timeline.push(exposure_trials[i])
     }
@@ -99,7 +103,7 @@ let G_D_third_instructions = {
 timeline.push(labial_instructions)
 
 // BP BLOCK
-
+// for (i = 0; i < 5; i++) {
 for (i = 0; i < labial_trials.length; i++) {
     if (labial_trials[i].version === v_no) {
         timeline.push(labial_trials[i])
@@ -116,6 +120,7 @@ if (v_no < 4) {
 // SECOND BLOCK
 
 if (v_no < 4) {
+    // for (i = 0; i < 5; i++) {
     for (i = 0; i < coronal_trials.length; i++) {
         if (coronal_trials[i].version === v_no) {
             timeline.push(coronal_trials[i])
@@ -123,6 +128,7 @@ if (v_no < 4) {
     }
 } else {
     for (i = 0; i < dorsal_trials.length; i++) {
+    // for (i = 0; i < 5; i++) {    
         if (dorsal_trials[i].version === v_no) {
             timeline.push(dorsal_trials[i])
         }
@@ -141,12 +147,14 @@ if (v_no < 4) {
 
 if (v_no < 4) {
     for (i = 0; i < dorsal_trials.length; i++) {
+    // for (i = 0; i < 5; i++) {
         if (dorsal_trials[i].version === v_no) {
             timeline.push(dorsal_trials[i])
         }
     }
 } else {
     for (i = 0; i < coronal_trials.length; i++) {
+    // for (i = 0; i < 5; i++) {
         if (coronal_trials[i].version === v_no) {
             timeline.push(coronal_trials[i])
         }
@@ -156,34 +164,45 @@ if (v_no < 4) {
 // DEMOGRAPHIC SURVEY
 
 
+let social_instructions = {
+    type: 'html-keyboard-response',
+    stimulus: '<div class="pre-test-container"><p>Great Job! You finished the Experiment.<br><br>To help us interpret our results, it would be helpful to learn a little more about you. Please answer the following questions if you have time. None of the questions are required.</p></div>',
+    choices: ['space'],
+    post_trial_gap: 250
+}
 
-var q1_2 = {
-    type: 'survey-multi-choice',
-    questions: [
-        { prompt: "Did you read the instructions and do you think you did the task correctly?", name: 'assess', options: ['No', 'Yes', 'I was confused'], required: true },
-        { prompt: "During the course of this task, were you interrupted or did you step away at all?", name: 'interruption', options: ['No', 'Yes', 'Prefer not to answer'], required: false }
-    ],
+timeline.push(social_instructions)
+
+
+var survey1 = {
+    type: 'survey-html-form',
+    preamble: '<p>We would like you to answer answer the following questions.</p>',
+    html: '<ol class="input-wrapper">'+
+        hand +
+        audio +
+        gender +
+        age +
+        language +
+        '</ol>'
 };
-var q3 = {
-    type: 'survey-text',
-    questions: [
-        { prompt: 'If yes, can you estimate how long in minutes you spent on tasks other than this task?', placeholder: '', columns: 10, name: 'int_minutes' }
-    ]
+
+
+var survey2 = {
+    type: 'survey-html-form',
+    preamble: '<p>We would like you to answer answer the following questions.</p>',
+    html: '<ol class="input-wrapper">'+
+        assess +
+        interruption +
+        interruption_time +
+        problems +
+        fair_price +
+        comments +
+        '</ol>'
 };
 
 
-
-
-
-
-timeline.push(q1_2, q3)
-
-
-
-
-
-
-
+timeline.push(survey1)
+timeline.push(survey2)
 
 
 

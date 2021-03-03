@@ -334,6 +334,6 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
 b = "/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_3/csv/b_group.csv"
 c = "/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_3/csv/c_group.csv"
 out = "/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_3/stims/"
-f = "_test"
+f = ""
 
 make_stims(b, c, out, f)

@@ -1,0 +1,169 @@
+---
+title: "Intensity norming"
+author: "Will Clapp"
+date: "3/1/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+
+
+```{r cars}
+df.norming_data <- read.csv("/Users/willclapp/Desktop/QP1/QP1_Experiments/Exp_3/intensity_norming/intensity_norming-sandbox-trials.csv")
+```
+
+
+Filter out the test runs
+
+```{r pressure, echo=FALSE}
+df.norming_data <- df.norming_data %>% 
+  filter(workerid > 3)
+```
+
+
+Filter out instruction pages and audio trials
+
+```{r}
+
+df.norming_data <- df.norming_data %>% 
+  filter(test_part=="sine" | test_part=="syll")
+
+```
+
+Drop extraneous info
+
+```{r}
+df.norming_data <- df.norming_data %>% 
+  select(-c(proliferate.condition, internal_node_id, button_pressed, stimulus, error))
+
+```
+
+Add a column to interpret key press
+
+```{r}
+df.norming_data <-df.norming_data %>% 
+  mutate(response = ifelse(key_press==32, "SAME", ifelse(key_press==83, "FIRST", "SECOND")))
+
+
+```
+
+
+Now break into sine and syllables
+
+```{r}
+df.sine <- df.norming_data %>% 
+  filter(test_part=="sine")
+
+df.syll <- df.norming_data %>% 
+  filter(test_part=="syll")
+
+```
+
+
+
+___________________________________________________________________________________________________________________________________________
+SINE --- SINE --- SINE --- SINE --- SINE --- SINE --- SINE --- SINE --- SINE --- SINE --- SINE --- SINE --- SINE --- SINE --- SINE --- SINE 
+___________________________________________________________________________________________________________________________________________
+
+```{r}
+df.sine <- df.sine %>% 
+  mutate(winner=NA) %>% 
+  mutate(loser=NA)
+
+for (row in nrow(df.sine)) {
+  df.sine$winner = ifelse(df.sine$response=="SAME", "neither", ifelse(df.sine$response=="FIRST", df.sine$first_sound, df.sine$second_sound))
+}
+
+for (row in nrow(df.sine)) {
+  df.sine$loser = ifelse(df.sine$response=="SAME", "neither", ifelse(df.sine$response=="FIRST", df.sine$second_sound, df.sine$first_sound))
+}
+
+
+df.sine_winners <- df.sine %>% 
+  group_by(winner) %>% 
+  tally()
+
+df.sine_losers <- df.sine %>% 
+  group_by(loser) %>% 
+  tally()
+```
+Need to make it a little less steep
+___________________________________________________________________________________________________________________________________________
+SYLL --- SYLL --- SYLL --- SYLL --- SYLL --- SYLL --- SYLL --- SYLL --- SYLL --- SYLL --- SYLL --- SYLL --- SYLL --- SYLL --- SYLL --- SYLL 
+___________________________________________________________________________________________________________________________________________
+
+
+
+```{r}
+df.syll <- df.syll %>% 
+  mutate(winner=NA) %>% 
+  mutate(loser=NA)
+
+for (row in nrow(df.syll)) {
+  df.syll$winner = ifelse(df.syll$response=="SAME", "neither", ifelse(df.syll$response=="FIRST", df.syll$first_sound, df.syll$second_sound))
+}
+
+df.syll_winners <- df.syll %>% 
+  group_by(winner) %>% 
+  tally()
+
+for (row in nrow(df.syll)) {
+  df.syll$loser = ifelse(df.syll$response=="SAME", "neither", ifelse(df.syll$response=="FIRST", df.syll$second_sound, df.syll$first_sound))
+}
+
+df.syll_losers <- df.syll %>% 
+  group_by(loser) %>% 
+  tally()
+
+```
+
+
+
+Then furthe split based on comparison type
+
+```{r}
+df.cross <- df.syll %>% 
+  filter(type=="cross_continuum_voiced" | type=="cross_continuum_voiceless")
+
+df.cross_winners <- df.cross %>% 
+  group_by(winner) %>% 
+  tally()
+
+df.cross_losers <- df.cross %>% 
+  group_by(loser) %>% 
+  tally()
+
+df.internal <- df.syll %>% 
+  filter(type=="continuum_internal")
+
+df.internal_winners <- df.internal %>% 
+  group_by(winner) %>% 
+  tally()
+
+df.internal_losers <- df.cross %>% 
+  group_by(loser) %>% 
+  tally()
+
+
+
+```
+SO these are really pretty consistent within continua
+Need to drag the AH down a bit and the AA up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
