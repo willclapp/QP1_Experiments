@@ -70,106 +70,110 @@ for (i = 0; i < exposure_set_trials.length; i++) {
 // for (i = 0; i < 5; i++) {
     if (exposure_set_trials[i].version === v_no) {
         timeline.push(exposure_set_trials[i])
-        for (j = 0; j < exposure_set_trials.length; j++) {
-            if (exposure_set_trials[i].code === exposure_set_response[j].code && exposure_set_response[j].version === v_no) {
-                timeline.push(exposure_set_response[j])
-            }
-        }
     }
 }
 
 for (i = 0; i < exposure_trials.length; i++) {
-    // for (i = 0; i < 5; i++) {
-        if (exposure_trials[i].version === v_no) {
-            timeline.push(exposure_trials[i])
-            for (j = 0; j < exposure_trials.length; j++) {
-                if (exposure_trials[i].code === exposure_response[j].code && exposure_response[j].version === v_no) {
-                    timeline.push(exposure_response[j])
-                }
-            }
-        }
+// for (i = 0; i < 5; i++) {
+    if (exposure_trials[i].version === v_no) {
+        timeline.push(exposure_trials[i])
     }
+}
 
 // TEST INSTRUCTIONS
 
-let onset_first_instructions = {
+let labial_instructions = {
     type: 'html-keyboard-response',
     stimulus: '<div class="pre-test-container"><p>Great Job! You finished the first part of the Experiment!<br><br>In the second part of the experiment, you will hear the talker say syllables, like <em>ba</em> or <em>pa</em> Your job is to tell us what the last sound of each syllable is.<br><br> You will hear a lot of syllables that sound quite similar.<br><br>Do your best, and respond as quickly and accurately as you can, identifying the last sound of the syllable.<br><br>Please place your fingers again on the S and K buttons, and follow the prompts to make your choices.<br><br>Press the space bar to continue.</p></div>',
     choices: ['space'],
     post_trial_gap: 1000
 }
-
-let coda_first_instructions = {
+let D_G_second_instructions = {
     type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>Great Job! You finished the first part of the Experiment!<br><br>In the second part of the experiment, you will hear the talker say syllables, like <em>ahb</em> or <em>ahp</em> Your job is to tell us what the last sound of each syllable is.<br><br> You will hear a lot of syllables that sound quite similar.<br><br>Do your best, and respond as quickly and accurately as you can, identifying the last sound of the syllable.<br><br>Please place your fingers again on the S and K buttons, and follow the prompts to make your choices.<br><br>Press the space bar to continue.</p></div>',
+    stimulus: '<div class="pre-test-container"><p>In the next round, you\'ll hear single syllables again, but this time starting with different sounds. You can expect to hear syllables like <em>ahd</em> or <em>aht</em>.<br><br>Select the sound that started the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
     choices: ['space'],
     post_trial_gap: 1000
 }
-let coda_second_instructions = {
+let D_G_third_instructions = {
     type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>In the next round, you\'ll hear single syllables again. You can expect to hear syllables like <em>ahb</em> or <em>ahp</em>.<br><br>Select the sound that ended the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
+    stimulus: '<div class="pre-test-container"><p>Great job! One more round. This time you will hear syllables like <em>ahg</em> or <em>ahk</em>.<br><br>Select the sound that started the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
+    choices: ['space'],
+    post_trial_gap: 1000
+}
+let G_D_second_instructions = {
+    type: 'html-keyboard-response',
+    stimulus: '<div class="pre-test-container"><p>In the next round, you\'ll hear single syllables again, but this time starting with different sounds. You can expect to hear syllables like <em>ahg</em> or <em>ahk</em>.<br><br>Select the sound that started the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
+    choices: ['space'],
+    post_trial_gap: 1000
+}
+let G_D_third_instructions = {
+    type: 'html-keyboard-response',
+    stimulus: '<div class="pre-test-container"><p>Great job! One more round. This time you will hear syllables like <em>ahd</em> or <em>aht</em>.<br><br>Select the sound that started the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
     choices: ['space'],
     post_trial_gap: 1000
 }
 
-let onset_second_instructions = {
-    type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>In the next round, you\'ll hear single syllables again. You can expect to hear syllables like <em>pa</em> or <em>ba</em>.<br><br>Select the sound that ended the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
-    choices: ['space'],
-    post_trial_gap: 1000
+
+timeline.push(labial_instructions)
+
+// BP BLOCK
+// for (i = 0; i < 5; i++) {
+for (i = 0; i < labial_trials.length; i++) {
+    if (labial_trials[i].version === v_no) {
+        timeline.push(labial_trials[i])
+    }
 }
 
-
+// SECOND INSTRUCTIONS
 if (v_no < 4) {
-    timeline.push(onset_first_instructions)
+    timeline.push(D_G_second_instructions)
 } else {
-    timeline.push(coda_first_instructions)
+    timeline.push(G_D_second_instructions)
 }
 
-// FIRST BLOCK
+// SECOND BLOCK
 
 if (v_no < 4) {
     // for (i = 0; i < 5; i++) {
-    for (i = 0; i < onset_trials.length; i++) {
-        if (onset_trials[i].version === v_no) {
-            timeline.push(onset_trials[i])
+    for (i = 0; i < coronal_trials.length; i++) {
+        if (coronal_trials[i].version === v_no) {
+            timeline.push(coronal_trials[i])
         }
     }
 } else {
-    for (i = 0; i < coda_trials.length; i++) {
+    for (i = 0; i < dorsal_trials.length; i++) {
     // for (i = 0; i < 5; i++) {    
-        if (coda_trials[i].version === v_no) {
-            timeline.push(coda_trials[i])
+        if (dorsal_trials[i].version === v_no) {
+            timeline.push(dorsal_trials[i])
         }
     }
 }
 
-// // SECOND INSTRUCTIONS
+// THIRD INSTRUCTIONS
+
 if (v_no < 4) {
-    timeline.push(coda_second_instructions)
+    timeline.push(D_G_third_instructions)
 } else {
-    timeline.push(onset_second_instructions)
+    timeline.push(G_D_third_instructions)
 }
 
-// // SECOND BLOCK
+// THIRD BLOCK
 
 if (v_no < 4) {
+    for (i = 0; i < dorsal_trials.length; i++) {
     // for (i = 0; i < 5; i++) {
-    for (i = 0; i < coda_trials.length; i++) {
-        if (coda_trials[i].version === v_no) {
-            timeline.push(coda_trials[i])
+        if (dorsal_trials[i].version === v_no) {
+            timeline.push(dorsal_trials[i])
         }
     }
 } else {
-    for (i = 0; i < onset_trials.length; i++) {
-    // for (i = 0; i < 5; i++) {    
-        if (onset_trials[i].version === v_no) {
-            timeline.push(onset_trials[i])
+    for (i = 0; i < coronal_trials.length; i++) {
+    // for (i = 0; i < 5; i++) {
+        if (coronal_trials[i].version === v_no) {
+            timeline.push(coronal_trials[i])
         }
     }
 }
-
-
 
 // DEMOGRAPHIC SURVEY
 
@@ -219,10 +223,7 @@ timeline.push(survey2)
 jsPsych.init({
     timeline: timeline,
     show_progress_bar: true,
-    // on_finish: function(data) {
-    //     proliferate.submit({"trials": data.values()});
-    //   }
-    on_finish: function() {
-        jsPsych.data.displayData('csv');
-    }
+    on_finish: function(data) {
+        proliferate.submit({"trials": data.values()});
+      }
 });

@@ -20,17 +20,14 @@
 <body class="main-body"></body>
 <script>
     const v_no = Math.floor(Math.random() * Math.floor(8))
-    // const v_no = 0
     console.log(v_no)
 </script>
 <script src="exp3_socialstuff.js"></script>
 <script src="stims/exposure_set.js"></script>
-<script src="stims/exposure_set_response.js"></script>
 <script src="stims/exposure.js"></script>
-<script src="stims/exposure_response.js"></script>
-<script src="stims/onset.js"></script>
-<script src="stims/coda.js"></script>
-
+<script src="stims/labial.js"></script>
+<script src="stims/coronal.js"></script>
+<script src="stims/dorsal.js"></script>
 <script>
     function shuffle(array) {
         for (let i = array.length - 1; i > 0; i--) {
@@ -43,8 +40,9 @@
     } 
     exposure_set_trials = shuffle(exposure_set_trials)
     exposure_trials = shuffle(exposure_trials)
-    coda_trials = shuffle(coda_trials)
-    onset_trials = shuffle(onset_trials)
+    labial_trials = shuffle(labial_trials)
+    coronal_trials = shuffle(coronal_trials)
+    dorsal_trials = shuffle(dorsal_trials)
 </script>
 <script src="exp3.js"></script>
 </html>
