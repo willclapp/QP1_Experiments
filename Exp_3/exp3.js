@@ -1,16 +1,4 @@
 
-// OLD
-
-//          ORDER   YES_SIDE    GROUP
-// 0        D_G     LEFT        EXP
-// 1        D_G     LEFT        CON
-// 2        D_G     RIGHT       EXP
-// 3        D_G     RIGHT       CON
-// 4        G_D     LEFT        EXP
-// 5        G_D     LEFT        CON
-// 6        G_D     RIGHT       EXP
-// 7        G_D     RIGHT       CON
-
 // NEW
 
 //          ORDER           YES_SIDE    GROUP
@@ -219,10 +207,10 @@ timeline.push(survey2)
 jsPsych.init({
     timeline: timeline,
     show_progress_bar: true,
-    // on_finish: function(data) {
-    //     proliferate.submit({"trials": data.values()});
-    //   }
-    on_finish: function () {
-        jsPsych.data.displayData('csv');
-    }
+    on_finish: function(data) {
+        proliferate.submit({"trials": data.values()});
+      }
+    // on_finish: function () {
+    //     jsPsych.data.displayData('csv');
+    // }
 });
