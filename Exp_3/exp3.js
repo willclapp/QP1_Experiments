@@ -58,7 +58,7 @@ let right_instructions = {
 };
 
 
-if (v_no < 2 | v_no === 4 | v_no === 5) {   
+if (v_no < 2 | v_no === 4 | v_no === 5) {
     timeline.push(left_instructions);
 } else {
     timeline.push(right_instructions)
@@ -66,8 +66,8 @@ if (v_no < 2 | v_no === 4 | v_no === 5) {
 
 // EXPOSURE STIMULI
 
-for (i = 0; i < exposure_set_trials.length; i++) {
-// for (i = 0; i < 5; i++) {
+// for (i = 0; i < exposure_set_trials.length; i++) {
+for (i = 0; i < 16; i++) {
     if (exposure_set_trials[i].version === v_no) {
         timeline.push(exposure_set_trials[i])
         for (j = 0; j < exposure_set_trials.length; j++) {
@@ -78,17 +78,17 @@ for (i = 0; i < exposure_set_trials.length; i++) {
     }
 }
 
-for (i = 0; i < exposure_trials.length; i++) {
-    // for (i = 0; i < 5; i++) {
-        if (exposure_trials[i].version === v_no) {
-            timeline.push(exposure_trials[i])
-            for (j = 0; j < exposure_trials.length; j++) {
-                if (exposure_trials[i].code === exposure_response[j].code && exposure_response[j].version === v_no) {
-                    timeline.push(exposure_response[j])
-                }
+// for (i = 0; i < exposure_trials.length; i++) {
+for (i = 0; i < 16; i++) {
+    if (exposure_trials[i].version === v_no) {
+        timeline.push(exposure_trials[i])
+        for (j = 0; j < exposure_trials.length; j++) {
+            if (exposure_trials[i].code === exposure_response[j].code && exposure_response[j].version === v_no) {
+                timeline.push(exposure_response[j])
             }
         }
     }
+}
 
 // TEST INSTRUCTIONS
 
@@ -129,15 +129,15 @@ if (v_no < 4) {
 // FIRST BLOCK
 
 if (v_no < 4) {
-    // for (i = 0; i < 5; i++) {
-    for (i = 0; i < onset_trials.length; i++) {
+    for (i = 0; i < 16; i++) {
+        // for (i = 0; i < onset_trials.length; i++) {
         if (onset_trials[i].version === v_no) {
             timeline.push(onset_trials[i])
         }
     }
 } else {
-    for (i = 0; i < coda_trials.length; i++) {
-    // for (i = 0; i < 5; i++) {    
+    // for (i = 0; i < coda_trials.length; i++) {
+    for (i = 0; i < 16; i++) {
         if (coda_trials[i].version === v_no) {
             timeline.push(coda_trials[i])
         }
@@ -154,15 +154,15 @@ if (v_no < 4) {
 // // SECOND BLOCK
 
 if (v_no < 4) {
-    // for (i = 0; i < 5; i++) {
-    for (i = 0; i < coda_trials.length; i++) {
+    for (i = 0; i < 16; i++) {
+        // for (i = 0; i < coda_trials.length; i++) {
         if (coda_trials[i].version === v_no) {
             timeline.push(coda_trials[i])
         }
     }
 } else {
-    for (i = 0; i < onset_trials.length; i++) {
-    // for (i = 0; i < 5; i++) {    
+    // for (i = 0; i < onset_trials.length; i++) {
+    for (i = 0; i < 16; i++) {
         if (onset_trials[i].version === v_no) {
             timeline.push(onset_trials[i])
         }
@@ -187,7 +187,7 @@ timeline.push(social_instructions)
 var survey1 = {
     type: 'survey-html-form',
     preamble: '<p>We would like you to answer answer the following questions.</p>',
-    html: '<ol class="input-wrapper">'+
+    html: '<ol class="input-wrapper">' +
         hand +
         audio +
         gender +
@@ -200,7 +200,7 @@ var survey1 = {
 var survey2 = {
     type: 'survey-html-form',
     preamble: '<p>We would like you to answer answer the following questions.</p>',
-    html: '<ol class="input-wrapper">'+
+    html: '<ol class="input-wrapper">' +
         assess +
         interruption +
         interruption_time +
@@ -222,7 +222,7 @@ jsPsych.init({
     // on_finish: function(data) {
     //     proliferate.submit({"trials": data.values()});
     //   }
-    on_finish: function() {
+    on_finish: function () {
         jsPsych.data.displayData('csv');
     }
 });
