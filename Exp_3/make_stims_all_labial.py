@@ -51,24 +51,24 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "0" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_set_response_string += "data: { yes_side: 'LEFT', block_order: 'onset-coda', "
-                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
                 exposure_string += one_audio + "0" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "0" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_response_string += "data: { yes_side: 'LEFT', block_order: 'onset-coda', "
-                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_response_string += "' }}, \n"
             elif line[1] == 'test_onset':
-                onset_string += a + "0" + b + line[17] + c + line[12] + d + line[13] + e
+                onset_string += a + "0" + b + line[-2] + c + line[12] + d + line[13] + e
                 onset_string += "data: { yes_side: 'LEFT', block_order: 'onset-coda', "
-                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 onset_string += "' }}, \n"
             elif line[1] == 'test_coda':
-                coda_string += a + "0" + b + line[17] + c + line[12] + d + line[13] + e
+                coda_string += a + "0" + b + line[-2] + c + line[12] + d + line[13] + e
                 coda_string += "data: { yes_side: 'LEFT', block_order: 'onset-coda', "
-                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 coda_string += "' }}, \n"
 
     # HERE GOES FOR NUMBER TWO--- B-GROUP, ONSET-FIRST, YES RIGHT
@@ -81,24 +81,24 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "2" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_set_response_string += "data: { yes_side: 'RIGHT', block_order: 'onset-coda', "
-                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
                 exposure_string += one_audio + "2" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "2" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_response_string += "data: { yes_side: 'RIGHT', block_order: 'onset-coda', "
-                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_response_string += "' }}, \n"
             elif line[1] == 'test_onset':
-                onset_string += a + "2" + b + line[17] + c + line[13] + d + line[12] + e
+                onset_string += a + "2" + b + line[-2] + c + line[13] + d + line[12] + e
                 onset_string += "data: { yes_side: 'RIGHT', block_order: 'onset-coda', "
-                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 onset_string += "' }}, \n"
             elif line[1] == 'test_coda':
-                coda_string += a + "2" + b + line[17] + c + line[13] + d + line[12] + e
+                coda_string += a + "2" + b + line[-2] + c + line[13] + d + line[12] + e
                 coda_string += "data: { yes_side: 'RIGHT', block_order: 'onset-coda', "
-                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 coda_string += "' }}, \n"
 
     # HERE GOES FOR NUMBER FOUR --- B-GROUP, CODA-FIRST, YES LEFT
@@ -111,24 +111,24 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "4" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_set_response_string += "data: { yes_side: 'LEFT', block_order: 'coda-onset', "
-                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
                 exposure_string += one_audio + "4" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "4" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_response_string += "data: { yes_side: 'LEFT', block_order: 'coda-onset', "
-                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_response_string += "' }}, \n"
             elif line[1] == 'test_onset':
-                onset_string += a + "4" + b + line[17] + c + line[12] + d + line[13] + e
+                onset_string += a + "4" + b + line[-2] + c + line[12] + d + line[13] + e
                 onset_string += "data: { yes_side: 'LEFT', block_order: 'coda-onset', "
-                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 onset_string += "' }}, \n"
             elif line[1] == 'test_coda':
-                coda_string += a + "4" + b + line[17] + c + line[12] + d + line[13] + e
+                coda_string += a + "4" + b + line[-2] + c + line[12] + d + line[13] + e
                 coda_string += "data: { yes_side: 'LEFT', block_order: 'coda-onset', "
-                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 coda_string += "' }}, \n"
 
     # HERE GOES FOR NUMBER TWO--- B-GROUP, ONSET-FIRST, YES RIGHT
@@ -141,24 +141,24 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "6" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_set_response_string += "data: { yes_side: 'RIGHT', block_order: 'coda-onset', "
-                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
                 exposure_string += one_audio + "6" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "6" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_response_string += "data: { yes_side: 'RIGHT', block_order: 'coda-onset', "
-                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_response_string += "' }}, \n"
             elif line[1] == 'test_onset':
-                onset_string += a + "6" + b + line[17] + c + line[13] + d + line[12] + e
+                onset_string += a + "6" + b + line[-2] + c + line[13] + d + line[12] + e
                 onset_string += "data: { yes_side: 'RIGHT', block_order: 'coda-onset', "
-                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 onset_string += "' }}, \n"
             elif line[1] == 'test_coda':
-                coda_string += a + "6" + b + line[17] + c + line[13] + d + line[12] + e
+                coda_string += a + "6" + b + line[-2] + c + line[13] + d + line[12] + e
                 coda_string += "data: { yes_side: 'RIGHT', block_order: 'coda-onset', "
-                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 coda_string += "' }}, \n"
 
 
@@ -181,24 +181,24 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "1" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_set_response_string += "data: { yes_side: 'LEFT', block_order: 'onset-coda', "
-                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
                 exposure_string += one_audio + "1" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "1" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_response_string += "data: { yes_side: 'LEFT', block_order: 'onset-coda', "
-                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_response_string += "' }}, \n"
             elif line[1] == 'test_onset':
-                onset_string += a + "1" + b + line[17] + c + line[12] + d + line[13] + e
+                onset_string += a + "1" + b + line[-2] + c + line[12] + d + line[13] + e
                 onset_string += "data: { yes_side: 'LEFT', block_order: 'onset-coda', "
-                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 onset_string += "' }}, \n"
             elif line[1] == 'test_coda':
-                coda_string += a + "1" + b + line[17] + c + line[12] + d + line[13] + e
+                coda_string += a + "1" + b + line[-2] + c + line[12] + d + line[13] + e
                 coda_string += "data: { yes_side: 'LEFT', block_order: 'onset-coda', "
-                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 coda_string += "' }}, \n"
 
     # HERE GOES FOR NUMBER THREE --- CONTROL, ONSET-FIRST, YES RIGHT
@@ -211,24 +211,24 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "3" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_set_response_string += "data: { yes_side: 'RIGHT', block_order: 'onset-coda', "
-                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
                 exposure_string += one_audio + "3" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "3" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_response_string += "data: { yes_side: 'RIGHT', block_order: 'onset-coda', "
-                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_response_string += "' }}, \n"
             elif line[1] == 'test_onset':
-                onset_string += a + "3" + b + line[17] + c + line[13] + d + line[12] + e
+                onset_string += a + "3" + b + line[-2] + c + line[13] + d + line[12] + e
                 onset_string += "data: { yes_side: 'RIGHT', block_order: 'onset-coda', "
-                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 onset_string += "' }}, \n"
             elif line[1] == 'test_coda':
-                coda_string += a + "3" + b + line[17] + c + line[13] + d + line[12] + e
+                coda_string += a + "3" + b + line[-2] + c + line[13] + d + line[12] + e
                 coda_string += "data: { yes_side: 'RIGHT', block_order: 'onset-coda', "
-                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 coda_string += "' }}, \n"
 
     # HERE GOES FOR NUMBER FIVE --- CONTROL, CODA-FIRST, YES LEFT
@@ -241,24 +241,24 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "5" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_set_response_string += "data: { yes_side: 'LEFT', block_order: 'coda-onset', "
-                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
                 exposure_string += one_audio + "5" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "5" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_response_string += "data: { yes_side: 'LEFT', block_order: 'coda-onset', "
-                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_response_string += "' }}, \n"
             elif line[1] == 'test_onset':
-                onset_string += a + "5" + b + line[17] + c + line[12] + d + line[13] + e
+                onset_string += a + "5" + b + line[-2] + c + line[12] + d + line[13] + e
                 onset_string += "data: { yes_side: 'LEFT', block_order: 'coda-onset', "
-                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 onset_string += "' }}, \n"
             elif line[1] == 'test_coda':
-                coda_string += a + "5" + b + line[17] + c + line[12] + d + line[13] + e
+                coda_string += a + "5" + b + line[-2] + c + line[12] + d + line[13] + e
                 coda_string += "data: { yes_side: 'LEFT', block_order: 'coda-onset', "
-                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 coda_string += "' }}, \n"
 
     # HERE GOES FOR NUMBER SEVEN --- CONTROL, ONSET-FIRST, YES RIGHT
@@ -271,24 +271,24 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "7" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_set_response_string += "data: { yes_side: 'RIGHT', block_order: 'coda-onset', "
-                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
                 exposure_string += one_audio + "7" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "7" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_response_string += "data: { yes_side: 'RIGHT', block_order: 'coda-onset', "
-                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                exposure_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_response_string += "' }}, \n"
             elif line[1] == 'test_onset':
-                onset_string += a + "7" + b + line[17] + c + line[13] + d + line[12] + e
+                onset_string += a + "7" + b + line[-2] + c + line[13] + d + line[12] + e
                 onset_string += "data: { yes_side: 'RIGHT', block_order: 'coda-onset', "
-                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                onset_string += f_onset + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 onset_string += "' }}, \n"
             elif line[1] == 'test_coda':
-                coda_string += a + "7" + b + line[17] + c + line[13] + d + line[12] + e
+                coda_string += a + "7" + b + line[-2] + c + line[13] + d + line[12] + e
                 coda_string += "data: { yes_side: 'RIGHT', block_order: 'coda-onset', "
-                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', path: '" + line[17]
+                coda_string += f_coda + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 coda_string += "' }}, \n"
 
 
