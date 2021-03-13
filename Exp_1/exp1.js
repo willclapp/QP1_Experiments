@@ -1,27 +1,23 @@
 
-// OLD
-
-//          ORDER   YES_SIDE    GROUP
-// 0        D_G     LEFT        EXP
-// 1        D_G     LEFT        CON
-// 2        D_G     RIGHT       EXP
-// 3        D_G     RIGHT       CON
-// 4        G_D     LEFT        EXP
-// 5        G_D     LEFT        CON
-// 6        G_D     RIGHT       EXP
-// 7        G_D     RIGHT       CON
-
 // NEW
 
 //          ORDER           YES_SIDE    GROUP
-// 0        onset_coda      LEFT        EXP
-// 1        onset_coda      LEFT        CON
-// 2        onset_coda      RIGHT       EXP
-// 3        onset_coda      RIGHT       CON
-// 4        coda_onset      LEFT        EXP
-// 5        coda_onset      LEFT        CON
-// 6        coda_onset      RIGHT       EXP
-// 7        coda_onset      RIGHT       CON
+//
+// 0        DG              LEFT        B
+// 1        DG              LEFT        CON
+// 2        DG              LEFT        P
+//
+// 3        DG              RIGHT       B
+// 4        DG              RIGHT       CON
+// 5        DG              RIGHT       P
+//
+// 6        GD              LEFT        B
+// 7        GD              LEFT        CON
+// 8        GD              LEFT        P
+//
+// 9        GD              RIGHT       B
+// 10       GD              RIGHT       CON
+// 11       GD              RIGHT       P
 
 
 let timeline = [];
@@ -58,7 +54,7 @@ let right_instructions = {
 };
 
 
-if (v_no < 2 | v_no === 4 | v_no === 5) {   
+if (v_no < 3 | v_no > 5 | v_no < 9) {   
     timeline.push(left_instructions);
 } else {
     timeline.push(right_instructions)
@@ -67,65 +63,75 @@ if (v_no < 2 | v_no === 4 | v_no === 5) {
 // EXPOSURE STIMULI
 
 for (i = 0; i < exposure_set_trials.length; i++) {
-// for (i = 0; i < 5; i++) {
-    if (exposure_set_trials[i].version === v_no) {
-        timeline.push(exposure_set_trials[i])
+    // for (i = 0; i < 16; i++) {
+        if (exposure_set_trials[i].version === v_no) {
+            timeline.push(exposure_set_trials[i])
+            for (j = 0; j < exposure_set_trials.length; j++) {
+                if (exposure_set_trials[i].code === exposure_set_response[j].code && exposure_set_response[j].version === v_no) {
+                    timeline.push(exposure_set_response[j])
+                }
+            }
+        }
     }
-}
-
-for (i = 0; i < exposure_trials.length; i++) {
-// for (i = 0; i < 5; i++) {
-    if (exposure_trials[i].version === v_no) {
-        timeline.push(exposure_trials[i])
+    
+    for (i = 0; i < exposure_trials.length; i++) {
+    // for (i = 0; i < 16; i++) {
+        if (exposure_trials[i].version === v_no) {
+            timeline.push(exposure_trials[i])
+            for (j = 0; j < exposure_trials.length; j++) {
+                if (exposure_trials[i].code === exposure_response[j].code && exposure_response[j].version === v_no) {
+                    timeline.push(exposure_response[j])
+                }
+            }
+        }
     }
-}
 
 // TEST INSTRUCTIONS
 
-let labial_instructions = {
+let BP_instructions = {
     type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>Great Job! You finished the first part of the Experiment!<br><br>In the second part of the experiment, you will hear the talker say syllables, like <em>ba</em> or <em>pa</em> Your job is to tell us what the last sound of each syllable is.<br><br> You will hear a lot of syllables that sound quite similar.<br><br>Do your best, and respond as quickly and accurately as you can, identifying the last sound of the syllable.<br><br>Please place your fingers again on the S and K buttons, and follow the prompts to make your choices.<br><br>Press the space bar to continue.</p></div>',
+    stimulus: '<div class="pre-test-container"><p>Great Job! You finished the first part of the Experiment!<br><br>In the second part of the experiment, you will hear the talker say syllables, like <em>ba</em> or <em>pa</em>. Your job is to tell us what the last sound of each syllable is.<br><br> You will hear a lot of syllables that sound quite similar.<br><br>Do your best, and respond as quickly and accurately as you can, identifying the last sound of the syllable.<br><br>Please place your fingers again on the S and K buttons, and follow the prompts to make your choices.<br><br>Press the space bar to continue.</p></div>',
     choices: ['space'],
     post_trial_gap: 1000
 }
 let D_G_second_instructions = {
     type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>In the next round, you\'ll hear single syllables again, but this time starting with different sounds. You can expect to hear syllables like <em>ahd</em> or <em>aht</em>.<br><br>Select the sound that started the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
+    stimulus: '<div class="pre-test-container"><p>In the next round, you\'ll hear single syllables again, but this time starting with different sounds. You can expect to hear syllables like <em>da</em> or <em>ta</em>.<br><br>Select the sound that started the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
     choices: ['space'],
     post_trial_gap: 1000
 }
 let D_G_third_instructions = {
     type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>Great job! One more round. This time you will hear syllables like <em>ahg</em> or <em>ahk</em>.<br><br>Select the sound that started the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
+    stimulus: '<div class="pre-test-container"><p>Great job! One more round. This time you will hear syllables like <em>ga</em> or <em>ka</em>.<br><br>Select the sound that started the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
     choices: ['space'],
     post_trial_gap: 1000
 }
 let G_D_second_instructions = {
     type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>In the next round, you\'ll hear single syllables again, but this time starting with different sounds. You can expect to hear syllables like <em>ahg</em> or <em>ahk</em>.<br><br>Select the sound that started the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
+    stimulus: '<div class="pre-test-container"><p>In the next round, you\'ll hear single syllables again, but this time starting with different sounds. You can expect to hear syllables like <em>ga</em> or <em>ka</em>.<br><br>Select the sound that started the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
     choices: ['space'],
     post_trial_gap: 1000
 }
 let G_D_third_instructions = {
     type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>Great job! One more round. This time you will hear syllables like <em>ahd</em> or <em>aht</em>.<br><br>Select the sound that started the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
+    stimulus: '<div class="pre-test-container"><p>Great job! One more round. This time you will hear syllables like <em>da</em> or <em>ta</em>.<br><br>Select the sound that started the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
     choices: ['space'],
     post_trial_gap: 1000
 }
 
 
-timeline.push(labial_instructions)
+timeline.push(BP_instructions)
 
 // BP BLOCK
-// for (i = 0; i < 5; i++) {
-for (i = 0; i < labial_trials.length; i++) {
-    if (labial_trials[i].version === v_no) {
-        timeline.push(labial_trials[i])
+// for (i = 0; i < 15; i++) {
+for (i = 0; i < BP_trials.length; i++) {
+    if (BP_trials[i].version === v_no) {
+        timeline.push(BP_trials[i])
     }
 }
 
 // SECOND INSTRUCTIONS
-if (v_no < 4) {
+if (v_no < 6) {
     timeline.push(D_G_second_instructions)
 } else {
     timeline.push(G_D_second_instructions)
@@ -133,25 +139,25 @@ if (v_no < 4) {
 
 // SECOND BLOCK
 
-if (v_no < 4) {
-    // for (i = 0; i < 5; i++) {
-    for (i = 0; i < coronal_trials.length; i++) {
-        if (coronal_trials[i].version === v_no) {
-            timeline.push(coronal_trials[i])
+if (v_no < 6) {
+    // for (i = 0; i < 15; i++) {
+    for (i = 0; i < DT_trials.length; i++) {
+        if (DT_trials[i].version === v_no) {
+            timeline.push(DT_trials[i])
         }
     }
 } else {
-    for (i = 0; i < dorsal_trials.length; i++) {
-    // for (i = 0; i < 5; i++) {    
-        if (dorsal_trials[i].version === v_no) {
-            timeline.push(dorsal_trials[i])
+    for (i = 0; i < GK_trials.length; i++) {
+    // for (i = 0; i < 15; i++) {    
+        if (GK_trials[i].version === v_no) {
+            timeline.push(GK_trials[i])
         }
     }
 }
 
 // THIRD INSTRUCTIONS
 
-if (v_no < 4) {
+if (v_no < 6) {
     timeline.push(D_G_third_instructions)
 } else {
     timeline.push(G_D_third_instructions)
@@ -159,18 +165,18 @@ if (v_no < 4) {
 
 // THIRD BLOCK
 
-if (v_no < 4) {
-    for (i = 0; i < dorsal_trials.length; i++) {
-    // for (i = 0; i < 5; i++) {
-        if (dorsal_trials[i].version === v_no) {
-            timeline.push(dorsal_trials[i])
+if (v_no < 6) {
+    for (i = 0; i < GK_trials.length; i++) {
+    // for (i = 0; i < 15; i++) {
+        if (GK_trials[i].version === v_no) {
+            timeline.push(GK_trials[i])
         }
     }
 } else {
-    for (i = 0; i < coronal_trials.length; i++) {
-    // for (i = 0; i < 5; i++) {
-        if (coronal_trials[i].version === v_no) {
-            timeline.push(coronal_trials[i])
+    for (i = 0; i < DT_trials.length; i++) {
+    // for (i = 0; i < 15; i++) {
+        if (DT_trials[i].version === v_no) {
+            timeline.push(DT_trials[i])
         }
     }
 }
@@ -223,7 +229,10 @@ timeline.push(survey2)
 jsPsych.init({
     timeline: timeline,
     show_progress_bar: true,
-    on_finish: function(data) {
-        proliferate.submit({"trials": data.values()});
-      }
+    // on_finish: function(data) {
+    //     proliferate.submit({"trials": data.values()});
+    //   }
+    on_finish: function () {
+        jsPsych.data.displayData('csv');
+    }
 });

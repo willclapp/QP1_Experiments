@@ -13,21 +13,23 @@
     <script src="jspsych-6.2.0/plugins/jspsych-survey-text.js"></script>
     <script src="jspsych-6.2.0/plugins/jspsych-survey-html-form.js"></script>
     <link href="jspsych-6.2.0/css/jspsych.css" rel="stylesheet" type="text/css">
-    <link href="exp3.css" rel="stylesheet" type="text/css">
-    <link href="exp3_socialstuff.css" rel="stylesheet" type="text/css">
+    <link href="exp1.css" rel="stylesheet" type="text/css">
+    <link href="exp1_socialstuff.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="main-body"></body>
 <script>
-    const v_no = Math.floor(Math.random() * Math.floor(8))
+    const v_no = Math.floor(Math.random() * Math.floor(12))
     console.log(v_no)
 </script>
-<script src="exp3_socialstuff.js"></script>
+<script src="exp1_socialstuff.js"></script>
 <script src="stims/exposure_set.js"></script>
+<script src="stims/exposure_set_response.js"></script>
+<script src="stims/exposure_response.js"></script>
 <script src="stims/exposure.js"></script>
-<script src="stims/labial.js"></script>
-<script src="stims/coronal.js"></script>
-<script src="stims/dorsal.js"></script>
+<script src="stims/BP.js"></script>
+<script src="stims/DT.js"></script>
+<script src="stims/GK.js"></script>
 <script>
     function shuffle(array) {
         for (let i = array.length - 1; i > 0; i--) {
@@ -40,9 +42,9 @@
     } 
     exposure_set_trials = shuffle(exposure_set_trials)
     exposure_trials = shuffle(exposure_trials)
-    labial_trials = shuffle(labial_trials)
-    coronal_trials = shuffle(coronal_trials)
-    dorsal_trials = shuffle(dorsal_trials)
+    BP_trials = shuffle(BP_trials)
+    DT_trials = shuffle(DT_trials)
+    GK_trials = shuffle(GK_trials)
 </script>
-<script src="exp3.js"></script>
+<script src="exp1.js"></script>
 </html>
