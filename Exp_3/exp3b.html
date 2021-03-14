@@ -19,7 +19,7 @@
 
 <body class="main-body"></body>
 <script>
-    const v_no = Math.floor(Math.random() * Math.floor(8))
+    const v_no = (Math.floor(Math.random() * Math.floor(4))) + 4
     // const v_no = 0
     console.log(v_no)
 </script>
@@ -28,7 +28,6 @@
 <script src="stims/exposure_set_response.js"></script>
 <script src="stims/exposure.js"></script>
 <script src="stims/exposure_response.js"></script>
-<script src="stims/onset.js"></script>
 <script src="stims/coda.js"></script>
 
 <script>
@@ -44,7 +43,6 @@
     exposure_set_trials = shuffle(exposure_set_trials)
     exposure_trials = shuffle(exposure_trials)
     coda_trials = shuffle(coda_trials)
-    onset_trials = shuffle(onset_trials)
 </script>
-<script src="exp3.js"></script>
+<script src="exp3b.js"></script>
 </html>

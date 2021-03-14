@@ -6,6 +6,7 @@
 // 1        onset_coda      LEFT        CON
 // 2        onset_coda      RIGHT       EXP
 // 3        onset_coda      RIGHT       CON
+
 // 4        coda_onset      LEFT        EXP
 // 5        coda_onset      LEFT        CON
 // 6        coda_onset      RIGHT       EXP
@@ -46,7 +47,7 @@ let right_instructions = {
 };
 
 
-if (v_no < 2 | v_no === 4 | v_no === 5) {
+if (v_no < 6) {
     timeline.push(left_instructions);
 } else {
     timeline.push(right_instructions)
@@ -80,80 +81,23 @@ for (i = 0; i < exposure_trials.length; i++) {
 
 // TEST INSTRUCTIONS
 
-let onset_first_instructions = {
-    type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>Great Job! You finished the first part of the Experiment!<br><br>In the second part of the experiment, you will hear the talker say syllables, like <em>ba</em> or <em>pa</em> Your job is to tell us what the last sound of each syllable is.<br><br> You will hear a lot of syllables that sound quite similar.<br><br>Do your best, and respond as quickly and accurately as you can, identifying the last sound of the syllable.<br><br>Please place your fingers again on the S and K buttons, and follow the prompts to make your choices.<br><br>Press the space bar to continue.</p></div>',
-    choices: ['space'],
-    post_trial_gap: 1000
-}
-
 let coda_first_instructions = {
     type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>Great Job! You finished the first part of the Experiment!<br><br>In the second part of the experiment, you will hear the talker say syllables, like <em>ahb</em> or <em>ahp</em> Your job is to tell us what the last sound of each syllable is.<br><br> You will hear a lot of syllables that sound quite similar.<br><br>Do your best, and respond as quickly and accurately as you can, identifying the last sound of the syllable.<br><br>Please place your fingers again on the S and K buttons, and follow the prompts to make your choices.<br><br>Press the space bar to continue.</p></div>',
-    choices: ['space'],
-    post_trial_gap: 1000
-}
-let coda_second_instructions = {
-    type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>In the next round, you\'ll hear single syllables again. You can expect to hear syllables like <em>ahb</em> or <em>ahp</em>.<br><br>Select the sound that ended the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
+    stimulus: '<div class="pre-test-container"><p>Great Job! You finished the first part of the Experiment!<br><br>In the second part of the experiment, you will hear the talker say syllables, like <em>ahb</em> or <em>ahp</em>. Your job is to tell us what the last sound of each syllable is.<br><br> You will hear a lot of syllables that sound quite similar.<br><br>Do your best, and respond as quickly and accurately as you can, identifying the last sound of the syllable.<br><br>Please place your fingers again on the S and K buttons, and follow the prompts to make your choices.<br><br>Press the space bar to continue.</p></div>',
     choices: ['space'],
     post_trial_gap: 1000
 }
 
-let onset_second_instructions = {
-    type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>In the next round, you\'ll hear single syllables again. You can expect to hear syllables like <em>pa</em> or <em>ba</em>.<br><br>Select the sound that ended the syllable by pressing S or K.<br><br>Press the space bar to continue.</p></div>',
-    choices: ['space'],
-    post_trial_gap: 1000
-}
+timeline.push(coda_first_instructions)
 
-
-if (v_no < 4) {
-    timeline.push(onset_first_instructions)
-} else {
-    timeline.push(coda_first_instructions)
-}
 
 // FIRST BLOCK
 
-if (v_no < 4) {
-    // for (i = 0; i < 16; i++) {
-    for (i = 0; i < onset_trials.length; i++) {
-        if (onset_trials[i].version === v_no) {
-            timeline.push(onset_trials[i])
-        }
-    }
-} else {
-    for (i = 0; i < coda_trials.length; i++) {
-    // for (i = 0; i < 16; i++) {
-        if (coda_trials[i].version === v_no) {
-            timeline.push(coda_trials[i])
-        }
-    }
-}
 
-// // SECOND INSTRUCTIONS
-if (v_no < 4) {
-    timeline.push(coda_second_instructions)
-} else {
-    timeline.push(onset_second_instructions)
-}
-
-// // SECOND BLOCK
-
-if (v_no < 4) {
-    // for (i = 0; i < 16; i++) {
-    for (i = 0; i < coda_trials.length; i++) {
-        if (coda_trials[i].version === v_no) {
-            timeline.push(coda_trials[i])
-        }
-    }
-} else {
-    for (i = 0; i < onset_trials.length; i++) {
-    // for (i = 0; i < 16; i++) {
-        if (onset_trials[i].version === v_no) {
-            timeline.push(onset_trials[i])
-        }
+for (i = 0; i < coda_trials.length; i++) {
+// for (i = 0; i < 16; i++) {
+    if (coda_trials[i].version === v_no) {
+        timeline.push(coda_trials[i])
     }
 }
 
