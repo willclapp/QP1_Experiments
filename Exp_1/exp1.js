@@ -54,7 +54,7 @@ let right_instructions = {
 };
 
 
-if (v_no < 3 | v_no > 5 | v_no < 9) {   
+if (v_no < 3 | (v_no > 5 & v_no < 9)) {   
     timeline.push(left_instructions);
 } else {
     timeline.push(right_instructions)
@@ -229,10 +229,10 @@ timeline.push(survey2)
 jsPsych.init({
     timeline: timeline,
     show_progress_bar: true,
-    // on_finish: function(data) {
-    //     proliferate.submit({"trials": data.values()});
-    //   }
-    on_finish: function () {
-        jsPsych.data.displayData('csv');
-    }
+    on_finish: function(data) {
+        proliferate.submit({"trials": data.values()});
+      }
+    // on_finish: function () {
+    //     jsPsych.data.displayData('csv');
+    // }
 });
