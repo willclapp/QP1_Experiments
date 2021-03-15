@@ -186,7 +186,7 @@ if (v_no < 6) {
 
 let social_instructions = {
     type: 'html-keyboard-response',
-    stimulus: '<div class="pre-test-container"><p>Great Job! You finished the Experiment.<br><br>To help us interpret our results, it would be helpful to learn a little more about you. Please answer the following questions if you have time. None of the questions are required.</p></div>',
+    stimulus: '<div class="pre-test-container"><p>Great Job! You finished the Experiment.<br><br>To help us interpret our results, it would be helpful to learn a little more about you. Please answer the following questions if you have time. None of the questions are required.<br><br>Press the space bar to continue.</p></div>',
     choices: ['space'],
     post_trial_gap: 250
 }

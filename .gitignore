@@ -42,3 +42,5 @@
 *Old_all_coda_version/
 *old_versions/
 *.exps
+*pilot/
+*data/
