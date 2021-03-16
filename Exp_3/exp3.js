@@ -67,7 +67,7 @@ for (i = 0; i < exposure_set_trials.length; i++) {
 }
 
 for (i = 0; i < exposure_trials.length; i++) {
-// for (i = 0; i < 16; i++) {
+// for (i = 0; i < 80; i++) {
     if (exposure_trials[i].version === v_no) {
         timeline.push(exposure_trials[i])
         for (j = 0; j < exposure_trials.length; j++) {

@@ -19,8 +19,14 @@
 
 <body class="main-body"></body>
 <script>
-    const v_no = Math.floor(Math.random() * Math.floor(8))
-    // const v_no = 0
+    let v_no = Math.floor(Math.random() * Math.floor(8))
+    if (v_no === 4) {
+        v_no=6
+    } else if (v_no === 5) {
+        v_no=7
+    } else {
+        v_no=v_no
+    }
     console.log(v_no)
 </script>
 <script src="exp3_socialstuff.js"></script>
