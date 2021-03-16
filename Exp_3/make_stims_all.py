@@ -47,14 +47,14 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
         csv_reader = csv.reader(csv_file, delimiter=",")
         for line in csv_reader:
             if line[1] == 'exposure_set':
-                exposure_set_string += one_audio + "0" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
+                exposure_set_string += one_audio + "0" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "0" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_set_response_string += "data: { yes_side: 'LEFT', block_order: 'onset-coda', "
                 exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
-                exposure_string += one_audio + "0" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
+                exposure_string += one_audio + "0" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "0" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_response_string += "data: { yes_side: 'LEFT', block_order: 'onset-coda', "
@@ -77,14 +77,14 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
         csv_reader = csv.reader(csv_file, delimiter=",")
         for line in csv_reader:
             if line[1] == 'exposure_set':
-                exposure_set_string += one_audio + "2" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
+                exposure_set_string += one_audio + "2" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "2" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_set_response_string += "data: { yes_side: 'RIGHT', block_order: 'onset-coda', "
                 exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
-                exposure_string += one_audio + "2" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
+                exposure_string += one_audio + "2" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "2" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_response_string += "data: { yes_side: 'RIGHT', block_order: 'onset-coda', "
@@ -107,14 +107,14 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
         csv_reader = csv.reader(csv_file, delimiter=",")
         for line in csv_reader:
             if line[1] == 'exposure_set':
-                exposure_set_string += one_audio + "4" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
+                exposure_set_string += one_audio + "4" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "4" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_set_response_string += "data: { yes_side: 'LEFT', block_order: 'coda-onset', "
                 exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
-                exposure_string += one_audio + "4" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
+                exposure_string += one_audio + "4" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "4" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_response_string += "data: { yes_side: 'LEFT', block_order: 'coda-onset', "
@@ -137,14 +137,14 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
         csv_reader = csv.reader(csv_file, delimiter=",")
         for line in csv_reader:
             if line[1] == 'exposure_set':
-                exposure_set_string += one_audio + "6" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
+                exposure_set_string += one_audio + "6" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "6" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_set_response_string += "data: { yes_side: 'RIGHT', block_order: 'coda-onset', "
                 exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
-                exposure_string += one_audio + "6" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
+                exposure_string += one_audio + "6" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "6" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_response_string += "data: { yes_side: 'RIGHT', block_order: 'coda-onset', "
@@ -177,14 +177,14 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
         csv_reader = csv.reader(csv_file, delimiter=",")
         for line in csv_reader:
             if line[1] == 'exposure_set':
-                exposure_set_string += one_audio + "1" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
+                exposure_set_string += one_audio + "1" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "1" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_set_response_string += "data: { yes_side: 'LEFT', block_order: 'onset-coda', "
                 exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
-                exposure_string += one_audio + "1" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
+                exposure_string += one_audio + "1" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "1" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_response_string += "data: { yes_side: 'LEFT', block_order: 'onset-coda', "
@@ -207,14 +207,14 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
         csv_reader = csv.reader(csv_file, delimiter=",")
         for line in csv_reader:
             if line[1] == 'exposure_set':
-                exposure_set_string += one_audio + "3" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
+                exposure_set_string += one_audio + "3" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "3" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_set_response_string += "data: { yes_side: 'RIGHT', block_order: 'onset-coda', "
                 exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
-                exposure_string += one_audio + "3" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
+                exposure_string += one_audio + "3" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "3" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_response_string += "data: { yes_side: 'RIGHT', block_order: 'onset-coda', "
@@ -237,14 +237,14 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
         csv_reader = csv.reader(csv_file, delimiter=",")
         for line in csv_reader:
             if line[1] == 'exposure_set':
-                exposure_set_string += one_audio + "5" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
+                exposure_set_string += one_audio + "5" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "5" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_set_response_string += "data: { yes_side: 'LEFT', block_order: 'coda-onset', "
                 exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
-                exposure_string += one_audio + "5" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
+                exposure_string += one_audio + "5" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[14] + nine_audio + line[15] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "5" + two + line[-1] + three + five + line[8] + seven + line[14] + nine + line[15] + eleven
                 exposure_response_string += "data: { yes_side: 'LEFT', block_order: 'coda-onset', "
@@ -267,14 +267,14 @@ def make_stims(b_csv, c_csv, output_directory, output_filename):
         csv_reader = csv.reader(csv_file, delimiter=",")
         for line in csv_reader:
             if line[1] == 'exposure_set':
-                exposure_set_string += one_audio + "7" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
+                exposure_set_string += one_audio + "7" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
                 exposure_set_string += " }, \n"
                 exposure_set_response_string += one + "7" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_set_response_string += "data: { yes_side: 'RIGHT', block_order: 'coda-onset', "
                 exposure_set_response_string += twelve + line[9] + "', group: '" + line[0] + "', type: '" + line[2] + "', audio: '" + line[3] + "', vowel: '" + line[4] + "', visual_target: '" + line[8] + "', repetition: '" + line[10] + "', normed_midpoint: '" + line[11] + "', voiced_sel: '" + line[12] + "', voiceless_sel: '" + line[13] + "', match_sel: '" + line[14] + "', mismatch_sel: '" + line[15] + "', step: '" + line[16] + "', tone_step: '" + line[17] + "', path: '" + line[-2]
                 exposure_set_response_string += "' }}, \n"
             elif line[1] == 'exposure':
-                exposure_string += one_audio + "7" + two_audio + line[-1] + three_audio + line [-2] + five_audio + " " + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
+                exposure_string += one_audio + "7" + two_audio + line[-1] + three_audio + line [-2] + five_audio + "-" + seven_audio + line[15] + nine_audio + line[14] + eleven_audio + twelve_audio
                 exposure_string += " }, \n"
                 exposure_response_string += one + "7" + two + line[-1] + three + five + line[8] + seven + line[15] + nine + line[14] + eleven
                 exposure_response_string += "data: { yes_side: 'RIGHT', block_order: 'coda-onset', "
